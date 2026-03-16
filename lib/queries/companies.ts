@@ -1,6 +1,6 @@
 import { createClient } from '@/lib/supabase/server'
 import type { Tables, Company } from '@/lib/types'
-import { mapRowToJob } from './jobs'
+import { mapRowToJob } from './mappers'
 import type { Job } from '@/lib/types'
 
 // ---------------------------------------------------------------------------
