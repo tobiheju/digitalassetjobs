@@ -30,7 +30,7 @@ export function ChipSelect({ label, options, selected, onChange }: ChipSelectPro
               key={option}
               type="button"
               onClick={() => toggle(option)}
-              className={`min-h-[44px] rounded-full px-3 py-1.5 text-sm transition-colors ${
+              className={`min-h-[44px] rounded-full px-3 py-1.5 text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a365d] focus-visible:ring-offset-2 ${
                 isSelected
                   ? 'bg-[#1a365d] text-white'
                   : 'bg-slate-100 text-slate-600 hover:bg-slate-200'

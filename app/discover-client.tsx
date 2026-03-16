@@ -134,6 +134,7 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
             size="sm"
             className="relative md:hidden"
             onClick={() => setPrefsOpen(true)}
+            aria-label="Open filters"
           >
             <SlidersHorizontal className="size-4" />
             <span className="ml-1.5">Filters</span>
@@ -149,6 +150,7 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
             size="sm"
             className="relative hidden md:flex"
             onClick={() => setPrefsOpen((o) => !o)}
+            aria-label="Open filters"
           >
             <SlidersHorizontal className="size-4" />
             <span className="ml-1.5">Filters</span>

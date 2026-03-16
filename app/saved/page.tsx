@@ -7,6 +7,7 @@ import { Heart } from 'lucide-react'
 
 import { PageWrapper } from '@/components/layout/page-wrapper'
 import { JobCard } from '@/components/jobs/job-card'
+import { JobListSkeleton } from '@/components/skeletons/job-list-skeleton'
 import { useSavedJobs } from '@/lib/hooks/use-saved-jobs'
 import { createClient } from '@/lib/supabase/client'
 import { mapRowToJob } from '@/lib/queries/mappers'
@@ -46,7 +47,7 @@ export default function SavedPage() {
       <h1 className="mb-6 text-2xl font-bold text-[#1a365d]">Saved Jobs</h1>
 
       {loading ? (
-        <p className="text-sm text-slate-500">Loading...</p>
+        <JobListSkeleton />
       ) : jobs.length === 0 ? (
         <div className="flex flex-col items-center justify-center gap-4 py-20 text-center">
           <Heart className="h-12 w-12 text-slate-300" />

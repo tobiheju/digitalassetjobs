@@ -81,7 +81,7 @@ export function Header({
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`rounded-lg px-3 py-2 text-sm transition-colors ${
+                  className={`rounded-lg px-3 py-2 text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a365d] focus-visible:ring-offset-2 ${
                     isActive
                       ? "font-bold text-[#1a365d]"
                       : "text-slate-500 hover:text-[#1a365d]"
@@ -99,7 +99,7 @@ export function Header({
             size="icon"
             onClick={onPreferencesClick}
             className="relative ml-1"
-            aria-label="Preferences"
+            aria-label="Open filters"
           >
             <SlidersHorizontal className="size-5" />
             {activeFilterCount != null && activeFilterCount > 0 && (

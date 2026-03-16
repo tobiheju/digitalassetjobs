@@ -38,7 +38,8 @@ export function BottomNav() {
             <Link
               key={tab.href}
               href={tab.href}
-              className="relative flex min-h-[44px] min-w-[44px] flex-1 flex-col items-center justify-center gap-0.5 pt-2 pb-1"
+              aria-label={tab.label}
+              className="relative flex min-h-[44px] min-w-[44px] flex-1 flex-col items-center justify-center gap-0.5 pt-2 pb-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a365d] focus-visible:ring-offset-2 rounded-md"
             >
               {/* Active indicator bar */}
               {isActive && (

@@ -15,7 +15,7 @@ export function ViewToggle({ view, onChange }: ViewToggleProps) {
     <div className="flex items-center gap-0.5 rounded-full bg-slate-100 p-1">
       <motion.button
         className={cn(
-          'rounded-full p-2',
+          'flex items-center justify-center rounded-full p-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a365d] focus-visible:ring-offset-2',
           view === 'list'
             ? 'bg-[#1a365d] text-white'
             : 'bg-slate-100 text-slate-600'
@@ -27,12 +27,13 @@ export function ViewToggle({ view, onChange }: ViewToggleProps) {
         }}
         transition={spring.snappy}
         aria-label="List view"
+        aria-pressed={view === 'list'}
       >
         <List className="size-4" />
       </motion.button>
       <motion.button
         className={cn(
-          'rounded-full p-2',
+          'flex items-center justify-center rounded-full p-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a365d] focus-visible:ring-offset-2',
           view === 'card'
             ? 'bg-[#1a365d] text-white'
             : 'bg-slate-100 text-slate-600'
@@ -43,7 +44,8 @@ export function ViewToggle({ view, onChange }: ViewToggleProps) {
           color: view === 'card' ? '#ffffff' : '#475569',
         }}
         transition={spring.snappy}
-        aria-label="Card view"
+        aria-label="Grid view"
+        aria-pressed={view === 'card'}
       >
         <LayoutGrid className="size-4" />
       </motion.button>

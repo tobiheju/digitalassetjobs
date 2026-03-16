@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { motion } from 'framer-motion'
 import { MapPin } from 'lucide-react'
 
@@ -165,8 +166,19 @@ export function JobCard({ job, score, variant = 'list', onClick }: JobCardProps)
   return (
     <motion.div {...interactive}>
       <Card
-        className={cn('transition-shadow hover:shadow-md', onClick && 'cursor-pointer')}
+        tabIndex={0}
+        role={onClick ? 'button' : undefined}
+        className={cn(
+          'transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a365d] focus-visible:ring-offset-2',
+          onClick && 'cursor-pointer'
+        )}
         onClick={onClick}
+        onKeyDown={onClick ? (e: React.KeyboardEvent) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault()
+            onClick()
+          }
+        } : undefined}
       >
         {variant === 'compact' ? (
           <CompactContent job={job} score={score} />
