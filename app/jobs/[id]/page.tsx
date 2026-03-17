@@ -159,7 +159,7 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
       <div className="mx-auto max-w-5xl">
         {/* Back link */}
         <Link
-          href="/"
+          href="/jobs"
           className="mb-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-slate-400 hover:text-[#1a365d]"
         >
           <ArrowLeft className="size-3.5" />

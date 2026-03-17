@@ -14,7 +14,7 @@ interface NavTab {
 }
 
 const tabs: NavTab[] = [
-  { label: "Discover", href: "/", icon: Compass },
+  { label: "Discover", href: "/jobs", icon: Compass },
   { label: "Saved", href: "/saved", icon: Heart },
   { label: "Applied", href: "/applied", icon: Send },
   { label: "Tools", href: "/tools", icon: Wrench },
@@ -29,9 +29,7 @@ export function BottomNav() {
       <div className="flex items-stretch justify-around">
         {tabs.map((tab) => {
           const isActive =
-            tab.href === "/"
-              ? pathname === "/"
-              : pathname.startsWith(tab.href)
+            pathname === tab.href || pathname.startsWith(tab.href + "/")
           const Icon = tab.icon
 
           return (

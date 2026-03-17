@@ -201,7 +201,7 @@ export function QuizModal({ open, onOpenChange }: QuizModalProps) {
                       We'll use these to rank and match you with the most relevant jobs across the platform.
                     </p>
                     <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
-                      <Link href="/" onClick={handleClose}>
+                      <Link href="/jobs" onClick={handleClose}>
                         <Button className="w-full bg-[#1a365d] hover:bg-[#2a4a7f] active:scale-[0.98] sm:w-auto sm:px-8">
                           View Matching Jobs
                         </Button>

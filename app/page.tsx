@@ -1,42 +1,56 @@
-import { Suspense } from 'react'
 import type { Metadata } from 'next'
-import { getJobs } from '@/lib/queries/jobs'
-import { DiscoverClient } from './discover-client'
-import { JobListSkeleton } from '@/components/skeletons/job-list-skeleton'
+import { getJobs, getJobStats } from '@/lib/queries/jobs'
+import { getCompanies } from '@/lib/queries/companies'
+import { getRecentPosts } from '@/lib/blog'
+import { HomeClient } from './home-client'
+
+export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Discover Jobs | Digital Asset Jobs',
+  title: 'Digital Asset Jobs — Crypto, Blockchain & Web3 Careers',
+  description: 'The premium job board for TradFi-to-crypto professionals. Find digital asset jobs at Coinbase, Fireblocks, Galaxy Digital, and 50+ leading companies.',
+  keywords: ['digital asset jobs', 'crypto jobs', 'blockchain careers', 'TradFi to crypto', 'web3 jobs', 'defi jobs', 'fintech careers'],
 }
 
-async function DiscoverLoader() {
-  const { jobs } = await getJobs(undefined, 1, 100)
-  return <DiscoverClient initialJobs={jobs} />
-}
+export default async function HomePage() {
+  const [stats, { jobs: recentJobs }, companies] = await Promise.all([
+    getJobStats(),
+    getJobs(undefined, 1, 5),
+    getCompanies(),
+  ])
 
-export default function Home() {
+  const topCompanies = companies
+    .sort((a, b) => b.jobCount - a.jobCount)
+    .slice(0, 12)
+
+  const blogPosts = getRecentPosts(3)
+
   return (
-    <Suspense
-      fallback={
-        <div className="mx-auto max-w-6xl px-4 py-8 md:px-6">
-          <div className="mx-auto max-w-5xl">
-            {/* Heading placeholder */}
-            <div className="mb-6">
-              <div className="h-9 w-80 rounded-md animate-pulse bg-muted" />
-              <div className="mt-2 h-4 w-36 rounded-md animate-pulse bg-muted" />
-            </div>
-            {/* Filter bar placeholder */}
-            <div className="mb-5 flex items-center gap-3">
-              <div className="h-9 w-24 rounded-lg animate-pulse bg-muted" />
-              <div className="h-9 w-20 rounded-lg animate-pulse bg-muted" />
-              <div className="h-9 w-28 rounded-lg animate-pulse bg-muted" />
-              <div className="h-9 w-24 rounded-lg animate-pulse bg-muted" />
-            </div>
-            <JobListSkeleton />
-          </div>
-        </div>
-      }
-    >
-      <DiscoverLoader />
-    </Suspense>
+    <>
+      <HomeClient
+        stats={stats}
+        recentJobs={recentJobs}
+        topCompanies={topCompanies}
+        companyCount={companies.length}
+        blogPosts={blogPosts}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'Digital Asset Jobs',
+            url: 'https://digitalassetjobs.com',
+            description: 'Premium job board for TradFi-to-crypto professionals',
+            potentialAction: {
+              '@type': 'SearchAction',
+              target: 'https://digitalassetjobs.com/jobs?search={search_term_string}',
+              'query-input': 'required name=search_term_string',
+            },
+          }),
+        }}
+      />
+    </>
   )
 }

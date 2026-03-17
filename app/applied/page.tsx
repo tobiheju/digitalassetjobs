@@ -61,7 +61,7 @@ export default function AppliedPage() {
             When you click Apply on a job, we&apos;ll track it here.
           </p>
           <Link
-            href="/"
+            href="/jobs"
             className="mt-2 rounded-md bg-[#1a365d] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#2a4a7f]"
           >
             Browse Jobs

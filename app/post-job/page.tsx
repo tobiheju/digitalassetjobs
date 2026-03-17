@@ -448,7 +448,7 @@ export default function PostJobPage() {
                   submitted for review. We'll notify you once it's live.
                 </p>
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
-                  <Link href="/">
+                  <Link href="/jobs">
                     <Button className="w-full bg-[#1a365d] hover:bg-[#2a4a7f] active:scale-[0.98] sm:w-auto sm:px-8">
                       Browse Jobs
                     </Button>

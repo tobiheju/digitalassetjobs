@@ -8,7 +8,7 @@ import { Menu, X, ChevronRight, User, Bookmark, Briefcase, Settings, LogOut } fr
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { label: "Jobs", href: "/" },
+  { label: "Jobs", href: "/jobs" },
   { label: "Salaries", href: "/salaries" },
   { label: "Companies", href: "/companies" },
   { label: "Blog", href: "/blog" },
@@ -48,10 +48,10 @@ function AvatarDropdown() {
       onMouseLeave={handleLeave}
     >
       <button
-        className="flex size-8 items-center justify-center rounded-full bg-[#1a365d] text-xs font-medium text-white transition-shadow hover:ring-2 hover:ring-[#1a365d]/20 hover:ring-offset-1"
+        className="flex size-8 items-center justify-center rounded-full bg-[#1a365d] text-white transition-shadow hover:ring-2 hover:ring-[#1a365d]/20 hover:ring-offset-1"
         aria-label="Account menu"
       >
-        M
+        <User className="size-4" />
       </button>
       <AnimatePresence>
         {open && (
@@ -138,9 +138,7 @@ export function Header() {
           <nav className="hidden items-center gap-0.5 md:flex">
             {navLinks.map((link) => {
               const isActive =
-                link.href === "/"
-                  ? pathname === "/"
-                  : pathname.startsWith(link.href)
+                pathname === link.href || pathname.startsWith(link.href + "/")
               return (
                 <Link
                   key={link.href}
