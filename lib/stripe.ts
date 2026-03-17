@@ -1,6 +1,9 @@
 import Stripe from 'stripe'
 
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!)
+// Only initialize Stripe if the key is available (production)
+export const stripe = process.env.STRIPE_SECRET_KEY 
+  ? new Stripe(process.env.STRIPE_SECRET_KEY)
+  : null as unknown as Stripe
 
 export const LISTING_PRICES = {
   standard: {
