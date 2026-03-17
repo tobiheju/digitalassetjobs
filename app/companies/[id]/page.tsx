@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     description: result.company.description ?? `Jobs at ${result.company.name}`,
     openGraph: {
       title: result.company.name,
-      images: [`/api/og?title=${encodeURIComponent(result.company.name)}&subtitle=${encodeURIComponent(`${result.jobs.length} open positions · ${result.company.sector}`)}`],
+      images: [`/api/og?title=${encodeURIComponent(result.company.name)}&subtitle=${encodeURIComponent(`${result.jobs.length} open positions · ${result.company.type || 'Digital Assets'}`)}`],
     },
   }
 }
