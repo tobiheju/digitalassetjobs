@@ -105,24 +105,17 @@ export function PreferencesPanel({
 }: PreferencesPanelProps) {
   return (
     <>
-      {/* Desktop: right sidebar */}
-      <AnimatePresence>
-        {open && (
-          <motion.aside
-            initial={{ x: 320, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: 320, opacity: 0 }}
-            transition={spring.gentle}
-            className="fixed top-16 right-0 bottom-0 z-40 hidden w-80 flex-col border-l bg-white shadow-lg md:flex"
-          >
-            <PanelContent
-              preferences={preferences}
-              onChange={onChange}
-              onReset={onReset}
-            />
-          </motion.aside>
-        )}
-      </AnimatePresence>
+      {/* Desktop: always-visible right sidebar, part of page layout */}
+      <aside className="hidden w-80 shrink-0 flex-col border-l bg-white md:flex">
+        <div className="px-4 pt-4 pb-2">
+          <h2 className="text-sm font-medium text-[#1a365d]">Filters</h2>
+        </div>
+        <PanelContent
+          preferences={preferences}
+          onChange={onChange}
+          onReset={onReset}
+        />
+      </aside>
 
       {/* Mobile: bottom sheet */}
       <div className="md:hidden">

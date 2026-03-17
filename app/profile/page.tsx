@@ -60,10 +60,11 @@ export default function ProfilePage() {
 
   return (
     <PageWrapper>
+      <div className="mx-auto max-w-5xl">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-[#1a365d]">Profile</h1>
-        <p className="mt-1 text-slate-600">
+        <h1 className="font-serif text-3xl font-normal text-[#1a365d]">Profile</h1>
+        <p className="mt-2 text-sm text-slate-500">
           Manage your preferences and view your activity
         </p>
       </div>
@@ -73,13 +74,13 @@ export default function ProfilePage() {
         {stats.map((stat) => {
           const Icon = stat.icon
           const content = (
-            <Card key={stat.label} className="transition-shadow hover:shadow-md">
+            <Card key={stat.label} className="transition-shadow hover:shadow-[0_4px_24px_-6px_rgba(0,0,0,0.08)]">
               <CardContent className="flex items-center gap-4 p-5">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-slate-100">
                   <Icon className="h-5 w-5 text-[#1a365d]" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold text-[#1a365d]">
+                  <p className="text-2xl font-medium text-[#1a365d]">
                     {stat.count}
                   </p>
                   <p className="text-sm text-slate-500">{stat.label}</p>
@@ -102,7 +103,7 @@ export default function ProfilePage() {
 
       {/* Preferences */}
       <div className="mb-10">
-        <h2 className="mb-6 text-xl font-semibold text-[#1a365d]">
+        <h2 className="mb-6 text-xl font-medium text-[#1a365d]">
           Your Preferences
         </h2>
 
@@ -173,6 +174,7 @@ export default function ProfilePage() {
             Preferences cleared
           </span>
         )}
+      </div>
       </div>
     </PageWrapper>
   )

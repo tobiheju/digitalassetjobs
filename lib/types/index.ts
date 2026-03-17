@@ -64,4 +64,5 @@ export interface UserPreferences {
   seniorityLevels: string[]
   salaryMin: number | null
   salaryMax: number | null
+  verifiedOnly: boolean
 }

@@ -2,12 +2,11 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { MapPin } from 'lucide-react'
+import { MapPin, Clock } from 'lucide-react'
 
 import { Badge } from '@/components/ui/badge'
-import { Card } from '@/components/ui/card'
-import { cn } from '@/lib/utils'
-import { interactive } from '@/lib/motion'
+import { VerifiedBadge } from '@/components/ui/verified-badge'
+import { cn, toTitleCase } from '@/lib/utils'
 import type { Job } from '@/lib/types'
 
 import { CompanyLogo } from './company-logo'
@@ -61,19 +60,18 @@ function CompactContent({ job, score }: { job: Job; score?: number }) {
   return (
     <div className="flex items-center gap-3 px-3 py-2">
       <CompanyLogo name={job.company} size="sm" />
-
-      <span className="truncate font-semibold text-[#1a365d] text-sm">
+      <span className="truncate text-sm font-medium text-[#1a365d]">
         {job.title}
       </span>
-
-      <span className="shrink-0 text-xs text-slate-600">{job.company}</span>
-
+      <span className="inline-flex shrink-0 items-center gap-1 text-xs text-slate-500">
+        {job.company}
+        {job.verified && <VerifiedBadge size="sm" />}
+      </span>
       {job.salaryDisplay && (
-        <span className="ml-auto shrink-0 text-sm font-semibold">
+        <span className="ml-auto shrink-0 tabular-nums text-sm font-medium text-slate-700">
           {job.salaryDisplay}
         </span>
       )}
-
       {score !== undefined && (
         <div className="shrink-0">
           <MatchBadge score={score} />
@@ -84,7 +82,7 @@ function CompactContent({ job, score }: { job: Job; score?: number }) {
 }
 
 // ---------------------------------------------------------------------------
-// List variant
+// List variant — refined premium look
 // ---------------------------------------------------------------------------
 
 function ListContent({ job, score }: { job: Job; score?: number }) {
@@ -93,66 +91,66 @@ function ListContent({ job, score }: { job: Job; score?: number }) {
   const overflowCount = job.tags.length - maxTags
 
   return (
-    <div className="flex gap-4 px-4 py-3">
-      {/* Left: logo */}
+    <div className="flex gap-4 p-4">
+      {/* Logo */}
       <div className="shrink-0 pt-0.5">
         <CompanyLogo name={job.company} size="md" />
       </div>
 
-      {/* Center: content */}
-      <div className="min-w-0 flex-1 space-y-1.5">
-        <h3 className="truncate font-semibold text-[#1a365d]">{job.title}</h3>
-        <p className="text-sm text-slate-600">{job.company}</p>
+      {/* Content */}
+      <div className="min-w-0 flex-1">
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0">
+            <h3 className="truncate text-[15px] font-medium text-[#1a365d]">
+              {job.title}
+            </h3>
+            <p className="mt-0.5 flex items-center gap-1 text-sm text-slate-500">
+              {job.company}
+              {job.verified && <VerifiedBadge />}
+            </p>
+          </div>
+          <div className="flex shrink-0 flex-col items-end gap-1">
+            {score !== undefined && <MatchBadge score={score} />}
+            {job.salaryDisplay && (
+              <span className="tabular-nums text-[13px] font-medium text-slate-700">
+                {job.salaryDisplay}
+              </span>
+            )}
+          </div>
+        </div>
 
-        {/* Info badges */}
-        <div className="flex flex-wrap gap-1.5">
-          <Badge variant="outline" className="gap-1 text-xs">
-            <MapPin className="h-3 w-3" />
+        {/* Meta row */}
+        <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-400">
+          <span className="inline-flex items-center gap-1">
+            <MapPin className="size-3" />
             {job.location}
-          </Badge>
-          <Badge variant="outline" className="text-xs">
-            {job.workArrangement}
-          </Badge>
-          <Badge variant="outline" className="text-xs">
-            {job.type}
-          </Badge>
+          </span>
+          <span>{job.workArrangement}</span>
+          <span>{job.type}</span>
+          <span className="inline-flex items-center gap-1 tabular-nums">
+            <Clock className="size-3" />
+            {formatRelativeDate(job.postedDate)}
+          </span>
         </div>
 
         {/* Tags */}
         {visibleTags.length > 0 && (
-          <div className="flex flex-wrap gap-1">
+          <div className="mt-2 flex flex-wrap gap-1">
             {visibleTags.map((tag) => (
-              <Badge key={tag} variant="secondary" className="text-[10px]">
-                {tag}
-              </Badge>
+              <span
+                key={tag}
+                className="rounded bg-slate-100 px-1.5 py-0.5 text-[10px] font-medium text-slate-500"
+              >
+                {toTitleCase(tag)}
+              </span>
             ))}
             {overflowCount > 0 && (
               <span className="self-center text-[10px] text-slate-400">
-                +{overflowCount} more
+                +{overflowCount}
               </span>
             )}
           </div>
         )}
-
-        {/* Description */}
-        {job.description && (
-          <p className="line-clamp-2 text-sm text-slate-500">
-            {job.description}
-          </p>
-        )}
-      </div>
-
-      {/* Right side */}
-      <div className="flex shrink-0 flex-col items-end gap-1.5">
-        {score !== undefined && <MatchBadge score={score} />}
-
-        {job.salaryDisplay && (
-          <span className="text-sm font-semibold">{job.salaryDisplay}</span>
-        )}
-
-        <span className="text-xs text-slate-400">
-          {formatRelativeDate(job.postedDate)}
-        </span>
       </div>
     </div>
   )
@@ -164,12 +162,16 @@ function ListContent({ job, score }: { job: Job; score?: number }) {
 
 export function JobCard({ job, score, variant = 'list', onClick }: JobCardProps) {
   return (
-    <motion.div {...interactive}>
-      <Card
+    <motion.div
+      whileHover={{ y: -1 }}
+      whileTap={{ scale: 0.985 }}
+      transition={{ type: 'spring', stiffness: 400, damping: 30 }}
+    >
+      <div
         tabIndex={0}
         role={onClick ? 'button' : undefined}
         className={cn(
-          'transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a365d] focus-visible:ring-offset-2',
+          'rounded-xl border border-slate-100/80 bg-white transition-[border-color,box-shadow] duration-150 ease-out hover:border-slate-200/80 hover:shadow-[0_4px_24px_-6px_rgba(0,0,0,0.08)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a365d] focus-visible:ring-offset-2',
           onClick && 'cursor-pointer'
         )}
         onClick={onClick}
@@ -185,7 +187,7 @@ export function JobCard({ job, score, variant = 'list', onClick }: JobCardProps)
         ) : (
           <ListContent job={job} score={score} />
         )}
-      </Card>
+      </div>
     </motion.div>
   )
 }

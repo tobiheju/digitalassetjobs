@@ -6,7 +6,7 @@ export default async function SkillsDemandPage() {
 
   const jobData = jobs.map((j) => ({
     companyType: j.companyType,
-    skills: j.skills,
+    skills: j.tags.length > 0 ? j.tags : j.skills,
   }))
 
   return <SkillsDemandClient data={jobData} />

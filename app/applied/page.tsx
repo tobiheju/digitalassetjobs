@@ -44,7 +44,8 @@ export default function AppliedPage() {
 
   return (
     <PageWrapper>
-      <h1 className="mb-6 text-2xl font-bold text-[#1a365d]">
+      <div className="mx-auto max-w-5xl">
+      <h1 className="mb-6 font-serif text-3xl font-normal text-[#1a365d]">
         Applied Jobs
       </h1>
 
@@ -53,7 +54,7 @@ export default function AppliedPage() {
       ) : jobs.length === 0 ? (
         <div className="flex flex-col items-center justify-center gap-4 py-20 text-center">
           <Send className="h-12 w-12 text-slate-300" />
-          <h2 className="text-lg font-semibold text-slate-700">
+          <h2 className="text-lg font-medium text-slate-700">
             No applications tracked yet
           </h2>
           <p className="max-w-sm text-sm text-slate-500">
@@ -88,6 +89,7 @@ export default function AppliedPage() {
           })}
         </motion.div>
       )}
+      </div>
     </PageWrapper>
   )
 }

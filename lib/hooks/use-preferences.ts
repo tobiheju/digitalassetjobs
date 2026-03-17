@@ -12,6 +12,7 @@ const defaultPreferences: UserPreferences = {
   seniorityLevels: [],
   salaryMin: null,
   salaryMax: null,
+  verifiedOnly: false,
 }
 
 export function usePreferences() {
@@ -53,6 +54,7 @@ export function usePreferences() {
     preferences.seniorityLevels.length > 0,
     preferences.salaryMin !== null,
     preferences.salaryMax !== null,
+    preferences.verifiedOnly,
   ].filter(Boolean).length
 
   return { preferences, setPreferences, resetPreferences, activeFilterCount, isLoaded }

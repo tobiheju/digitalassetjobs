@@ -1,16 +1,17 @@
 'use client'
 
 import { useState, useMemo, useEffect, useCallback } from 'react'
-import { SlidersHorizontal } from 'lucide-react'
+import { useRouter } from 'next/navigation'
 
 import { PageWrapper } from '@/components/layout/page-wrapper'
 import { JobList } from '@/components/jobs/job-list'
 import { JobDetailSheet } from '@/components/jobs/job-detail-sheet'
 import { ViewToggle } from '@/components/jobs/view-toggle'
-import { PreferencesPanel } from '@/components/preferences/preferences-panel'
-import { Button } from '@/components/ui/button'
+import { FilterBar } from '@/components/preferences/filter-bar'
+import { PreferencesSheet } from '@/components/preferences/preferences-sheet'
 import { usePreferences } from '@/lib/hooks/use-preferences'
 import { calculateMatchScore } from '@/lib/scoring'
+import { Sparkles } from 'lucide-react'
 import type { Job } from '@/lib/types'
 
 const VIEW_STORAGE_KEY = 'daj-view'
@@ -19,7 +20,21 @@ interface DiscoverClientProps {
   initialJobs: Job[]
 }
 
+function useMediaQuery(query: string): boolean {
+  const [matches, setMatches] = useState(false)
+  useEffect(() => {
+    const mql = window.matchMedia(query)
+    setMatches(mql.matches)
+    const handler = (e: MediaQueryListEvent) => setMatches(e.matches)
+    mql.addEventListener('change', handler)
+    return () => mql.removeEventListener('change', handler)
+  }, [query])
+  return matches
+}
+
 export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
+  const router = useRouter()
+  const isDesktop = useMediaQuery('(min-width: 768px)')
   const { preferences, setPreferences, resetPreferences, activeFilterCount, isLoaded } =
     usePreferences()
 
@@ -39,11 +54,18 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
     } catch {}
   }, [])
 
-  // Selected job for detail sheet
+  // Selected job for mobile detail sheet
   const [selectedJob, setSelectedJob] = useState<Job | null>(null)
-
-  // Preferences panel state
   const [prefsOpen, setPrefsOpen] = useState(false)
+
+  // On desktop, navigate to detail page; on mobile, open bottom sheet
+  const handleJobClick = useCallback((job: Job) => {
+    if (isDesktop) {
+      router.push(`/jobs/${job.id}`)
+    } else {
+      setSelectedJob(job)
+    }
+  }, [isDesktop, router])
 
   // Filter + score + sort
   const { filteredJobs, scores } = useMemo(() => {
@@ -54,12 +76,14 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
       preferences.jobTypes.length > 0 ||
       preferences.seniorityLevels.length > 0 ||
       preferences.salaryMin !== null ||
-      preferences.salaryMax !== null
+      preferences.salaryMax !== null ||
+      preferences.verifiedOnly
 
     let jobs = initialJobs
 
     if (hasFilters) {
       jobs = jobs.filter((job) => {
+        if (preferences.verifiedOnly && !job.verified) return false
         if (
           preferences.sectors.length > 0 &&
           !preferences.sectors.includes(job.companyType)
@@ -122,67 +146,72 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
   if (!isLoaded) return null
 
   return (
-    <PageWrapper>
-      {/* Header */}
-      <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-[#1a365d]">Discover</h1>
-        <div className="flex items-center gap-2">
-          <ViewToggle view={view} onChange={handleViewChange} />
-          {/* Mobile filter button */}
-          <Button
-            variant="outline"
-            size="sm"
-            className="relative md:hidden"
-            onClick={() => setPrefsOpen(true)}
-            aria-label="Open filters"
-          >
-            <SlidersHorizontal className="size-4" />
-            <span className="ml-1.5">Filters</span>
-            {activeFilterCount > 0 && (
-              <span className="absolute -right-1.5 -top-1.5 flex size-5 items-center justify-center rounded-full bg-[#1a365d] text-[10px] font-bold text-white">
-                {activeFilterCount}
+    <>
+      <PageWrapper>
+        <div className="mx-auto max-w-5xl">
+          {/* Page header */}
+          <div className="mb-6">
+            <h1 className="font-serif text-3xl font-normal text-[#1a365d]">
+              Find Your Next Role in Digital Assets
+            </h1>
+            <p className="mt-2 text-sm text-slate-500">
+              {filteredJobs.length} {filteredJobs.length === 1 ? 'position' : 'positions'} available
+            </p>
+          </div>
+
+          {/* Filter bar + view toggle */}
+          <div className="mb-5 flex items-start justify-between gap-4">
+            <div className="min-w-0 flex-1">
+              <FilterBar
+                preferences={preferences}
+                onChange={setPreferences}
+                onReset={resetPreferences}
+                activeFilterCount={activeFilterCount}
+              />
+            </div>
+            <div className="shrink-0 pt-0.5">
+              <ViewToggle view={view} onChange={handleViewChange} />
+            </div>
+          </div>
+
+          {/* Personalization banner — show when no preferences set */}
+          {activeFilterCount === 0 && (
+            <button
+              onClick={() => setPrefsOpen(true)}
+              className="mb-5 flex w-full items-center gap-3 rounded-xl border border-[#d4a038]/20 bg-[#d4a038]/5 px-4 py-3 text-left transition-[border-color,box-shadow] duration-150 ease-out hover:border-[#d4a038]/40 hover:shadow-sm"
+            >
+              <div className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-[#d4a038]/10">
+                <Sparkles className="size-4 text-[#d4a038]" />
+              </div>
+              <div className="min-w-0 flex-1">
+                <p className="text-sm font-medium text-[#1a365d]">
+                  Get personalized job matches
+                </p>
+                <p className="text-xs text-slate-500">
+                  Set your preferences to see jobs ranked by relevance to your experience and goals.
+                </p>
+              </div>
+              <span className="shrink-0 text-xs font-medium text-[#d4a038]">
+                Set up →
               </span>
-            )}
-          </Button>
-          {/* Desktop filter toggle */}
-          <Button
-            variant="outline"
-            size="sm"
-            className="relative hidden md:flex"
-            onClick={() => setPrefsOpen((o) => !o)}
-            aria-label="Open filters"
-          >
-            <SlidersHorizontal className="size-4" />
-            <span className="ml-1.5">Filters</span>
-            {activeFilterCount > 0 && (
-              <span className="absolute -right-1.5 -top-1.5 flex size-5 items-center justify-center rounded-full bg-[#1a365d] text-[10px] font-bold text-white">
-                {activeFilterCount}
-              </span>
-            )}
-          </Button>
+            </button>
+          )}
+
+          {/* Job list */}
+          <JobList
+            jobs={filteredJobs}
+            view={view}
+            onJobClick={handleJobClick}
+            scores={scores}
+            hasActiveFilters={activeFilterCount > 0}
+            onClearFilters={resetPreferences}
+          />
         </div>
-      </div>
+      </PageWrapper>
 
-      {/* Job list */}
-      <JobList
-        jobs={filteredJobs}
-        view={view}
-        onJobClick={setSelectedJob}
-        scores={scores}
-        hasActiveFilters={activeFilterCount > 0}
-        onClearFilters={resetPreferences}
-      />
+      <PreferencesSheet open={prefsOpen} onOpenChange={setPrefsOpen} />
 
-      {/* Preferences panel */}
-      <PreferencesPanel
-        preferences={preferences}
-        onChange={setPreferences}
-        onReset={resetPreferences}
-        open={prefsOpen}
-        onOpenChange={setPrefsOpen}
-      />
-
-      {/* Job detail sheet */}
+      {/* Mobile-only detail sheet */}
       <JobDetailSheet
         job={selectedJob}
         score={selectedJob ? scores.get(selectedJob.id) : undefined}
@@ -191,6 +220,6 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
           if (!open) setSelectedJob(null)
         }}
       />
-    </PageWrapper>
+    </>
   )
 }

@@ -78,6 +78,7 @@ export function calculateMatchScore(job: Job, prefs: UserPreferences): number {
 }
 
 export function getScoreColor(score: number) {
-  if (score >= 85) return { bg: 'bg-emerald-50', text: 'text-emerald-700', border: 'border-emerald-200' }
-  return { bg: 'bg-amber-50', text: 'text-amber-700', border: 'border-amber-200' }
+  if (score >= 85) return { bg: 'bg-[#1a365d]/[0.06]', text: 'text-[#1a365d]', accent: 'text-[#1a365d]' }
+  if (score >= 60) return { bg: 'bg-[#d4a038]/[0.08]', text: 'text-[#92700a]', accent: 'text-[#d4a038]' }
+  return { bg: 'bg-slate-50', text: 'text-slate-500', accent: 'text-slate-400' }
 }

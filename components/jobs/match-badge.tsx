@@ -1,6 +1,5 @@
 'use client'
 
-import { Badge } from '@/components/ui/badge'
 import { getScoreColor } from '@/lib/scoring'
 import { cn } from '@/lib/utils'
 
@@ -12,16 +11,14 @@ export function MatchBadge({ score }: MatchBadgeProps) {
   const colors = getScoreColor(score)
 
   return (
-    <Badge
+    <span
       className={cn(
-        'rounded-full text-xs font-semibold',
+        'inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-xs tabular-nums',
         colors.bg,
-        colors.text,
-        colors.border,
-        'border',
       )}
     >
-      {score}% Match
-    </Badge>
+      <span className={cn('font-medium', colors.accent)}>{score}%</span>
+      <span className={cn('font-normal', colors.text, 'opacity-70')}>Match</span>
+    </span>
   )
 }

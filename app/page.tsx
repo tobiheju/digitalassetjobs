@@ -17,9 +17,22 @@ export default function Home() {
   return (
     <Suspense
       fallback={
-        <div className="mx-auto max-w-[1100px] px-4 py-6">
-          <div className="mb-6 h-8 w-32" />
-          <JobListSkeleton />
+        <div className="mx-auto max-w-6xl px-4 py-8 md:px-6">
+          <div className="mx-auto max-w-5xl">
+            {/* Heading placeholder */}
+            <div className="mb-6">
+              <div className="h-9 w-80 rounded-md animate-pulse bg-muted" />
+              <div className="mt-2 h-4 w-36 rounded-md animate-pulse bg-muted" />
+            </div>
+            {/* Filter bar placeholder */}
+            <div className="mb-5 flex items-center gap-3">
+              <div className="h-9 w-24 rounded-lg animate-pulse bg-muted" />
+              <div className="h-9 w-20 rounded-lg animate-pulse bg-muted" />
+              <div className="h-9 w-28 rounded-lg animate-pulse bg-muted" />
+              <div className="h-9 w-24 rounded-lg animate-pulse bg-muted" />
+            </div>
+            <JobListSkeleton />
+          </div>
         </div>
       }
     >

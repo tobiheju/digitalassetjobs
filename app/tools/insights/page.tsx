@@ -8,7 +8,8 @@ export default async function MarketInsightsPage() {
     companyType: j.companyType,
     country: j.country,
     salaryMin: j.salaryMin,
-    skills: j.skills,
+    skills: j.tags.length > 0 ? j.tags : j.skills,
+    workArrangement: j.workArrangement,
   }))
 
   return <InsightsClient data={jobData} />

@@ -27,9 +27,9 @@ export function JobList({
 }: JobListProps) {
   if (jobs.length === 0) {
     return (
-      <div className="flex flex-col items-center justify-center py-20 text-center">
-        <Inbox className="mb-3 size-12 text-slate-300" />
-        <p className="text-lg font-medium text-slate-500">
+      <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-slate-200 py-20 text-center">
+        <Inbox className="mb-3 size-10 text-slate-300" />
+        <p className="text-[15px] font-medium text-slate-500">
           No jobs match your filters
         </p>
         <p className="mt-1 text-sm text-slate-400">
@@ -38,6 +38,7 @@ export function JobList({
         {hasActiveFilters && onClearFilters && (
           <Button
             variant="outline"
+            size="sm"
             className="mt-4"
             onClick={onClearFilters}
           >
@@ -49,32 +50,26 @@ export function JobList({
   }
 
   return (
-    <div>
-      <p className="mb-3 text-sm text-slate-500">
-        Showing {jobs.length} job{jobs.length !== 1 ? 's' : ''}
-      </p>
-
-      <motion.div
-        variants={listContainer}
-        initial="hidden"
-        animate="show"
-        className={cn(
-          view === 'card'
-            ? 'grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'
-            : 'flex flex-col gap-3'
-        )}
-      >
-        {jobs.map((job) => (
-          <motion.div key={job.id} variants={listItem}>
-            <JobCard
-              job={job}
-              score={scores.get(job.id)}
-              variant="list"
-              onClick={() => onJobClick(job)}
-            />
-          </motion.div>
-        ))}
-      </motion.div>
-    </div>
+    <motion.div
+      variants={listContainer}
+      initial="hidden"
+      animate="show"
+      className={cn(
+        view === 'card'
+          ? 'grid grid-cols-1 gap-3 sm:grid-cols-2'
+          : 'flex flex-col gap-2'
+      )}
+    >
+      {jobs.map((job) => (
+        <motion.div key={job.id} variants={listItem}>
+          <JobCard
+            job={job}
+            score={scores.get(job.id)}
+            variant="list"
+            onClick={() => onJobClick(job)}
+          />
+        </motion.div>
+      ))}
+    </motion.div>
   )
 }

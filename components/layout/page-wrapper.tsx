@@ -20,7 +20,7 @@ export function PageWrapper({ children, className }: PageWrapperProps) {
       initial="initial"
       animate="animate"
       exit="exit"
-      className={cn("mx-auto max-w-[1100px] px-4 py-6", className)}
+      className={cn("mx-auto max-w-6xl px-4 py-8 md:px-6", className)}
     >
       {children}
     </motion.div>
