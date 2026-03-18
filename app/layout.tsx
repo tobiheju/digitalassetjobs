@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Instrument_Sans, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/header";
+import { Analytics } from "@vercel/analytics/next";
 
 const instrumentSans = Instrument_Sans({
   variable: "--font-sans",
@@ -51,6 +52,7 @@ export default function RootLayout({
       <body className={`${instrumentSans.variable} ${instrumentSerif.variable} antialiased`}>
         <Header />
         <main className="min-h-screen">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
