@@ -1,0 +1,111 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#111111"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#DE9D09;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#DE9D09"/>
+      <stop offset="100%" style="stop-color:#DE9D09;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="leftFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="rightFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#DE9D09;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#DE9D09;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1584" height="396" fill="url(#bgGrad)"/>
+  
+  <!-- Left side TradFi glow -->
+  <rect x="0" y="0" width="350" height="396" fill="url(#leftFade)"/>
+  
+  <!-- Right side Crypto glow -->
+  <rect x="1234" y="0" width="350" height="396" fill="url(#rightFade)"/>
+  
+  <!-- TradFi Side - Chart lines -->
+  <g opacity="0.4">
+    <!-- Building silhouettes -->
+    <rect x="40" y="200" width="35" height="100" fill="#3B82F6" opacity="0.3"/>
+    <rect x="85" y="160" width="30" height="140" fill="#3B82F6" opacity="0.25"/>
+    <rect x="125" y="220" width="25" height="80" fill="#3B82F6" opacity="0.2"/>
+    <rect x="160" y="180" width="40" height="120" fill="#3B82F6" opacity="0.25"/>
+    <rect x="210" y="210" width="30" height="90" fill="#3B82F6" opacity="0.2"/>
+    
+    <!-- Chart line -->
+    <polyline points="40,140 100,120 160,150 220,100 280,115 340,80" 
+              stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.5"/>
+    <polyline points="40,155 100,135 160,165 220,115 280,130 340,95" 
+              stroke="#3B82F6" stroke-width="1" fill="none" opacity="0.3"/>
+    
+    <!-- Dollar signs -->
+    <text x="70" y="100" fill="#3B82F6" opacity="0.3" font-family="Arial" font-size="20" font-weight="bold">$</text>
+    <text x="180" y="70" fill="#3B82F6" opacity="0.2" font-family="Arial" font-size="28" font-weight="bold">$</text>
+    <text x="280" y="130" fill="#3B82F6" opacity="0.25" font-family="Arial" font-size="18" font-weight="bold">$</text>
+  </g>
+  
+  <!-- Crypto Side - Blockchain nodes -->
+  <g opacity="0.4">
+    <!-- Hexagon pattern -->
+    <polygon points="1420,80 1445,95 1445,125 1420,140 1395,125 1395,95" 
+             stroke="#DE9D09" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <polygon points="1470,130 1495,145 1495,175 1470,190 1445,175 1445,145" 
+             stroke="#DE9D09" stroke-width="1.5" fill="none" opacity="0.3"/>
+    <polygon points="1370,150 1395,165 1395,195 1370,210 1345,195 1345,165" 
+             stroke="#DE9D09" stroke-width="1.5" fill="none" opacity="0.35"/>
+    
+    <!-- Connection lines -->
+    <line x1="1420" y1="140" x2="1370" y2="165" stroke="#DE9D09" stroke-width="1" opacity="0.3"/>
+    <line x1="1445" y1="125" x2="1470" y2="145" stroke="#DE9D09" stroke-width="1" opacity="0.3"/>
+    
+    <!-- Blockchain nodes -->
+    <circle cx="1280" cy="100" r="7" fill="#DE9D09" opacity="0.4"/>
+    <circle cx="1350" cy="85" r="5" fill="#DE9D09" opacity="0.3"/>
+    <circle cx="1240" cy="150" r="8" fill="#DE9D09" opacity="0.35"/>
+    <circle cx="1300" cy="220" r="6" fill="#DE9D09" opacity="0.3"/>
+    
+    <!-- Node connections -->
+    <line x1="1280" y1="100" x2="1350" y2="85" stroke="#DE9D09" stroke-width="1" opacity="0.25"/>
+    <line x1="1280" y1="100" x2="1240" y2="150" stroke="#DE9D09" stroke-width="1" opacity="0.25"/>
+    <line x1="1240" y1="150" x2="1300" y2="220" stroke="#DE9D09" stroke-width="1" opacity="0.25"/>
+    
+    <!-- Binary/code hints -->
+    <text x="1220" y="280" fill="#DE9D09" opacity="0.2" font-family="monospace" font-size="11">0x7f3a...</text>
+    <text x="1380" y="300" fill="#DE9D09" opacity="0.15" font-family="monospace" font-size="9">ETH BTC</text>
+  </g>
+  
+  <!-- Center bridge line -->
+  <rect x="180" y="196" width="1224" height="4" fill="url(#goldGrad)" rx="2"/>
+  
+  <!-- Logo mark (simplified) -->
+  <g transform="translate(745, 100)">
+    <path d="M16 44L4 32L36 0L68 32L36 64L24 52L8 68L0 60L16 44ZM36 48L52 32L36 16L20 32L36 48Z" fill="#DE9D09" transform="scale(1.0)"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="792" y="230" fill="white" font-family="Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    DigitalAssetJobs
+  </text>
+  
+  <!-- Slogan -->
+  <text x="792" y="270" fill="#cccccc" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" letter-spacing="0.5">
+    The Talent Bridge Between Finance and Crypto
+  </text>
+  
+  <!-- Website -->
+  <text x="792" y="330" fill="#DE9D09" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" letter-spacing="1">
+    digitalassetjobs.xyz
+  </text>
+  
+  <!-- Decorative corner accents -->
+  <path d="M25 25 L25 50 M25 25 L50 25" stroke="#DE9D09" stroke-width="2" opacity="0.5"/>
+  <path d="M1559 25 L1559 50 M1559 25 L1534 25" stroke="#DE9D09" stroke-width="2" opacity="0.5"/>
+  <path d="M25 371 L25 346 M25 371 L50 371" stroke="#DE9D09" stroke-width="2" opacity="0.5"/>
+  <path d="M1559 371 L1559 346 M1559 371 L1534 371" stroke="#DE9D09" stroke-width="2" opacity="0.5"/>
+</svg>
