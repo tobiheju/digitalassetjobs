@@ -15,6 +15,8 @@ interface JobListProps {
   scores: Map<string, number>
   hasActiveFilters?: boolean
   onClearFilters?: () => void
+  onSave?: (jobId: string) => void
+  isSaved?: (jobId: string) => boolean
 }
 
 export function JobList({
@@ -24,6 +26,8 @@ export function JobList({
   scores,
   hasActiveFilters,
   onClearFilters,
+  onSave,
+  isSaved,
 }: JobListProps) {
   if (jobs.length === 0) {
     return (
@@ -67,6 +71,8 @@ export function JobList({
             score={scores.get(job.id)}
             variant="list"
             onClick={() => onJobClick(job)}
+            onSave={onSave}
+            isSaved={isSaved?.(job.id)}
           />
         </motion.div>
       ))}

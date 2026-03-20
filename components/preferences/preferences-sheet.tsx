@@ -1,6 +1,7 @@
 "use client"
 
 import { X, Sliders } from "lucide-react"
+import { track } from "@vercel/analytics"
 import { motion, AnimatePresence } from "framer-motion"
 import { usePreferences } from "@/lib/hooks/use-preferences"
 import {
@@ -13,15 +14,24 @@ import {
 import { Button } from "@/components/ui/button"
 import { ChipSelect } from "./chip-select"
 import { SalaryRangeSlider } from "./salary-range-slider"
+import type { UserPreferences } from "@/lib/types"
 
 interface PreferencesSheetProps {
   open: boolean
   onOpenChange: (open: boolean) => void
+  preferences?: UserPreferences
+  onPreferencesChange?: (prefs: UserPreferences) => void
+  onReset?: () => void
+  filterCount?: number
 }
 
-export function PreferencesSheet({ open, onOpenChange }: PreferencesSheetProps) {
-  const { preferences, setPreferences, resetPreferences, activeFilterCount } =
-    usePreferences()
+export function PreferencesSheet({ open, onOpenChange, preferences: propPreferences, onPreferencesChange, onReset, filterCount }: PreferencesSheetProps) {
+  const internal = usePreferences()
+
+  const preferences = propPreferences ?? internal.preferences
+  const setPreferences = onPreferencesChange ?? internal.setPreferences
+  const resetPreferences = onReset ?? internal.resetPreferences
+  const activeFilterCount = filterCount ?? internal.activeFilterCount
 
   return (
     <AnimatePresence>
@@ -130,7 +140,10 @@ export function PreferencesSheet({ open, onOpenChange }: PreferencesSheetProps) 
               <Button
                 size="sm"
                 className="bg-[#1a365d] text-white hover:bg-[#1a365d]/90"
-                onClick={() => onOpenChange(false)}
+                onClick={() => {
+                  track('preferences_updated', { filterCount: activeFilterCount })
+                  onOpenChange(false)
+                }}
               >
                 Done
               </Button>
@@ -235,7 +248,10 @@ export function PreferencesSheet({ open, onOpenChange }: PreferencesSheetProps) 
               <Button
                 size="sm"
                 className="bg-[#1a365d] text-white hover:bg-[#1a365d]/90"
-                onClick={() => onOpenChange(false)}
+                onClick={() => {
+                  track('preferences_updated', { filterCount: activeFilterCount })
+                  onOpenChange(false)
+                }}
               >
                 Done
               </Button>

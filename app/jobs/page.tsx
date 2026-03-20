@@ -9,12 +9,17 @@ export const metadata: Metadata = {
   description: 'Browse digital asset, crypto, and blockchain jobs. Filter by sector, skills, salary, and work arrangement.',
 }
 
-async function DiscoverLoader() {
-  const { jobs } = await getJobs(undefined, 1, 100)
-  return <DiscoverClient initialJobs={jobs} />
+async function DiscoverLoader({ search, sector }: { search?: string; sector?: string }) {
+  const filters = {
+    ...(search ? { search } : {}),
+    ...(sector ? { sectors: [sector] } : {}),
+  }
+  const { jobs } = await getJobs(filters, 1, 100)
+  return <DiscoverClient initialJobs={jobs} initialSearch={search} />
 }
 
-export default function JobsPage() {
+export default async function JobsPage({ searchParams }: { searchParams: Promise<{ search?: string; sector?: string }> }) {
+  const { search, sector } = await searchParams
   return (
     <Suspense
       fallback={
@@ -35,7 +40,7 @@ export default function JobsPage() {
         </div>
       }
     >
-      <DiscoverLoader />
+      <DiscoverLoader search={search} sector={sector} />
     </Suspense>
   )
 }

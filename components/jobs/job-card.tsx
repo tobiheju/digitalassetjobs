@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { MapPin, Clock } from 'lucide-react'
+import { MapPin, Clock, Bookmark, BookmarkCheck } from 'lucide-react'
 
 import { Badge } from '@/components/ui/badge'
 import { VerifiedBadge } from '@/components/ui/verified-badge'
@@ -50,13 +50,15 @@ interface JobCardProps {
   score?: number
   variant?: 'list' | 'compact'
   onClick?: () => void
+  onSave?: (jobId: string) => void
+  isSaved?: boolean
 }
 
 // ---------------------------------------------------------------------------
 // Compact variant
 // ---------------------------------------------------------------------------
 
-function CompactContent({ job, score }: { job: Job; score?: number }) {
+function CompactContent({ job, score, onSave, isSaved }: { job: Job; score?: number; onSave?: (jobId: string) => void; isSaved?: boolean }) {
   return (
     <div className="flex items-center gap-3 px-3 py-2">
       <CompanyLogo name={job.company} size="sm" />
@@ -85,7 +87,7 @@ function CompactContent({ job, score }: { job: Job; score?: number }) {
 // List variant — refined premium look
 // ---------------------------------------------------------------------------
 
-function ListContent({ job, score }: { job: Job; score?: number }) {
+function ListContent({ job, score, onSave, isSaved }: { job: Job; score?: number; onSave?: (jobId: string) => void; isSaved?: boolean }) {
   const maxTags = 3
   const visibleTags = job.tags.slice(0, maxTags)
   const overflowCount = job.tags.length - maxTags
@@ -109,12 +111,29 @@ function ListContent({ job, score }: { job: Job; score?: number }) {
               {job.verified && <VerifiedBadge />}
             </p>
           </div>
-          <div className="flex shrink-0 flex-col items-end gap-1">
-            {score !== undefined && <MatchBadge score={score} />}
-            {job.salaryDisplay && (
-              <span className="tabular-nums text-[13px] font-medium text-slate-700">
-                {job.salaryDisplay}
-              </span>
+          <div className="flex shrink-0 items-start gap-1">
+            <div className="flex flex-col items-end gap-1">
+              {score !== undefined && <MatchBadge score={score} />}
+              {job.salaryDisplay && (
+                <span className="tabular-nums text-[13px] font-medium text-slate-700">
+                  {job.salaryDisplay}
+                </span>
+              )}
+            </div>
+            {onSave && (
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation()
+                  onSave(job.id)
+                }}
+                className={cn(
+                  'size-7 flex items-center justify-center rounded-md transition-colors hover:bg-slate-100',
+                  isSaved ? 'text-[#d4a038]' : 'text-slate-300 hover:text-slate-500'
+                )}
+              >
+                {isSaved ? <BookmarkCheck className="size-4" /> : <Bookmark className="size-4" />}
+              </button>
             )}
           </div>
         </div>
@@ -160,7 +179,7 @@ function ListContent({ job, score }: { job: Job; score?: number }) {
 // JobCard
 // ---------------------------------------------------------------------------
 
-export function JobCard({ job, score, variant = 'list', onClick }: JobCardProps) {
+export function JobCard({ job, score, variant = 'list', onClick, onSave, isSaved }: JobCardProps) {
   return (
     <motion.div
       whileHover={{ y: -1 }}
@@ -183,9 +202,9 @@ export function JobCard({ job, score, variant = 'list', onClick }: JobCardProps)
         } : undefined}
       >
         {variant === 'compact' ? (
-          <CompactContent job={job} score={score} />
+          <CompactContent job={job} score={score} onSave={onSave} isSaved={isSaved} />
         ) : (
-          <ListContent job={job} score={score} />
+          <ListContent job={job} score={score} onSave={onSave} isSaved={isSaved} />
         )}
       </div>
     </motion.div>

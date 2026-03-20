@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react'
 import Link from 'next/link'
+import { track } from '@vercel/analytics'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   CheckCircle2,
@@ -364,6 +365,10 @@ export default function PostJobPage() {
   function handleNext() {
     setDirection('forward')
     if (step < STEP_COUNT - 1) {
+      const nextStep = step + 1
+      if (nextStep === 5) {
+        track('job_posting_started', { tier: form.listingTier, company: form.companyName })
+      }
       setStep((s) => s + 1)
     } else {
       handleCheckout()

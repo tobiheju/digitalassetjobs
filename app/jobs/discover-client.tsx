@@ -1,7 +1,8 @@
 'use client'
 
-import { useState, useMemo, useEffect, useCallback } from 'react'
+import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import { useRouter } from 'next/navigation'
+import { track } from '@vercel/analytics'
 
 import { PageWrapper } from '@/components/layout/page-wrapper'
 import { JobList } from '@/components/jobs/job-list'
@@ -11,13 +12,15 @@ import { FilterBar } from '@/components/preferences/filter-bar'
 import { PreferencesSheet } from '@/components/preferences/preferences-sheet'
 import { usePreferences } from '@/lib/hooks/use-preferences'
 import { calculateMatchScore } from '@/lib/scoring'
-import { Sparkles } from 'lucide-react'
+import { Sparkles, Search } from 'lucide-react'
+import { useSavedJobs } from '@/lib/hooks/use-saved-jobs'
 import type { Job } from '@/lib/types'
 
 const VIEW_STORAGE_KEY = 'daj-view'
 
 interface DiscoverClientProps {
   initialJobs: Job[]
+  initialSearch?: string
 }
 
 function useMediaQuery(query: string): boolean {
@@ -32,11 +35,21 @@ function useMediaQuery(query: string): boolean {
   return matches
 }
 
-export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
+export function DiscoverClient({ initialJobs, initialSearch }: DiscoverClientProps) {
   const router = useRouter()
   const isDesktop = useMediaQuery('(min-width: 768px)')
   const { preferences, setPreferences, resetPreferences, activeFilterCount, isLoaded } =
     usePreferences()
+  const { save, unsave, isSaved } = useSavedJobs()
+
+  const [searchQuery, setSearchQuery] = useState(initialSearch || '')
+
+  const handleToggleSave = useCallback((id: string) => {
+    if (!isSaved(id)) {
+      track('job_saved', { jobId: id })
+    }
+    isSaved(id) ? unsave(id) : save(id)
+  }, [isSaved, unsave, save])
 
   // View toggle persisted to localStorage
   const [view, setView] = useState<'list' | 'card'>('list')
@@ -60,6 +73,7 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
 
   // On desktop, navigate to detail page; on mobile, open bottom sheet
   const handleJobClick = useCallback((job: Job) => {
+    track('job_viewed', { jobId: job.id, title: job.title, company: job.company })
     if (isDesktop) {
       router.push(`/jobs/${job.id}`)
     } else {
@@ -80,6 +94,16 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
       preferences.verifiedOnly
 
     let jobs = initialJobs
+
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase()
+      jobs = jobs.filter((job) =>
+        job.title.toLowerCase().includes(q) ||
+        job.company.toLowerCase().includes(q) ||
+        job.description.toLowerCase().includes(q) ||
+        job.tags.some((t) => t.toLowerCase().includes(q))
+      )
+    }
 
     if (hasFilters) {
       jobs = jobs.filter((job) => {
@@ -133,14 +157,30 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
       scoreMap.set(job.id, calculateMatchScore(job, preferences))
     }
 
-    // Sort: featured first, then by score descending
+    // Sort: featured first, then by score descending, then by date descending
     const sorted = [...jobs].sort((a, b) => {
       if (a.featured !== b.featured) return a.featured ? -1 : 1
-      return (scoreMap.get(b.id) ?? 0) - (scoreMap.get(a.id) ?? 0)
+      const scoreDiff = (scoreMap.get(b.id) ?? 0) - (scoreMap.get(a.id) ?? 0)
+      if (scoreDiff !== 0) return scoreDiff
+      return new Date(b.postedDate).getTime() - new Date(a.postedDate).getTime()
     })
 
     return { filteredJobs: sorted, scores: scoreMap }
-  }, [initialJobs, preferences])
+  }, [initialJobs, preferences, searchQuery])
+
+  // Track search queries after user stops typing (debounced)
+  const searchTrackTimeout = useRef<ReturnType<typeof setTimeout> | null>(null)
+  useEffect(() => {
+    if (searchTrackTimeout.current) clearTimeout(searchTrackTimeout.current)
+    if (searchQuery.trim()) {
+      searchTrackTimeout.current = setTimeout(() => {
+        track('jobs_searched', { query: searchQuery })
+      }, 800)
+    }
+    return () => {
+      if (searchTrackTimeout.current) clearTimeout(searchTrackTimeout.current)
+    }
+  }, [searchQuery])
 
   // Don't render content until preferences are loaded from localStorage
   if (!isLoaded) return null
@@ -157,6 +197,18 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
             <p className="mt-2 text-sm text-slate-500">
               {filteredJobs.length} {filteredJobs.length === 1 ? 'position' : 'positions'} available
             </p>
+          </div>
+
+          {/* Search bar */}
+          <div className="relative mb-4">
+            <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-slate-400" />
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search roles, companies, skills..."
+              className="h-10 w-full rounded-lg border border-slate-200 bg-white pl-10 pr-4 text-sm text-slate-700 transition-colors placeholder:text-slate-400 focus:border-[#1a365d]/40 focus:outline-none focus:ring-2 focus:ring-[#1a365d]/10"
+            />
           </div>
 
           {/* Filter bar + view toggle */}
@@ -205,11 +257,20 @@ export function DiscoverClient({ initialJobs }: DiscoverClientProps) {
             scores={scores}
             hasActiveFilters={activeFilterCount > 0}
             onClearFilters={resetPreferences}
+            onSave={handleToggleSave}
+            isSaved={isSaved}
           />
         </div>
       </PageWrapper>
 
-      <PreferencesSheet open={prefsOpen} onOpenChange={setPrefsOpen} />
+      <PreferencesSheet
+        open={prefsOpen}
+        onOpenChange={setPrefsOpen}
+        preferences={preferences}
+        onPreferencesChange={setPreferences}
+        onReset={resetPreferences}
+        filterCount={activeFilterCount}
+      />
 
       {/* Mobile-only detail sheet */}
       <JobDetailSheet

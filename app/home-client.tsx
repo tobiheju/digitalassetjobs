@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
+import { track } from '@vercel/analytics'
 import { motion } from 'framer-motion'
 import {
   Search,
@@ -96,6 +97,7 @@ export function HomeClient({ stats, recentJobs, topCompanies, companyCount, blog
       if (res.ok) {
         setNewsletterStatus('success')
         setEmail('')
+        track('newsletter_signup')
       } else {
         setNewsletterStatus('error')
       }

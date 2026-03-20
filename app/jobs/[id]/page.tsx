@@ -2,14 +2,11 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import {
   ArrowLeft,
-  ExternalLink,
-  Heart,
   MapPin,
   Calendar,
   Building2,
   Briefcase,
   DollarSign,
-  Share2,
   Clock,
   Monitor,
   Layers,
@@ -18,8 +15,11 @@ import { PageWrapper } from '@/components/layout/page-wrapper'
 import { Badge } from '@/components/ui/badge'
 import { VerifiedBadge } from '@/components/ui/verified-badge'
 import { CompanyLogo } from '@/components/jobs/company-logo'
+import { JobActions } from '@/components/jobs/job-actions'
+import { ApplyButton } from '@/components/jobs/apply-button'
 import { toTitleCase } from '@/lib/utils'
 import { getJobById, getJobs } from '@/lib/queries/jobs'
+import { createClient } from '@/lib/supabase/server'
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
@@ -145,6 +145,11 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
   const { id } = await params
   const job = await getJobById(id)
   if (!job) notFound()
+
+  // Find company ID for linking
+  const supabase = await createClient()
+  const { data: companyData } = await supabase.from('companies').select('id').eq('name', job.company).single()
+  const companyId = companyData?.id
 
   // Fetch a few similar jobs for the sidebar
   const { jobs: similarJobs } = await getJobs(
@@ -303,15 +308,7 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
             {/* Apply CTA banner */}
             <div className="mt-8 flex items-center justify-between rounded-xl bg-slate-50 border border-slate-100 px-6 py-4">
               <p className="text-sm font-medium text-[#1a365d]">Interested in this role?</p>
-              <a
-                href={job.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg bg-[#d4a038] px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-[#b8892f]"
-              >
-                <ExternalLink className="size-3.5" />
-                Apply Now
-              </a>
+              <ApplyButton url={job.url} jobId={job.id} title={job.title} company={job.company} variant="primary" />
             </div>
 
             {/* Requirements */}
@@ -397,15 +394,7 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
             {/* Apply card */}
             <div className="sticky top-20 space-y-4">
               <div className="rounded-xl border border-slate-100 bg-white p-5">
-                <a
-                  href={job.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#1a365d] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#2c5282]"
-                >
-                  <ExternalLink className="size-4" />
-                  Apply Now
-                </a>
+                <ApplyButton url={job.url} jobId={job.id} title={job.title} company={job.company} variant="sidebar" />
                 <div className="mt-3 flex items-center justify-between">
                   <p className="flex items-center gap-1 text-xs text-slate-400">
                     <Clock className="size-3" />
@@ -415,16 +404,7 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
                     {job.companyType}
                   </Badge>
                 </div>
-                <div className="mt-3 flex gap-2">
-                  <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-slate-200 px-3 py-2 text-xs font-medium text-slate-500 transition-colors hover:border-slate-300 hover:text-slate-700">
-                    <Heart className="size-3.5" />
-                    Save
-                  </button>
-                  <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-slate-200 px-3 py-2 text-xs font-medium text-slate-500 transition-colors hover:border-slate-300 hover:text-slate-700">
-                    <Share2 className="size-3.5" />
-                    Share
-                  </button>
-                </div>
+                <JobActions jobId={job.id} jobTitle={job.title} company={job.company} />
               </div>
 
               {/* Company info */}
@@ -432,16 +412,29 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
                 <h3 className="mb-3 text-xs font-medium text-slate-400">
                   About {job.company}
                 </h3>
-                <div className="flex items-center gap-3">
-                  <CompanyLogo name={job.company} size="md" />
-                  <div>
-                    <p className="flex items-center gap-1 text-sm font-medium text-[#1a365d]">
-                      {job.company}
-                      {job.verified && <VerifiedBadge />}
-                    </p>
-                    <p className="text-xs text-slate-500">{job.companyType}</p>
+                {companyId ? (
+                  <Link href={`/companies/${companyId}`} className="flex items-center gap-3 group">
+                    <CompanyLogo name={job.company} size="md" />
+                    <div>
+                      <p className="flex items-center gap-1 text-sm font-medium text-[#1a365d] group-hover:text-[#d4a038]">
+                        {job.company}
+                        {job.verified && <VerifiedBadge />}
+                      </p>
+                      <p className="text-xs text-slate-500">{job.companyType}</p>
+                    </div>
+                  </Link>
+                ) : (
+                  <div className="flex items-center gap-3">
+                    <CompanyLogo name={job.company} size="md" />
+                    <div>
+                      <p className="flex items-center gap-1 text-sm font-medium text-[#1a365d]">
+                        {job.company}
+                        {job.verified && <VerifiedBadge />}
+                      </p>
+                      <p className="text-xs text-slate-500">{job.companyType}</p>
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
 
               {/* Similar jobs */}

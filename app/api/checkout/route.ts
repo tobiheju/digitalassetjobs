@@ -3,6 +3,13 @@ import { stripe, LISTING_PRICES, type ListingTier } from '@/lib/stripe'
 
 export async function POST(req: NextRequest) {
   try {
+    if (!stripe) {
+      return NextResponse.json(
+        { error: 'Stripe is not configured. Please set STRIPE_SECRET_KEY.' },
+        { status: 500 },
+      )
+    }
+
     const body = await req.json()
     const { tier, jobData } = body as {
       tier: ListingTier
@@ -11,6 +18,10 @@ export async function POST(req: NextRequest) {
         companyName: string
         contactEmail: string
       }
+    }
+
+    if (!tier) {
+      return NextResponse.json({ error: 'Missing listing tier' }, { status: 400 })
     }
 
     const price = LISTING_PRICES[tier]
