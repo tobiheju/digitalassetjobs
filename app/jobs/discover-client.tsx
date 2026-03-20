@@ -21,6 +21,7 @@ const VIEW_STORAGE_KEY = 'daj-view'
 interface DiscoverClientProps {
   initialJobs: Job[]
   initialSearch?: string
+  initialSector?: string
 }
 
 function useMediaQuery(query: string): boolean {
@@ -35,11 +36,22 @@ function useMediaQuery(query: string): boolean {
   return matches
 }
 
-export function DiscoverClient({ initialJobs, initialSearch }: DiscoverClientProps) {
+export function DiscoverClient({ initialJobs, initialSearch, initialSector }: DiscoverClientProps) {
   const router = useRouter()
   const isDesktop = useMediaQuery('(min-width: 768px)')
   const { preferences, setPreferences, resetPreferences, activeFilterCount, isLoaded } =
     usePreferences()
+
+  // Apply sector from URL query param on mount
+  const sectorApplied = useRef(false)
+  useEffect(() => {
+    if (isLoaded && initialSector && !sectorApplied.current) {
+      sectorApplied.current = true
+      if (!preferences.sectors.includes(initialSector)) {
+        setPreferences({ ...preferences, sectors: [initialSector] })
+      }
+    }
+  }, [isLoaded, initialSector]) // eslint-disable-line react-hooks/exhaustive-deps
   const { save, unsave, isSaved } = useSavedJobs()
 
   const [searchQuery, setSearchQuery] = useState(initialSearch || '')
@@ -157,12 +169,16 @@ export function DiscoverClient({ initialJobs, initialSearch }: DiscoverClientPro
       scoreMap.set(job.id, calculateMatchScore(job, preferences))
     }
 
-    // Sort: featured first, then by score descending, then by date descending
+    // Sort: most recent first, then by score descending
+    const getTime = (d: string) => {
+      const t = new Date(d).getTime()
+      return Number.isNaN(t) ? 0 : t
+    }
     const sorted = [...jobs].sort((a, b) => {
+      const dateDiff = getTime(b.postedDate) - getTime(a.postedDate)
+      if (dateDiff !== 0) return dateDiff
       if (a.featured !== b.featured) return a.featured ? -1 : 1
-      const scoreDiff = (scoreMap.get(b.id) ?? 0) - (scoreMap.get(a.id) ?? 0)
-      if (scoreDiff !== 0) return scoreDiff
-      return new Date(b.postedDate).getTime() - new Date(a.postedDate).getTime()
+      return (scoreMap.get(b.id) ?? 0) - (scoreMap.get(a.id) ?? 0)
     })
 
     return { filteredJobs: sorted, scores: scoreMap }
@@ -192,7 +208,9 @@ export function DiscoverClient({ initialJobs, initialSearch }: DiscoverClientPro
           {/* Page header */}
           <div className="mb-6">
             <h1 className="font-serif text-3xl font-normal text-[#1a365d]">
-              Find Your Next Role in Digital Assets
+              {preferences.sectors.length === 1
+                ? `Find Your Next Role in ${preferences.sectors[0]}`
+                : 'Find Your Next Role in Digital Assets'}
             </h1>
             <p className="mt-2 text-sm text-slate-500">
               {filteredJobs.length} {filteredJobs.length === 1 ? 'position' : 'positions'} available

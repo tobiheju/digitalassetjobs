@@ -155,7 +155,7 @@ export function HomeClient({ stats, recentJobs, topCompanies, companyCount, blog
               </Button>
             </motion.form>
 
-            <motion.div variants={staggerItem} className="mt-4 flex items-center justify-center gap-4 text-xs text-slate-400">
+            <motion.div variants={staggerItem} className="mt-4 flex flex-wrap items-center justify-center gap-2 text-xs text-slate-400 md:gap-4">
               <span>Popular:</span>
               {['Smart Contracts', 'Compliance', 'Trading', 'Engineering'].map((term) => (
                 <Link

@@ -77,10 +77,10 @@ export function CompaniesClient({ companies }: CompaniesClientProps) {
           <motion.div key={company.id} variants={listItem}>
             <Link
               href={`/companies/${company.id}`}
-              className="group flex gap-4 rounded-xl border border-slate-100/60 bg-white p-4 transition-[border-color,box-shadow] duration-150 ease-out hover:border-slate-200/60 hover:shadow-[0_4px_24px_-6px_rgba(0,0,0,0.08)]"
+              className="group flex h-full gap-4 rounded-xl border border-slate-100/60 bg-white p-4 transition-[border-color,box-shadow] duration-150 ease-out hover:border-slate-200/60 hover:shadow-[0_4px_24px_-6px_rgba(0,0,0,0.08)]"
             >
               <CompanyLogo name={company.name} size="lg" />
-              <div className="min-w-0 flex-1">
+              <div className="flex min-w-0 flex-1 flex-col">
                 <h3 className="flex items-center gap-1 font-medium text-[#1a365d] group-hover:text-[#2c5282]">
                   {company.name}
                   {company.verified && <VerifiedBadge />}
@@ -88,12 +88,10 @@ export function CompaniesClient({ companies }: CompaniesClientProps) {
                 {company.type && (
                   <p className="text-xs text-slate-400">{company.type}</p>
                 )}
-                {company.description && (
-                  <p className="mt-1.5 line-clamp-2 text-[13px] leading-relaxed text-slate-500">
-                    {company.description}
-                  </p>
-                )}
-                <div className="mt-2 flex items-center gap-3">
+                <p className="mt-1.5 line-clamp-2 text-[13px] leading-relaxed text-slate-500">
+                  {company.description || '\u00A0\n\u00A0'}
+                </p>
+                <div className="mt-auto flex items-center gap-3 pt-2">
                   <span className="font-sans text-xs tabular-nums text-slate-400">
                     {company.jobCount} {company.jobCount === 1 ? 'job' : 'jobs'}
                   </span>
