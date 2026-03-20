@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-19T22:00:00Z",
+  "scraped_date": "2026-03-20T02:00:00Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -13,7 +13,11 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5823528004",
       "seniority": "Mid",
       "work_arrangement": "On-site",
-      "skills": ["Administration", "Calendar Management", "Communication"],
+      "skills": [
+        "Administration",
+        "Calendar Management",
+        "Communication"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -28,7 +32,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5786165004",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Investor Relations", "Fundraising", "Sales", "Digital Assets"],
+      "skills": [
+        "Investor Relations",
+        "Fundraising",
+        "Sales",
+        "Digital Assets"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -43,7 +52,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5789843004",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["Options Trading", "Derivatives", "Quantitative Analysis", "Risk Management"],
+      "skills": [
+        "Options Trading",
+        "Derivatives",
+        "Quantitative Analysis",
+        "Risk Management"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -58,7 +72,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5353025004",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["Java", "Electronic Trading", "Low Latency", "Financial Systems"],
+      "skills": [
+        "Java",
+        "Electronic Trading",
+        "Low Latency",
+        "Financial Systems"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -73,7 +92,13 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5477291004",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["iOS", "Android", "Swift", "Kotlin", "Security"],
+      "skills": [
+        "iOS",
+        "Android",
+        "Swift",
+        "Kotlin",
+        "Security"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -88,7 +113,13 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5812716004",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Python", "Machine Learning", "AI", "Trading", "Quantitative Analysis"],
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "AI",
+        "Trading",
+        "Quantitative Analysis"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -103,7 +134,13 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5812855004",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["AWS", "GCP", "Kubernetes", "MLOps", "Infrastructure"],
+      "skills": [
+        "AWS",
+        "GCP",
+        "Kubernetes",
+        "MLOps",
+        "Infrastructure"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -118,7 +155,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5764325004",
       "seniority": "Mid",
       "work_arrangement": "Hybrid",
-      "skills": ["Compliance", "Regulatory", "AML/KYC", "Financial Services"],
+      "skills": [
+        "Compliance",
+        "Regulatory",
+        "AML/KYC",
+        "Financial Services"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -133,7 +175,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5349190004",
       "seniority": "Director",
       "work_arrangement": "Hybrid",
-      "skills": ["Enterprise Sales", "Custody", "Institutional Sales", "Business Development"],
+      "skills": [
+        "Enterprise Sales",
+        "Custody",
+        "Institutional Sales",
+        "Business Development"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -148,7 +195,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5727995004",
       "seniority": "Mid",
       "work_arrangement": "On-site",
-      "skills": ["Trading Operations", "Derivatives", "Settlements", "Middle Office"],
+      "skills": [
+        "Trading Operations",
+        "Derivatives",
+        "Settlements",
+        "Middle Office"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -163,7 +215,13 @@
       "url": "https://job-boards.greenhouse.io/fireblocks/jobs/4652122006",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["iOS", "Android", "Mobile Development", "Security", "Crypto"],
+      "skills": [
+        "iOS",
+        "Android",
+        "Mobile Development",
+        "Security",
+        "Crypto"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -178,7 +236,12 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Enterprise Sales", "B2B", "Account Management", "Fintech"],
+      "skills": [
+        "Enterprise Sales",
+        "B2B",
+        "Account Management",
+        "Fintech"
+      ],
       "verified": true,
       "source": "coinbase"
     },
@@ -193,7 +256,12 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Institutional Sales", "Account Management", "Financial Services", "Crypto"],
+      "skills": [
+        "Institutional Sales",
+        "Account Management",
+        "Financial Services",
+        "Crypto"
+      ],
       "verified": true,
       "source": "coinbase"
     },
@@ -208,7 +276,12 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Compliance", "AML/KYC", "Regulatory", "Risk Analysis"],
+      "skills": [
+        "Compliance",
+        "AML/KYC",
+        "Regulatory",
+        "Risk Analysis"
+      ],
       "verified": true,
       "source": "coinbase"
     },
@@ -223,7 +296,13 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["SQL", "Python", "Data Engineering", "ETL", "Cloud"],
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Engineering",
+        "ETL",
+        "Cloud"
+      ],
       "verified": true,
       "source": "coinbase"
     },
@@ -238,7 +317,12 @@
       "url": "https://www.kraken.com/careers",
       "seniority": "Director",
       "work_arrangement": "Remote",
-      "skills": ["Leadership", "Operations", "Business Development", "Regulatory"],
+      "skills": [
+        "Leadership",
+        "Operations",
+        "Business Development",
+        "Regulatory"
+      ],
       "verified": true,
       "source": "kraken"
     },
@@ -253,7 +337,12 @@
       "url": "https://www.kraken.com/careers",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Product Management", "Trading", "Crypto", "Strategy"],
+      "skills": [
+        "Product Management",
+        "Trading",
+        "Crypto",
+        "Strategy"
+      ],
       "verified": true,
       "source": "kraken"
     },
@@ -268,7 +357,12 @@
       "url": "https://www.kraken.com/careers",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["Institutional Sales", "Staking", "DeFi", "Business Development"],
+      "skills": [
+        "Institutional Sales",
+        "Staking",
+        "DeFi",
+        "Business Development"
+      ],
       "verified": true,
       "source": "kraken"
     },
@@ -283,7 +377,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5695082004",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["Strategy", "M&A", "Corporate Development", "Financial Analysis"],
+      "skills": [
+        "Strategy",
+        "M&A",
+        "Corporate Development",
+        "Financial Analysis"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -298,7 +397,13 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5560698004",
       "seniority": "Director",
       "work_arrangement": "On-site",
-      "skills": ["Algo Trading", "Smart Order Routing", "Low Latency", "Python", "C++"],
+      "skills": [
+        "Algo Trading",
+        "Smart Order Routing",
+        "Low Latency",
+        "Python",
+        "C++"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -313,7 +418,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5729578004",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["Compliance", "APAC Regulations", "AML/KYC", "Digital Assets"],
+      "skills": [
+        "Compliance",
+        "APAC Regulations",
+        "AML/KYC",
+        "Digital Assets"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -328,7 +438,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5821744004",
       "seniority": "Director",
       "work_arrangement": "On-site",
-      "skills": ["Derivatives Trading", "Exotic Options", "Risk Management", "Crypto"],
+      "skills": [
+        "Derivatives Trading",
+        "Exotic Options",
+        "Risk Management",
+        "Crypto"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -343,7 +458,11 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5693193004",
       "seniority": "Junior",
       "work_arrangement": "On-site",
-      "skills": ["Financial Analysis", "Excel", "Accounting"],
+      "skills": [
+        "Financial Analysis",
+        "Excel",
+        "Accounting"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -358,7 +477,12 @@
       "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5693202004",
       "seniority": "Junior",
       "work_arrangement": "On-site",
-      "skills": ["Sales", "Trading", "Communication", "Financial Markets"],
+      "skills": [
+        "Sales",
+        "Trading",
+        "Communication",
+        "Financial Markets"
+      ],
       "verified": true,
       "source": "greenhouse"
     },
@@ -373,12 +497,22 @@
       "url": "https://job-boards.greenhouse.io/bitgo/jobs/8459875002",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["HSM", "Security", "Cryptography", "Custody", "Backend"],
+      "skills": [
+        "HSM",
+        "Security",
+        "Cryptography",
+        "Custody",
+        "Backend"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["custody", "security", "crypto"],
+      "tags": [
+        "custody",
+        "security",
+        "crypto"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -393,12 +527,22 @@
       "url": "https://job-boards.greenhouse.io/bitgo/jobs/8455884002",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["React Native", "Mobile Development", "iOS", "Android", "TypeScript"],
+      "skills": [
+        "React Native",
+        "Mobile Development",
+        "iOS",
+        "Android",
+        "TypeScript"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["mobile", "react-native", "crypto"],
+      "tags": [
+        "mobile",
+        "react-native",
+        "crypto"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -413,12 +557,22 @@
       "url": "https://job-boards.greenhouse.io/bitgo/jobs/8347797002",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["Blockchain", "Wallet Development", "Node.js", "TypeScript", "Crypto"],
+      "skills": [
+        "Blockchain",
+        "Wallet Development",
+        "Node.js",
+        "TypeScript",
+        "Crypto"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["wallet", "blockchain", "custody"],
+      "tags": [
+        "wallet",
+        "blockchain",
+        "custody"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -433,12 +587,22 @@
       "url": "https://job-boards.greenhouse.io/bitgo/jobs/8359380002",
       "seniority": "Mid",
       "work_arrangement": "On-site",
-      "skills": ["Product Management", "Stablecoins", "DeFi", "Blockchain", "APAC"],
+      "skills": [
+        "Product Management",
+        "Stablecoins",
+        "DeFi",
+        "Blockchain",
+        "APAC"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["product", "stablecoins", "singapore"],
+      "tags": [
+        "product",
+        "stablecoins",
+        "singapore"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -453,12 +617,21 @@
       "url": "https://job-boards.greenhouse.io/bitgo/jobs/8130548002",
       "seniority": "Mid",
       "work_arrangement": "On-site",
-      "skills": ["Customer Success", "Account Management", "Digital Assets", "EMEA"],
+      "skills": [
+        "Customer Success",
+        "Account Management",
+        "Digital Assets",
+        "EMEA"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["customer-success", "emea", "crypto"],
+      "tags": [
+        "customer-success",
+        "emea",
+        "crypto"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -473,12 +646,22 @@
       "url": "https://job-boards.greenhouse.io/bitgo/jobs/8234021002",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["Data Engineering", "Leadership", "Python", "SQL", "Data Infrastructure"],
+      "skills": [
+        "Data Engineering",
+        "Leadership",
+        "Python",
+        "SQL",
+        "Data Infrastructure"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["data", "management", "engineering"],
+      "tags": [
+        "data",
+        "management",
+        "engineering"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -493,12 +676,22 @@
       "url": "https://job-boards.greenhouse.io/bitgo/jobs/8431847002",
       "seniority": "Mid",
       "work_arrangement": "On-site",
-      "skills": ["Compliance", "AML", "KYC", "Financial Intelligence", "Regulatory"],
+      "skills": [
+        "Compliance",
+        "AML",
+        "KYC",
+        "Financial Intelligence",
+        "Regulatory"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["compliance", "aml", "fiu"],
+      "tags": [
+        "compliance",
+        "aml",
+        "fiu"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -513,12 +706,22 @@
       "url": "https://job-boards.greenhouse.io/bitgo/jobs/8192224002",
       "seniority": "Mid",
       "work_arrangement": "On-site",
-      "skills": ["Product Design", "UX/UI", "Figma", "User Research", "Fintech"],
+      "skills": [
+        "Product Design",
+        "UX/UI",
+        "Figma",
+        "User Research",
+        "Fintech"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["design", "ux", "fintech"],
+      "tags": [
+        "design",
+        "ux",
+        "fintech"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -533,12 +736,21 @@
       "url": "https://job-boards.eu.greenhouse.io/copperco/jobs/4739385101",
       "seniority": "Junior",
       "work_arrangement": "On-site",
-      "skills": ["Software Engineering", "Backend", "Digital Assets", "Node.js"],
+      "skills": [
+        "Software Engineering",
+        "Backend",
+        "Digital Assets",
+        "Node.js"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["engineering", "entry-level", "custody"],
+      "tags": [
+        "engineering",
+        "entry-level",
+        "custody"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -553,12 +765,21 @@
       "url": "https://job-boards.eu.greenhouse.io/copperco/jobs/4776917101",
       "seniority": "Junior",
       "work_arrangement": "On-site",
-      "skills": ["Software Engineering", "Prime Services", "Trading Systems", "Python"],
+      "skills": [
+        "Software Engineering",
+        "Prime Services",
+        "Trading Systems",
+        "Python"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["engineering", "prime", "trading"],
+      "tags": [
+        "engineering",
+        "prime",
+        "trading"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -573,12 +794,22 @@
       "url": "https://job-boards.eu.greenhouse.io/copperco/jobs/4786171101",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["SRE", "Kubernetes", "AWS", "Infrastructure", "DevOps"],
+      "skills": [
+        "SRE",
+        "Kubernetes",
+        "AWS",
+        "Infrastructure",
+        "DevOps"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["sre", "infrastructure", "devops"],
+      "tags": [
+        "sre",
+        "infrastructure",
+        "devops"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -593,12 +824,21 @@
       "url": "https://job-boards.eu.greenhouse.io/copperco/jobs/4723069101",
       "seniority": "Mid",
       "work_arrangement": "On-site",
-      "skills": ["Product Management", "Digital Assets", "Custody", "Fintech"],
+      "skills": [
+        "Product Management",
+        "Digital Assets",
+        "Custody",
+        "Fintech"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["product", "custody", "fintech"],
+      "tags": [
+        "product",
+        "custody",
+        "fintech"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -613,12 +853,21 @@
       "url": "https://job-boards.eu.greenhouse.io/copperco/jobs/4672579101",
       "seniority": "Mid",
       "work_arrangement": "On-site",
-      "skills": ["Business Analysis", "Data Analysis", "Digital Assets", "SQL"],
+      "skills": [
+        "Business Analysis",
+        "Data Analysis",
+        "Digital Assets",
+        "SQL"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "greenhouse",
       "postedDate": "2026-03-17",
-      "tags": ["business-analysis", "operations", "crypto"],
+      "tags": [
+        "business-analysis",
+        "operations",
+        "crypto"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -633,12 +882,22 @@
       "url": "https://careers.ledger.com/jobs/senior-software-architect-blockchain-defi-paris-ile-de-france-france",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Blockchain", "DeFi", "Architecture", "Smart Contracts", "Web3"],
+      "skills": [
+        "Blockchain",
+        "DeFi",
+        "Architecture",
+        "Smart Contracts",
+        "Web3"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "ledger",
       "postedDate": "2026-03-17",
-      "tags": ["blockchain", "defi", "architecture"],
+      "tags": [
+        "blockchain",
+        "defi",
+        "architecture"
+      ],
       "featured": true,
       "isRemote": false
     },
@@ -653,12 +912,22 @@
       "url": "https://careers.ledger.com/jobs/senior-front-end-engineer-user-engagement-london-england-united-kingdom",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["React", "TypeScript", "Frontend", "User Experience", "Web3"],
+      "skills": [
+        "React",
+        "TypeScript",
+        "Frontend",
+        "User Experience",
+        "Web3"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "ledger",
       "postedDate": "2026-03-17",
-      "tags": ["frontend", "react", "web3"],
+      "tags": [
+        "frontend",
+        "react",
+        "web3"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -673,12 +942,22 @@
       "url": "https://careers.ledger.com/jobs/platform-engineering-director-paris-ile-de-france-france",
       "seniority": "Director",
       "work_arrangement": "Hybrid",
-      "skills": ["Platform Engineering", "Leadership", "Infrastructure", "Cloud", "DevOps"],
+      "skills": [
+        "Platform Engineering",
+        "Leadership",
+        "Infrastructure",
+        "Cloud",
+        "DevOps"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "ledger",
       "postedDate": "2026-03-17",
-      "tags": ["platform", "director", "infrastructure"],
+      "tags": [
+        "platform",
+        "director",
+        "infrastructure"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -693,12 +972,21 @@
       "url": "https://careers.ledger.com/jobs/engineering-manager-e-commerce-london-england-united-kingdom",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Engineering Management", "E-commerce", "Leadership", "Web Development"],
+      "skills": [
+        "Engineering Management",
+        "E-commerce",
+        "Leadership",
+        "Web Development"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "ledger",
       "postedDate": "2026-03-17",
-      "tags": ["management", "e-commerce", "engineering"],
+      "tags": [
+        "management",
+        "e-commerce",
+        "engineering"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -713,12 +1001,22 @@
       "url": "https://careers.ledger.com/jobs/enterprise-marketing-director-london-england-united-kingdom-paris-ile-de-france-france",
       "seniority": "Director",
       "work_arrangement": "Hybrid",
-      "skills": ["Enterprise Marketing", "B2B", "Leadership", "Digital Marketing", "Crypto"],
+      "skills": [
+        "Enterprise Marketing",
+        "B2B",
+        "Leadership",
+        "Digital Marketing",
+        "Crypto"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "ledger",
       "postedDate": "2026-03-17",
-      "tags": ["marketing", "enterprise", "b2b"],
+      "tags": [
+        "marketing",
+        "enterprise",
+        "b2b"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -733,12 +1031,21 @@
       "url": "https://careers.ledger.com/jobs/affiliate-business-developer-apac-f-m-singapore",
       "seniority": "Mid",
       "work_arrangement": "On-site",
-      "skills": ["Business Development", "Affiliate Marketing", "APAC", "Partnerships"],
+      "skills": [
+        "Business Development",
+        "Affiliate Marketing",
+        "APAC",
+        "Partnerships"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "ledger",
       "postedDate": "2026-03-17",
-      "tags": ["business-development", "apac", "affiliates"],
+      "tags": [
+        "business-development",
+        "apac",
+        "affiliates"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -753,12 +1060,22 @@
       "url": "https://careers.ledger.com/jobs/senior-analytics-engineer-paris-ile-de-france-france",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Analytics", "Data Engineering", "SQL", "Python", "dbt"],
+      "skills": [
+        "Analytics",
+        "Data Engineering",
+        "SQL",
+        "Python",
+        "dbt"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-18T22:00:00Z",
       "source": "ledger",
       "postedDate": "2026-03-17",
-      "tags": ["analytics", "data", "engineering"],
+      "tags": [
+        "analytics",
+        "data",
+        "engineering"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -773,12 +1090,22 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Backend", "Platform Engineering", "Go", "Python", "Distributed Systems"],
+      "skills": [
+        "Backend",
+        "Platform Engineering",
+        "Go",
+        "Python",
+        "Distributed Systems"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "coinbase",
       "postedDate": "2026-03-19",
-      "tags": ["engineering", "backend", "platform"],
+      "tags": [
+        "engineering",
+        "backend",
+        "platform"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -793,12 +1120,22 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["SRE", "Kubernetes", "AWS", "GCP", "Infrastructure"],
+      "skills": [
+        "SRE",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Infrastructure"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "coinbase",
       "postedDate": "2026-03-19",
-      "tags": ["sre", "infrastructure", "devops"],
+      "tags": [
+        "sre",
+        "infrastructure",
+        "devops"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -813,12 +1150,21 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Engineering Management", "Consumer Products", "Payments", "Leadership"],
+      "skills": [
+        "Engineering Management",
+        "Consumer Products",
+        "Payments",
+        "Leadership"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "coinbase",
       "postedDate": "2026-03-19",
-      "tags": ["management", "consumer", "payments"],
+      "tags": [
+        "management",
+        "consumer",
+        "payments"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -833,12 +1179,22 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["Security", "DevSecOps", "Cloud Security", "Python", "Go"],
+      "skills": [
+        "Security",
+        "DevSecOps",
+        "Cloud Security",
+        "Python",
+        "Go"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "coinbase",
       "postedDate": "2026-03-19",
-      "tags": ["security", "devsec", "engineering"],
+      "tags": [
+        "security",
+        "devsec",
+        "engineering"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -853,12 +1209,21 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["Sales", "Payments", "B2B", "Account Management"],
+      "skills": [
+        "Sales",
+        "Payments",
+        "B2B",
+        "Account Management"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "coinbase",
       "postedDate": "2026-03-19",
-      "tags": ["sales", "payments", "b2b"],
+      "tags": [
+        "sales",
+        "payments",
+        "b2b"
+      ],
       "featured": true,
       "isRemote": true
     },
@@ -873,12 +1238,21 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Institutional Sales", "Crypto", "Financial Services", "Business Development"],
+      "skills": [
+        "Institutional Sales",
+        "Crypto",
+        "Financial Services",
+        "Business Development"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "coinbase",
       "postedDate": "2026-03-19",
-      "tags": ["sales", "institutional", "crypto"],
+      "tags": [
+        "sales",
+        "institutional",
+        "crypto"
+      ],
       "featured": true,
       "isRemote": true
     },
@@ -893,12 +1267,22 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["Marketing", "LATAM", "Digital Marketing", "Growth", "Crypto"],
+      "skills": [
+        "Marketing",
+        "LATAM",
+        "Digital Marketing",
+        "Growth",
+        "Crypto"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "coinbase",
       "postedDate": "2026-03-19",
-      "tags": ["marketing", "latam", "growth"],
+      "tags": [
+        "marketing",
+        "latam",
+        "growth"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -913,12 +1297,21 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["Compliance", "AML/KYC", "Regulatory", "Financial Services"],
+      "skills": [
+        "Compliance",
+        "AML/KYC",
+        "Regulatory",
+        "Financial Services"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "coinbase",
       "postedDate": "2026-03-19",
-      "tags": ["compliance", "aml", "regulatory"],
+      "tags": [
+        "compliance",
+        "aml",
+        "regulatory"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -933,12 +1326,22 @@
       "url": "https://www.coinbase.com/careers/positions",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Product Management", "Web3", "Crypto", "Strategy", "User Research"],
+      "skills": [
+        "Product Management",
+        "Web3",
+        "Crypto",
+        "Strategy",
+        "User Research"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "coinbase",
       "postedDate": "2026-03-19",
-      "tags": ["product", "web3", "senior"],
+      "tags": [
+        "product",
+        "web3",
+        "senior"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -953,12 +1356,22 @@
       "url": "https://jobs.ashbyhq.com/kraken.com",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Frontend", "React", "Onchain", "Web3", "TypeScript"],
+      "skills": [
+        "Frontend",
+        "React",
+        "Onchain",
+        "Web3",
+        "TypeScript"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "kraken",
       "postedDate": "2026-03-19",
-      "tags": ["frontend", "onchain", "web3"],
+      "tags": [
+        "frontend",
+        "onchain",
+        "web3"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -973,12 +1386,21 @@
       "url": "https://jobs.ashbyhq.com/kraken.com",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Investor Relations", "Finance", "Communications", "Financial Analysis"],
+      "skills": [
+        "Investor Relations",
+        "Finance",
+        "Communications",
+        "Financial Analysis"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "kraken",
       "postedDate": "2026-03-19",
-      "tags": ["investor-relations", "finance", "corporate"],
+      "tags": [
+        "investor-relations",
+        "finance",
+        "corporate"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -993,12 +1415,21 @@
       "url": "https://jobs.ashbyhq.com/kraken.com",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Policy", "Government Relations", "Regulatory", "Public Affairs"],
+      "skills": [
+        "Policy",
+        "Government Relations",
+        "Regulatory",
+        "Public Affairs"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "kraken",
       "postedDate": "2026-03-19",
-      "tags": ["policy", "government", "canada"],
+      "tags": [
+        "policy",
+        "government",
+        "canada"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1013,12 +1444,21 @@
       "url": "https://jobs.ashbyhq.com/kraken.com",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Product Marketing", "Go-to-Market", "Messaging", "Crypto"],
+      "skills": [
+        "Product Marketing",
+        "Go-to-Market",
+        "Messaging",
+        "Crypto"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "kraken",
       "postedDate": "2026-03-19",
-      "tags": ["marketing", "product-marketing", "gtm"],
+      "tags": [
+        "marketing",
+        "product-marketing",
+        "gtm"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1033,12 +1473,21 @@
       "url": "https://jobs.ashbyhq.com/kraken.com",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Sales Trading", "OTC", "Crypto Trading", "Institutional"],
+      "skills": [
+        "Sales Trading",
+        "OTC",
+        "Crypto Trading",
+        "Institutional"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "kraken",
       "postedDate": "2026-03-19",
-      "tags": ["trading", "sales", "otc"],
+      "tags": [
+        "trading",
+        "sales",
+        "otc"
+      ],
       "featured": true,
       "isRemote": true
     },
@@ -1053,12 +1502,21 @@
       "url": "https://www.paxos.com/careers",
       "seniority": "Director",
       "work_arrangement": "Hybrid",
-      "skills": ["Business Development", "Enterprise Sales", "Partnerships", "Stablecoins"],
+      "skills": [
+        "Business Development",
+        "Enterprise Sales",
+        "Partnerships",
+        "Stablecoins"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "paxos",
       "postedDate": "2026-03-19",
-      "tags": ["business-development", "enterprise", "stablecoins"],
+      "tags": [
+        "business-development",
+        "enterprise",
+        "stablecoins"
+      ],
       "featured": true,
       "isRemote": false
     },
@@ -1073,12 +1531,21 @@
       "url": "https://www.paxos.com/careers",
       "seniority": "Director",
       "work_arrangement": "Hybrid",
-      "skills": ["Leadership", "Business Development", "Strategy", "Enterprise Sales"],
+      "skills": [
+        "Leadership",
+        "Business Development",
+        "Strategy",
+        "Enterprise Sales"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "paxos",
       "postedDate": "2026-03-19",
-      "tags": ["leadership", "americas", "executive"],
+      "tags": [
+        "leadership",
+        "americas",
+        "executive"
+      ],
       "featured": true,
       "isRemote": false
     },
@@ -1093,12 +1560,21 @@
       "url": "https://www.paxos.com/careers",
       "seniority": "Director",
       "work_arrangement": "Hybrid",
-      "skills": ["Leadership", "APAC", "Business Development", "Strategy"],
+      "skills": [
+        "Leadership",
+        "APAC",
+        "Business Development",
+        "Strategy"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "paxos",
       "postedDate": "2026-03-19",
-      "tags": ["leadership", "apac", "executive"],
+      "tags": [
+        "leadership",
+        "apac",
+        "executive"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1113,12 +1589,22 @@
       "url": "https://www.paxos.com/careers",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Blockchain", "Smart Contracts", "Solidity", "Node.js", "Go"],
+      "skills": [
+        "Blockchain",
+        "Smart Contracts",
+        "Solidity",
+        "Node.js",
+        "Go"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "paxos",
       "postedDate": "2026-03-19",
-      "tags": ["blockchain", "engineering", "crypto"],
+      "tags": [
+        "blockchain",
+        "engineering",
+        "crypto"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1133,12 +1619,21 @@
       "url": "https://www.paxos.com/careers",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Product Management", "Brokerage", "Crypto", "Fintech"],
+      "skills": [
+        "Product Management",
+        "Brokerage",
+        "Crypto",
+        "Fintech"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "paxos",
       "postedDate": "2026-03-19",
-      "tags": ["product", "brokerage", "crypto"],
+      "tags": [
+        "product",
+        "brokerage",
+        "crypto"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1153,12 +1648,21 @@
       "url": "https://www.paxos.com/careers",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Product Management", "Custody", "Blockchain", "Digital Assets"],
+      "skills": [
+        "Product Management",
+        "Custody",
+        "Blockchain",
+        "Digital Assets"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "paxos",
       "postedDate": "2026-03-19",
-      "tags": ["product", "custody", "blockchain"],
+      "tags": [
+        "product",
+        "custody",
+        "blockchain"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1173,12 +1677,21 @@
       "url": "https://www.paxos.com/careers",
       "seniority": "Mid",
       "work_arrangement": "Hybrid",
-      "skills": ["Compliance", "AML/KYC", "Regulatory", "Financial Services"],
+      "skills": [
+        "Compliance",
+        "AML/KYC",
+        "Regulatory",
+        "Financial Services"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "paxos",
       "postedDate": "2026-03-19",
-      "tags": ["compliance", "aml", "regulatory"],
+      "tags": [
+        "compliance",
+        "aml",
+        "regulatory"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1193,12 +1706,22 @@
       "url": "https://www.paxos.com/careers",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Engineering Management", "Cloud Security", "AWS", "GCP", "Leadership"],
+      "skills": [
+        "Engineering Management",
+        "Cloud Security",
+        "AWS",
+        "GCP",
+        "Leadership"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "paxos",
       "postedDate": "2026-03-19",
-      "tags": ["management", "security", "cloud"],
+      "tags": [
+        "management",
+        "security",
+        "cloud"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1213,12 +1736,22 @@
       "url": "https://www.paxos.com/careers",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Legal", "Compliance", "Regulatory", "Financial Services", "Crypto"],
+      "skills": [
+        "Legal",
+        "Compliance",
+        "Regulatory",
+        "Financial Services",
+        "Crypto"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "paxos",
       "postedDate": "2026-03-19",
-      "tags": ["legal", "compliance", "emea"],
+      "tags": [
+        "legal",
+        "compliance",
+        "emea"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1233,12 +1766,21 @@
       "url": "https://www.gemini.com/careers",
       "seniority": "Mid",
       "work_arrangement": "Hybrid",
-      "skills": ["Account Executive", "Custody", "Institutional Sales", "B2B"],
+      "skills": [
+        "Account Executive",
+        "Custody",
+        "Institutional Sales",
+        "B2B"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "gemini",
       "postedDate": "2026-03-19",
-      "tags": ["sales", "custody", "institutional"],
+      "tags": [
+        "sales",
+        "custody",
+        "institutional"
+      ],
       "featured": true,
       "isRemote": false
     },
@@ -1253,12 +1795,22 @@
       "url": "https://www.gemini.com/careers",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Backend", "Go", "Python", "Distributed Systems", "Crypto"],
+      "skills": [
+        "Backend",
+        "Go",
+        "Python",
+        "Distributed Systems",
+        "Crypto"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "gemini",
       "postedDate": "2026-03-19",
-      "tags": ["backend", "engineering", "distributed"],
+      "tags": [
+        "backend",
+        "engineering",
+        "distributed"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1273,12 +1825,22 @@
       "url": "https://www.gemini.com/careers",
       "seniority": "Senior",
       "work_arrangement": "On-site",
-      "skills": ["Compliance", "AML/KYC", "Regulatory", "APAC", "Financial Services"],
+      "skills": [
+        "Compliance",
+        "AML/KYC",
+        "Regulatory",
+        "APAC",
+        "Financial Services"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "gemini",
       "postedDate": "2026-03-19",
-      "tags": ["compliance", "apac", "regulatory"],
+      "tags": [
+        "compliance",
+        "apac",
+        "regulatory"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1293,12 +1855,21 @@
       "url": "https://www.gemini.com/careers",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Product Management", "Trading", "Crypto", "Fintech"],
+      "skills": [
+        "Product Management",
+        "Trading",
+        "Crypto",
+        "Fintech"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T02:00:00Z",
       "source": "gemini",
       "postedDate": "2026-03-19",
-      "tags": ["product", "trading", "fintech"],
+      "tags": [
+        "product",
+        "trading",
+        "fintech"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1313,12 +1884,22 @@
       "url": "https://jobs.ashbyhq.com/chainalysis-careers/32d28e17-9c09-4f7c-a6f3-f62aa56ef5d5",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["Account Executive", "B2B SaaS", "Fintech", "Sales", "Blockchain"],
+      "skills": [
+        "Account Executive",
+        "B2B SaaS",
+        "Fintech",
+        "Sales",
+        "Blockchain"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "chainalysis",
       "postedDate": "2026-03-19",
-      "tags": ["sales", "account-executive", "fintech"],
+      "tags": [
+        "sales",
+        "account-executive",
+        "fintech"
+      ],
       "featured": true,
       "isRemote": true
     },
@@ -1333,12 +1914,22 @@
       "url": "https://www.chainalysis.com/careers/job-openings/",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Backend", "Security", "Blockchain", "Node.js", "Python"],
+      "skills": [
+        "Backend",
+        "Security",
+        "Blockchain",
+        "Node.js",
+        "Python"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "chainalysis",
       "postedDate": "2026-03-19",
-      "tags": ["engineering", "security", "hexagate"],
+      "tags": [
+        "engineering",
+        "security",
+        "hexagate"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1353,12 +1944,22 @@
       "url": "https://www.chainalysis.com/careers/job-openings/",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["Data Engineering", "Python", "SQL", "Cloud", "ETL"],
+      "skills": [
+        "Data Engineering",
+        "Python",
+        "SQL",
+        "Cloud",
+        "ETL"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "chainalysis",
       "postedDate": "2026-03-19",
-      "tags": ["data", "engineering", "cloud"],
+      "tags": [
+        "data",
+        "engineering",
+        "cloud"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1373,12 +1974,21 @@
       "url": "https://www.chainalysis.com/careers/job-openings/",
       "seniority": "Mid",
       "work_arrangement": "Remote",
-      "skills": ["Account Executive", "Public Sector", "Government Sales", "German"],
+      "skills": [
+        "Account Executive",
+        "Public Sector",
+        "Government Sales",
+        "German"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "chainalysis",
       "postedDate": "2026-03-19",
-      "tags": ["sales", "public-sector", "germany"],
+      "tags": [
+        "sales",
+        "public-sector",
+        "germany"
+      ],
       "featured": true,
       "isRemote": true
     },
@@ -1393,12 +2003,22 @@
       "url": "https://careers.blackrock.com/job/wilmington/director-digital-asset-operations-delaware/45831/92938525744",
       "seniority": "Director",
       "work_arrangement": "Hybrid",
-      "skills": ["Operations", "Digital Assets", "Post-Trade", "Custody", "Tokenization"],
+      "skills": [
+        "Operations",
+        "Digital Assets",
+        "Post-Trade",
+        "Custody",
+        "Tokenization"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "blackrock",
       "postedDate": "2026-03-19",
-      "tags": ["operations", "digital-assets", "tradfi"],
+      "tags": [
+        "operations",
+        "digital-assets",
+        "tradfi"
+      ],
       "featured": true,
       "isRemote": false
     },
@@ -1413,12 +2033,21 @@
       "url": "https://careers.blackrock.com/",
       "seniority": "Mid",
       "work_arrangement": "Hybrid",
-      "skills": ["Digital Assets", "Blockchain", "Financial Analysis", "Strategy"],
+      "skills": [
+        "Digital Assets",
+        "Blockchain",
+        "Financial Analysis",
+        "Strategy"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "blackrock",
       "postedDate": "2026-03-19",
-      "tags": ["digital-assets", "strategy", "tradfi"],
+      "tags": [
+        "digital-assets",
+        "strategy",
+        "tradfi"
+      ],
       "featured": true,
       "isRemote": false
     },
@@ -1433,12 +2062,22 @@
       "url": "https://careers.blackrock.com/",
       "seniority": "Mid",
       "work_arrangement": "Hybrid",
-      "skills": ["Financial Crime", "AML", "Digital Assets", "Tokenization", "Compliance"],
+      "skills": [
+        "Financial Crime",
+        "AML",
+        "Digital Assets",
+        "Tokenization",
+        "Compliance"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "blackrock",
       "postedDate": "2026-03-19",
-      "tags": ["compliance", "financial-crime", "tokenization"],
+      "tags": [
+        "compliance",
+        "financial-crime",
+        "tokenization"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1453,12 +2092,22 @@
       "url": "https://jobs.lever.co/anchorage",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Engineering Management", "Data Platform", "Python", "SQL", "Leadership"],
+      "skills": [
+        "Engineering Management",
+        "Data Platform",
+        "Python",
+        "SQL",
+        "Leadership"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "anchorage",
       "postedDate": "2026-03-19",
-      "tags": ["management", "data", "engineering"],
+      "tags": [
+        "management",
+        "data",
+        "engineering"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1473,12 +2122,21 @@
       "url": "https://jobs.lever.co/anchorage",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Engineering Management", "Blockchain", "Distributed Systems", "Leadership"],
+      "skills": [
+        "Engineering Management",
+        "Blockchain",
+        "Distributed Systems",
+        "Leadership"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "anchorage",
       "postedDate": "2026-03-19",
-      "tags": ["management", "blockchain", "engineering"],
+      "tags": [
+        "management",
+        "blockchain",
+        "engineering"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1493,12 +2151,21 @@
       "url": "https://jobs.lever.co/anchorage",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Engineering Management", "Financial Infrastructure", "Banking", "Leadership"],
+      "skills": [
+        "Engineering Management",
+        "Financial Infrastructure",
+        "Banking",
+        "Leadership"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "anchorage",
       "postedDate": "2026-03-19",
-      "tags": ["management", "financial-infrastructure", "banking"],
+      "tags": [
+        "management",
+        "financial-infrastructure",
+        "banking"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1513,12 +2180,21 @@
       "url": "https://jobs.lever.co/anchorage",
       "seniority": "Junior",
       "work_arrangement": "Remote",
-      "skills": ["Software Engineering", "Backend", "Python", "Go"],
+      "skills": [
+        "Software Engineering",
+        "Backend",
+        "Python",
+        "Go"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "anchorage",
       "postedDate": "2026-03-19",
-      "tags": ["internship", "engineering", "summer-2026"],
+      "tags": [
+        "internship",
+        "engineering",
+        "summer-2026"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1533,12 +2209,22 @@
       "url": "https://careers.circle.com/us/en/c/engineering-jobs",
       "seniority": "Senior",
       "work_arrangement": "Remote",
-      "skills": ["Blockchain", "Golang", "Cryptography", "EVM", "Smart Contracts"],
+      "skills": [
+        "Blockchain",
+        "Golang",
+        "Cryptography",
+        "EVM",
+        "Smart Contracts"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "circle",
       "postedDate": "2026-03-19",
-      "tags": ["blockchain", "engineering", "usdc"],
+      "tags": [
+        "blockchain",
+        "engineering",
+        "usdc"
+      ],
       "featured": false,
       "isRemote": true
     },
@@ -1553,12 +2239,22 @@
       "url": "https://careers.circle.com/us/en/c/engineering-jobs",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Java", "Go", "Microservices", "RESTful APIs", "Cloud"],
+      "skills": [
+        "Java",
+        "Go",
+        "Microservices",
+        "RESTful APIs",
+        "Cloud"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "circle",
       "postedDate": "2026-03-19",
-      "tags": ["engineering", "staff", "backend"],
+      "tags": [
+        "engineering",
+        "staff",
+        "backend"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1573,12 +2269,22 @@
       "url": "https://www.fireblocks.com/careers",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Blockchain", "Security", "Node.js", "Python", "Cryptography"],
+      "skills": [
+        "Blockchain",
+        "Security",
+        "Node.js",
+        "Python",
+        "Cryptography"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "fireblocks",
       "postedDate": "2026-03-19",
-      "tags": ["blockchain", "security", "infrastructure"],
+      "tags": [
+        "blockchain",
+        "security",
+        "infrastructure"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1593,12 +2299,21 @@
       "url": "https://www.fireblocks.com/careers",
       "seniority": "Director",
       "work_arrangement": "Hybrid",
-      "skills": ["Enterprise Sales", "Crypto", "B2B", "Business Development"],
+      "skills": [
+        "Enterprise Sales",
+        "Crypto",
+        "B2B",
+        "Business Development"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "fireblocks",
       "postedDate": "2026-03-19",
-      "tags": ["sales", "director", "crypto-native"],
+      "tags": [
+        "sales",
+        "director",
+        "crypto-native"
+      ],
       "featured": true,
       "isRemote": false
     },
@@ -1613,12 +2328,21 @@
       "url": "https://www.fireblocks.com/careers",
       "seniority": "Mid",
       "work_arrangement": "Hybrid",
-      "skills": ["Customer Success", "Account Management", "APAC", "Digital Assets"],
+      "skills": [
+        "Customer Success",
+        "Account Management",
+        "APAC",
+        "Digital Assets"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "fireblocks",
       "postedDate": "2026-03-19",
-      "tags": ["customer-success", "apac", "crypto"],
+      "tags": [
+        "customer-success",
+        "apac",
+        "crypto"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1633,12 +2357,21 @@
       "url": "https://jobs.fidelity.com/en/crypto-careers/",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Risk Management", "Crypto", "Blockchain", "Financial Services"],
+      "skills": [
+        "Risk Management",
+        "Crypto",
+        "Blockchain",
+        "Financial Services"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "fidelity",
       "postedDate": "2026-03-19",
-      "tags": ["risk", "crypto", "tradfi"],
+      "tags": [
+        "risk",
+        "crypto",
+        "tradfi"
+      ],
       "featured": true,
       "isRemote": false
     },
@@ -1653,12 +2386,22 @@
       "url": "https://jobs.fidelity.com/en/crypto-careers/",
       "seniority": "Senior",
       "work_arrangement": "Hybrid",
-      "skills": ["Blockchain", "Platform Engineering", "Distributed Systems", "Go", "Python"],
+      "skills": [
+        "Blockchain",
+        "Platform Engineering",
+        "Distributed Systems",
+        "Go",
+        "Python"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "fidelity",
       "postedDate": "2026-03-19",
-      "tags": ["blockchain", "platform", "engineering"],
+      "tags": [
+        "blockchain",
+        "platform",
+        "engineering"
+      ],
       "featured": false,
       "isRemote": false
     },
@@ -1673,33 +2416,712 @@
       "url": "https://jobs.fidelity.com/en/crypto-careers/",
       "seniority": "Director",
       "work_arrangement": "Hybrid",
-      "skills": ["Sales Leadership", "Institutional Sales", "Digital Assets", "Strategy"],
+      "skills": [
+        "Sales Leadership",
+        "Institutional Sales",
+        "Digital Assets",
+        "Strategy"
+      ],
       "verified": true,
       "verifiedAt": "2026-03-19T22:00:00Z",
       "source": "fidelity",
       "postedDate": "2026-03-19",
-      "tags": ["sales", "leadership", "institutional"],
+      "tags": [
+        "sales",
+        "leadership",
+        "institutional"
+      ],
       "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Staff Software Engineer (Data)",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$200,000 - $276,000",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Data Engineering",
+        "Python",
+        "SQL",
+        "Distributed Systems"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "data",
+        "engineering",
+        "senior"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Software Engineer (Full Stack)",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Full Stack",
+        "React",
+        "Node.js",
+        "TypeScript"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "engineering",
+        "fullstack",
+        "remote"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Director, Salesforce Architecture & GTM Systems",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "$200,000 - $260,000",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Salesforce",
+        "GTM",
+        "Systems Architecture",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "salesforce",
+        "gtm",
+        "director"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Business Development Director",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Business Development",
+      "salary_display": "£150,000 - £200,000",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Business Development",
+        "Partnerships",
+        "Crypto",
+        "Enterprise Sales"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "business-development",
+        "emea",
+        "director"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Business Development Manager (Korean Speaking)",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "Singapore",
+      "type": "Full-time",
+      "department": "Business Development",
+      "salary_display": null,
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Business Development",
+        "Korean",
+        "APAC",
+        "Partnerships"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "business-development",
+        "apac",
+        "korean"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Sales Manager",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$160,000 - $220,000 + Commission",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Enterprise Sales",
+        "Fintech",
+        "B2B",
+        "Account Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "sales",
+        "enterprise",
+        "senior"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Solution Engineer (EMEA)",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "£90,000 - £130,000",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Solutions Engineering",
+        "Technical Sales",
+        "APIs",
+        "Integration"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "solutions",
+        "emea",
+        "technical"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "RippleX Partner Director",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "department": "Business Development",
+      "salary_display": "$190,000 - $260,000",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Partnerships",
+        "Web3",
+        "Developer Relations",
+        "Strategy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "ripplex",
+        "partnerships",
+        "director"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "AI Demand Generation Manager",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Marketing",
+      "salary_display": "$130,000 - $175,000",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Demand Generation",
+        "AI",
+        "Marketing Automation",
+        "Analytics"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "marketing",
+        "ai",
+        "demand-gen"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "PMO Director",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "$196,000 - $245,000",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Project Management",
+        "PMO",
+        "Leadership",
+        "Operations"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "pmo",
+        "operations",
+        "director"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Liquidity Manager (Ripple Trading and Markets)",
+      "company": "Ripple",
+      "company_type": "Payments",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Trading",
+      "salary_display": "$150,000 - $220,000",
+      "url": "https://ripple.com/careers/all-jobs/",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Liquidity",
+        "Trading",
+        "Market Making",
+        "XRP"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "ripple",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "trading",
+        "liquidity",
+        "markets"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Quantitative Engineer",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "£100,000 - £150,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/6967723",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Quantitative",
+        "Python",
+        "Trading Systems",
+        "Mathematics"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "quant",
+        "engineering",
+        "trading"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Software Engineer, Fraud",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "£80,000 - £120,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/4931339",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Fraud Detection",
+        "Backend",
+        "Machine Learning",
+        "Security"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "fraud",
+        "security",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Front-End Engineer (React)",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Paris, France",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "€70,000 - €100,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7480518",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Frontend",
+        "Web3"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "frontend",
+        "react",
+        "paris"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Front-End Engineer (React)",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Buenos Aires, Argentina",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7700091",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Frontend",
+        "Web3"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "frontend",
+        "react",
+        "latam"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Android Engineer",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Buenos Aires, Argentina",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7700625",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Android",
+        "Kotlin",
+        "Mobile Development",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "mobile",
+        "android",
+        "latam"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "iOS Engineer",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Buenos Aires, Argentina",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7700110",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "iOS",
+        "Swift",
+        "Mobile Development",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "mobile",
+        "ios",
+        "latam"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Cyber Security Analyst",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "£70,000 - £100,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7120479",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Cybersecurity",
+        "Security Operations",
+        "Threat Detection",
+        "SOC"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "security",
+        "cybersecurity",
+        "soc"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Site Reliability Engineer - Core",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "£90,000 - £130,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/5946660",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "SRE",
+        "Kubernetes",
+        "AWS",
+        "Infrastructure",
+        "DevOps"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "sre",
+        "infrastructure",
+        "devops"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Buenos Aires, Argentina",
+      "type": "Full-time",
+      "department": "Data",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/6949820",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Analysis",
+        "Business Intelligence"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "data",
+        "analytics",
+        "latam"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Head of Business Intelligence",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Data",
+      "salary_display": "£120,000 - £160,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7541199",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Business Intelligence",
+        "Data Strategy",
+        "Leadership",
+        "Analytics"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "bi",
+        "data",
+        "leadership"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Brand Design Lead",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Design",
+      "salary_display": "£80,000 - £110,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7408756",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Brand Design",
+        "Creative Direction",
+        "Figma",
+        "Visual Design"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "design",
+        "brand",
+        "creative"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Talent Acquisition Coordinator",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Buenos Aires, Argentina",
+      "type": "Full-time",
+      "department": "People",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7556909",
+      "seniority": "Junior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Recruiting",
+        "Coordination",
+        "HR",
+        "Communication"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "talent",
+        "hr",
+        "recruiting"
+      ],
+      "featured": false,
       "isRemote": false
     }
   ],
   "summary": {
-    "total_jobs": 92,
+    "total_jobs": 113,
     "companies": {
-      "Galaxy Digital": 16,
-      "Coinbase": 14,
-      "BitGo": 9,
-      "Paxos": 10,
-      "Kraken": 9,
-      "Ledger": 8,
-      "Copper.co": 5,
-      "Gemini": 4,
-      "Fireblocks": 4,
-      "Chainalysis": 4,
-      "BlackRock": 3,
       "Anchorage Digital": 4,
+      "BitGo": 8,
+      "BlackRock": 3,
+      "Blockchain.com": 12,
+      "Chainalysis": 4,
       "Circle": 2,
-      "Fidelity Digital Assets": 3
+      "Coinbase": 13,
+      "Copper.co": 5,
+      "Fidelity Digital Assets": 3,
+      "Fireblocks": 4,
+      "Galaxy Digital": 16,
+      "Gemini": 4,
+      "Kraken": 8,
+      "Ledger": 7,
+      "Paxos": 9,
+      "Ripple": 11
     },
     "by_location": {
       "New York": 22,
