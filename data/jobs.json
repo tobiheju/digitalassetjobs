@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-20T02:00:00Z",
+  "scraped_date": "2026-03-20T22:00:00Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -3101,20 +3101,378 @@
       ],
       "featured": false,
       "isRemote": false
+    },
+    {
+      "title": "Investor Relations Manager",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Finance",
+      "salary_display": "$150,000 - $200,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8428587002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Investor Relations",
+        "Finance",
+        "Communications",
+        "Digital Assets"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "investor-relations",
+        "finance",
+        "crypto"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "DevOps Engineer - Blockchain Ops",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/6388857002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "DevOps",
+        "Blockchain",
+        "Kubernetes",
+        "AWS",
+        "Infrastructure"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "devops",
+        "blockchain",
+        "infrastructure"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Engineering Manager - Staking",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8369973002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Engineering Management",
+        "Staking",
+        "Blockchain",
+        "Leadership",
+        "DeFi"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "management",
+        "staking",
+        "defi"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Software Engineer - InfraOps",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8460007002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Infrastructure",
+        "DevOps",
+        "Kubernetes",
+        "AWS",
+        "Security"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "infrastructure",
+        "devops",
+        "sre"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Sr Counsel",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Singapore",
+      "type": "Full-time",
+      "department": "Legal",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8433810002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Legal",
+        "Regulatory",
+        "Digital Assets",
+        "Compliance",
+        "APAC"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "legal",
+        "apac",
+        "regulatory"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Software Engineer - Trade",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Toronto, Canada",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "CAD 130,000 - CAD 180,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8298001002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Trading Systems",
+        "Backend",
+        "Node.js",
+        "TypeScript",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "trading",
+        "engineering",
+        "canada"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Managing Director, Digital Assets",
+      "company": "BlackRock",
+      "company_type": "TradFi",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Digital Assets",
+      "salary_display": "$300,000 - $500,000",
+      "url": "https://careers.blackrock.com/job/new-york/managing-director-digital-assets/45831/89314536656",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Leadership",
+        "Digital Assets",
+        "Strategy",
+        "Blockchain",
+        "Product"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "blackrock",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "leadership",
+        "digital-assets",
+        "executive"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Financial Crime Associate - Digital Assets & Tokenization",
+      "company": "BlackRock",
+      "company_type": "TradFi",
+      "location": "Dublin, Ireland",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": "€70,000 - €100,000",
+      "url": "https://careers.blackrock.com/job/dublin/financial-crime-associate-cash-funds-digital-assets-and-tokenisation/45831/89579749136",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Financial Crime",
+        "AML",
+        "Tokenization",
+        "Digital Assets",
+        "Compliance"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "blackrock",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "compliance",
+        "financial-crime",
+        "tokenization"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Digital Assets Risk Manager",
+      "company": "Fidelity Digital Assets",
+      "company_type": "TradFi",
+      "location": "Jersey City, NJ",
+      "type": "Full-time",
+      "department": "Risk",
+      "salary_display": "$130,000 - $180,000",
+      "url": "https://jobs.fidelity.com/en/jobs/2120661/digital-assets-risk-manager-crypto-blockchain/",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Risk Management",
+        "Crypto",
+        "Blockchain",
+        "Financial Services",
+        "Analysis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "fidelity",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "risk",
+        "crypto",
+        "tradfi"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Digital Asset Manager - Financial Crimes Analytics",
+      "company": "Fidelity Digital Assets",
+      "company_type": "TradFi",
+      "location": "Boston, MA",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": "$120,000 - $170,000",
+      "url": "https://jobs.fidelity.com/en/jobs/2124881/digital-asset-manager-financial-crimes-analytics/",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Financial Crimes",
+        "Analytics",
+        "AML",
+        "Data Analysis",
+        "Compliance"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "fidelity",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "compliance",
+        "analytics",
+        "financial-crimes"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Director, Digital Asset Strategist",
+      "company": "Fidelity Digital Assets",
+      "company_type": "TradFi",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Strategy",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://jobs.fidelity.com/en/jobs/2124137/director-digital-asset-strategist/",
+      "seniority": "Director",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Strategy",
+        "Digital Assets",
+        "Thought Leadership",
+        "Client Engagement"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "fidelity",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "strategy",
+        "digital-assets",
+        "leadership"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Regional Vice President, Financial Services - Fintech/Payments",
+      "company": "Chainalysis",
+      "company_type": "Analytics",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$200,000 - $300,000 + Commission",
+      "url": "https://www.chainalysis.com/careers/job-openings/",
+      "seniority": "Director",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Enterprise Sales",
+        "Financial Services",
+        "Fintech",
+        "Leadership",
+        "B2B"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-20T22:00:00Z",
+      "source": "chainalysis",
+      "postedDate": "2026-03-20",
+      "tags": [
+        "sales",
+        "fintech",
+        "leadership"
+      ],
+      "featured": true,
+      "isRemote": true
     }
   ],
   "summary": {
-    "total_jobs": 113,
+    "total_jobs": 125,
     "companies": {
       "Anchorage Digital": 4,
-      "BitGo": 8,
-      "BlackRock": 3,
+      "BitGo": 14,
+      "BlackRock": 5,
       "Blockchain.com": 12,
-      "Chainalysis": 4,
+      "Chainalysis": 5,
       "Circle": 2,
       "Coinbase": 13,
       "Copper.co": 5,
-      "Fidelity Digital Assets": 3,
+      "Fidelity Digital Assets": 6,
       "Fireblocks": 4,
       "Galaxy Digital": 16,
       "Gemini": 4,
@@ -3124,25 +3482,30 @@
       "Ripple": 11
     },
     "by_location": {
-      "New York": 22,
-      "Remote": 26,
-      "London": 12,
-      "Paris": 4,
-      "San Francisco": 3,
-      "Singapore": 6,
+      "Boston, MA": 2,
+      "Buenos Aires, Argentina": 5,
+      "Dublin, Ireland": 1,
+      "Germany": 1,
       "Hong Kong": 2,
-      "Toronto": 2,
+      "India": 2,
+      "Jersey City, NJ": 2,
+      "London, UK": 20,
+      "Merrimack, NH": 1,
+      "New York, NY": 29,
+      "Paris, France": 4,
+      "Remote": 26,
       "Remote - Americas": 1,
       "Remote - Canada": 1,
-      "Remote - LATAM": 1,
       "Remote - Europe/UK": 1,
-      "Wilmington": 1,
-      "Washington DC": 1,
-      "Tel Aviv": 1,
-      "Jersey City": 1,
-      "Merrimack": 1,
-      "Boston": 1,
-      "Germany": 1
+      "Remote - LATAM": 1,
+      "Remote - UK": 1,
+      "Remote - USA": 6,
+      "San Francisco, CA": 7,
+      "Singapore": 7,
+      "Tel Aviv, Israel": 1,
+      "Toronto, Canada": 2,
+      "Washington, DC": 1,
+      "Wilmington, DE": 1
     }
   }
 }
