@@ -1,0 +1,323 @@
+{
+  "checked_at": "2026-03-21T00:01:48.230Z",
+  "total_checked": 125,
+  "dead_count": 22,
+  "by_company": {
+    "Coinbase": [
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "CaaS Sales Manager"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Account Manager - Institutional"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Compliance Lead Analyst"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Data Analytics Engineer"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Staff Software Engineer, Backend - Platform"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Site Reliability Engineer"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Engineering Manager - Consumer (Coinbase Card)"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Software Engineer, DevSec"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Associate Manager, Payments Sales"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Institutional Sales Associate"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Marketing Manager LATAM"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Compliance Associate"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Product Manager"
+      }
+    ],
+    "Kraken": [
+      {
+        "url": "https://www.kraken.com/careers",
+        "status": 403,
+        "ok": false,
+        "company": "Kraken",
+        "title": "Managing Director Europe"
+      },
+      {
+        "url": "https://www.kraken.com/careers",
+        "status": 403,
+        "ok": false,
+        "company": "Kraken",
+        "title": "Product Manager, Trading"
+      },
+      {
+        "url": "https://www.kraken.com/careers",
+        "status": 403,
+        "ok": false,
+        "company": "Kraken",
+        "title": "Institutional Sales Representative - Staked"
+      }
+    ],
+    "Fidelity Digital Assets": [
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Digital Assets Risk Manager - Crypto & Blockchain"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Principal Blockchain Platform Engineer"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Head of US Sales"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/jobs/2120661/digital-assets-risk-manager-crypto-blockchain/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Digital Assets Risk Manager"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/jobs/2124881/digital-asset-manager-financial-crimes-analytics/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Digital Asset Manager - Financial Crimes Analytics"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/jobs/2124137/director-digital-asset-strategist/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Director, Digital Asset Strategist"
+      }
+    ]
+  },
+  "dead_links": [
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "CaaS Sales Manager"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Account Manager - Institutional"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Compliance Lead Analyst"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Data Analytics Engineer"
+    },
+    {
+      "url": "https://www.kraken.com/careers",
+      "status": 403,
+      "ok": false,
+      "company": "Kraken",
+      "title": "Managing Director Europe"
+    },
+    {
+      "url": "https://www.kraken.com/careers",
+      "status": 403,
+      "ok": false,
+      "company": "Kraken",
+      "title": "Product Manager, Trading"
+    },
+    {
+      "url": "https://www.kraken.com/careers",
+      "status": 403,
+      "ok": false,
+      "company": "Kraken",
+      "title": "Institutional Sales Representative - Staked"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Backend - Platform"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Site Reliability Engineer"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Engineering Manager - Consumer (Coinbase Card)"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Software Engineer, DevSec"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Associate Manager, Payments Sales"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Institutional Sales Associate"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Marketing Manager LATAM"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Compliance Associate"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Product Manager"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Digital Assets Risk Manager - Crypto & Blockchain"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Principal Blockchain Platform Engineer"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Head of US Sales"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/jobs/2120661/digital-assets-risk-manager-crypto-blockchain/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Digital Assets Risk Manager"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/jobs/2124881/digital-asset-manager-financial-crimes-analytics/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Digital Asset Manager - Financial Crimes Analytics"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/jobs/2124137/director-digital-asset-strategist/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Director, Digital Asset Strategist"
+    }
+  ]
+}
