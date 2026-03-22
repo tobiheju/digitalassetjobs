@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-21T00:01:48.230Z",
-  "total_checked": 125,
-  "dead_count": 22,
+  "checked_at": "2026-03-22T00:00:54.563Z",
+  "total_checked": 152,
+  "dead_count": 27,
   "by_company": {
     "Coinbase": [
       {
@@ -94,6 +94,41 @@
         "ok": false,
         "company": "Coinbase",
         "title": "Senior Product Manager"
+      },
+      {
+        "url": "https://www.coinbase.com/internships",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Associate Product Manager Intern - Summer 2026"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Product Manager II, Growth Engagement"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Product Designer II, DeFi"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Risk Analyst"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Staff Software Engineer, Policies Platform - Identity"
       }
     ],
     "Kraken": [
@@ -318,6 +353,41 @@
       "ok": false,
       "company": "Fidelity Digital Assets",
       "title": "Director, Digital Asset Strategist"
+    },
+    {
+      "url": "https://www.coinbase.com/internships",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Associate Product Manager Intern - Summer 2026"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Product Manager II, Growth Engagement"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Product Designer II, DeFi"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Risk Analyst"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Policies Platform - Identity"
     }
   ]
 }

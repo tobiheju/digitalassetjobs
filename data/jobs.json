@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-21T22:00:00Z",
+  "scraped_date": "2026-03-22T02:00:00Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -4252,16 +4252,509 @@
       ],
       "featured": false,
       "isRemote": true
+    },
+    {
+      "title": "Backend Engineer E2 - Trade",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/6824865002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Backend",
+        "Trading Systems",
+        "Node.js",
+        "TypeScript"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "engineering",
+        "trading",
+        "backend"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Backend Engineer E3 - Financing",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8121419002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Backend",
+        "Financing",
+        "Lending",
+        "Node.js"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "engineering",
+        "financing",
+        "lending"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Data Engineer - E2",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8362058002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Data Engineering",
+        "Python",
+        "SQL",
+        "ETL"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "data",
+        "engineering",
+        "etl"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Data Engineer - E3",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8362046002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Data Engineering",
+        "Python",
+        "SQL",
+        "Data Infrastructure"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "data",
+        "engineering",
+        "senior"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "DevOps Engineer E2 - InfraOps",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8416103002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "DevOps",
+        "Infrastructure",
+        "Kubernetes",
+        "AWS"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "devops",
+        "infrastructure",
+        "cloud"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Engineering Manager - Ecosystem",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/7307107002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Engineering Management",
+        "Ecosystem",
+        "Blockchain",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "management",
+        "ecosystem",
+        "blockchain"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Frontend Engineer E3 - Web Experience",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/6209007002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Frontend",
+        "React",
+        "TypeScript",
+        "Web Development"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "frontend",
+        "react",
+        "web"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Software Engineer - Post Trade",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Toronto, Canada",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "CAD 160,000 - CAD 220,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8431867002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Post Trade",
+        "Backend",
+        "Settlements",
+        "Financial Systems"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "post-trade",
+        "settlements",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Software Engineer - Wallet Core",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$150,000 - $210,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8184556002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Wallet Development",
+        "Node.js",
+        "TypeScript",
+        "Blockchain"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "wallet",
+        "blockchain",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Investor Relations Manager",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Sioux Falls, SD",
+      "type": "Full-time",
+      "department": "Finance",
+      "salary_display": "$140,000 - $190,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8428590002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Investor Relations",
+        "Finance",
+        "Communications",
+        "Corporate"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "investor-relations",
+        "finance",
+        "corporate"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Product Designer",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "department": "Design",
+      "salary_display": "$140,000 - $200,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/7818438002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Product Design",
+        "UX/UI",
+        "Figma",
+        "User Research"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "design",
+        "ux",
+        "fintech"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Product Designer",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Toronto, Canada",
+      "type": "Full-time",
+      "department": "Design",
+      "salary_display": "CAD 120,000 - CAD 170,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8192226002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Product Design",
+        "UX/UI",
+        "Figma",
+        "User Research"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "design",
+        "ux",
+        "canada"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Engineering Manager - Data",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Toronto, Canada",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "CAD 170,000 - CAD 240,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8234016002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Data Engineering",
+        "Leadership",
+        "Python",
+        "SQL"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "data",
+        "management",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Engineering Manager - Data",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Palo Alto, CA",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$200,000 - $280,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8234022002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Data Engineering",
+        "Leadership",
+        "Python",
+        "SQL"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "data",
+        "management",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Sr. Counsel",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Legal",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8394802002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Legal",
+        "Corporate Law",
+        "Digital Assets",
+        "Regulatory"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "legal",
+        "corporate",
+        "regulatory"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Sr Counsel",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Legal",
+      "salary_display": "£130,000 - £180,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8433814002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Legal",
+        "Regulatory",
+        "Digital Assets",
+        "UK Law"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "legal",
+        "emea",
+        "regulatory"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Paralegal",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Sioux Falls, SD",
+      "type": "Full-time",
+      "department": "Legal",
+      "salary_display": "$70,000 - $100,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8414832002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Legal",
+        "Paralegal",
+        "Corporate Law",
+        "Contracts"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-22T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-22",
+      "tags": [
+        "legal",
+        "paralegal",
+        "corporate"
+      ],
+      "featured": false,
+      "isRemote": false
     }
   ],
   "summary": {
-    "total_jobs": 153,
+    "total_jobs": 169,
     "companies": {
       "Galaxy Digital": 16,
       "Fireblocks": 4,
       "Coinbase": 18,
       "Kraken": 8,
-      "BitGo": 19,
+      "BitGo": 36,
       "Copper.co": 7,
       "Ledger": 7,
       "Paxos": 11,
