@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-24T02:00:00Z",
+  "scraped_date": "2026-03-24T22:00:00Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -8650,6 +8650,326 @@
       ],
       "featured": true,
       "isRemote": true
+    },
+    {
+      "title": "Staff Backend Engineer, Data Solutions",
+      "company": "Chainalysis",
+      "company_type": "Analytics",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$175,000 - $250,000",
+      "url": "https://www.chainalysis.com/careers/job-openings/",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Backend",
+        "Data Engineering",
+        "Python",
+        "Distributed Systems"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "chainalysis",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "engineering",
+        "data",
+        "backend"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Senior Deployment Strategist, Global Services",
+      "company": "Chainalysis",
+      "company_type": "Analytics",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Services",
+      "salary_display": "$130,000 - $180,000",
+      "url": "https://www.chainalysis.com/careers/job-openings/",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Deployment",
+        "Strategy",
+        "Client Success",
+        "Blockchain"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "chainalysis",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "services",
+        "deployment",
+        "strategy"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Site Reliability Engineer",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "SRE",
+        "Kubernetes",
+        "AWS",
+        "Infrastructure",
+        "DevOps"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "sre",
+        "infrastructure",
+        "devops"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Technical Integration Engineer",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$140,000 - $200,000",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Integration",
+        "APIs",
+        "Technical Support",
+        "Blockchain"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "integration",
+        "technical",
+        "apis"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Director, AI",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "AI",
+        "Machine Learning",
+        "Leadership",
+        "Strategy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "ai",
+        "leadership",
+        "director"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Sales Engineer, Banking",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$150,000 - $220,000 + Commission",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Sales Engineering",
+        "Banking",
+        "Technical Sales",
+        "Digital Assets"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "sales",
+        "banking",
+        "technical"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Staff Mobile Engineer - Growth",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$165,000 - $230,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "iOS",
+        "Android",
+        "Mobile Development",
+        "Growth Engineering"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "mobile",
+        "growth",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "MEV Engineering Manager",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$200,000 - $280,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "MEV",
+        "Blockchain",
+        "Engineering Management",
+        "DeFi"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "mev",
+        "management",
+        "defi"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Head of SaaS - Financial Infrastructure",
+      "company": "Anchorage Digital",
+      "company_type": "Custody",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": "$220,000 - $300,000",
+      "url": "https://jobs.lever.co/anchorage",
+      "seniority": "Director",
+      "work_arrangement": "Remote",
+      "skills": [
+        "SaaS",
+        "Financial Infrastructure",
+        "Product Strategy",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "anchorage",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "saas",
+        "product",
+        "leadership"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Singapore Compliance Lead",
+      "company": "Anchorage Digital",
+      "company_type": "Custody",
+      "location": "Singapore",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": null,
+      "url": "https://jobs.lever.co/anchorage",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Compliance",
+        "Regulatory",
+        "APAC",
+        "Digital Assets"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "anchorage",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "compliance",
+        "singapore",
+        "apac"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Application Security Engineer",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Application Security",
+        "Penetration Testing",
+        "Security Engineering",
+        "Code Review"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-24T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-24",
+      "tags": [
+        "security",
+        "appsec",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": false
     }
   ],
   "summary": {
