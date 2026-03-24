@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-23T00:00:55.221Z",
-  "total_checked": 185,
-  "dead_count": 27,
+  "checked_at": "2026-03-24T00:01:22.895Z",
+  "total_checked": 243,
+  "dead_count": 37,
   "by_company": {
     "Coinbase": [
       {
@@ -129,6 +129,20 @@
         "ok": false,
         "company": "Coinbase",
         "title": "Staff Software Engineer, Policies Platform - Identity"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Derivative Sales Associate"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Technical Program Manager, Compliance"
       }
     ],
     "Kraken": [
@@ -152,6 +166,22 @@
         "ok": false,
         "company": "Kraken",
         "title": "Institutional Sales Representative - Staked"
+      }
+    ],
+    "BlackRock": [
+      {
+        "url": "https://careers.blackrock.com/job/wilmington/director-digital-asset-operations-delaware/45831/92938525744",
+        "status": 404,
+        "ok": false,
+        "company": "BlackRock",
+        "title": "Director, Digital Asset Operations"
+      },
+      {
+        "url": "https://careers.blackrock.com/job/dublin/financial-crime-associate-cash-funds-digital-assets-and-tokenisation/45831/89579749136",
+        "status": 404,
+        "ok": false,
+        "company": "BlackRock",
+        "title": "Financial Crime Associate - Digital Assets & Tokenization"
       }
     ],
     "Fidelity Digital Assets": [
@@ -196,6 +226,51 @@
         "ok": false,
         "company": "Fidelity Digital Assets",
         "title": "Director, Digital Asset Strategist"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/jobs/2124881/digital-asset-manager-financial-crimes-analytics/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Digital Asset Manager, Financial Crimes Analytics"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Director, Site Reliability Engineer"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Digital Asset Product Manager"
+      }
+    ],
+    "Anchorage Digital": [
+      {
+        "url": "https://jobs.lever.co/anchorage",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "Anchorage Digital",
+        "title": "Senior Manager, Growth Marketing"
+      }
+    ],
+    "undefined": [
+      {
+        "status": 0,
+        "ok": false,
+        "error": "Failed to parse URL from undefined"
       }
     ]
   },
@@ -313,6 +388,13 @@
       "title": "Senior Product Manager"
     },
     {
+      "url": "https://careers.blackrock.com/job/wilmington/director-digital-asset-operations-delaware/45831/92938525744",
+      "status": 404,
+      "ok": false,
+      "company": "BlackRock",
+      "title": "Director, Digital Asset Operations"
+    },
+    {
       "url": "https://jobs.fidelity.com/en/crypto-careers/",
       "status": 403,
       "ok": false,
@@ -332,6 +414,13 @@
       "ok": false,
       "company": "Fidelity Digital Assets",
       "title": "Head of US Sales"
+    },
+    {
+      "url": "https://careers.blackrock.com/job/dublin/financial-crime-associate-cash-funds-digital-assets-and-tokenisation/45831/89579749136",
+      "status": 404,
+      "ok": false,
+      "company": "BlackRock",
+      "title": "Financial Crime Associate - Digital Assets & Tokenization"
     },
     {
       "url": "https://jobs.fidelity.com/en/jobs/2120661/digital-assets-risk-manager-crypto-blockchain/",
@@ -388,6 +477,61 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Staff Software Engineer, Policies Platform - Identity"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage",
+      "status": 0,
+      "ok": false,
+      "error": "This operation was aborted",
+      "company": "Anchorage Digital",
+      "title": "Senior Manager, Growth Marketing"
+    },
+    {
+      "status": 0,
+      "ok": false,
+      "error": "Failed to parse URL from undefined"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/jobs/2124881/digital-asset-manager-financial-crimes-analytics/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Digital Asset Manager, Financial Crimes Analytics"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Director, Site Reliability Engineer"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Digital Asset Product Manager"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Derivative Sales Associate"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Technical Program Manager, Compliance"
     }
   ]
 }
