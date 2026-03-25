@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-24T00:01:22.895Z",
-  "total_checked": 243,
-  "dead_count": 37,
+  "checked_at": "2026-03-25T00:01:18.019Z",
+  "total_checked": 272,
+  "dead_count": 41,
   "by_company": {
     "Coinbase": [
       {
@@ -143,6 +143,27 @@
         "ok": false,
         "company": "Coinbase",
         "title": "Technical Program Manager, Compliance"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Software Engineer, Base Protocol"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Product Manager, Base"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Compliance Program Manager"
       }
     ],
     "Kraken": [
@@ -166,6 +187,20 @@
         "ok": false,
         "company": "Kraken",
         "title": "Institutional Sales Representative - Staked"
+      },
+      {
+        "url": "https://www.kraken.com/careers",
+        "status": 403,
+        "ok": false,
+        "company": "Kraken",
+        "title": "Senior Backend Engineer, Core Exchange"
+      },
+      {
+        "url": "https://www.kraken.com/careers",
+        "status": 403,
+        "ok": false,
+        "company": "Kraken",
+        "title": "Director of Compliance, EMEA"
       }
     ],
     "BlackRock": [
@@ -254,16 +289,6 @@
         "ok": false,
         "company": "Fidelity Digital Assets",
         "title": "Digital Asset Product Manager"
-      }
-    ],
-    "Anchorage Digital": [
-      {
-        "url": "https://jobs.lever.co/anchorage",
-        "status": 0,
-        "ok": false,
-        "error": "This operation was aborted",
-        "company": "Anchorage Digital",
-        "title": "Senior Manager, Growth Marketing"
       }
     ],
     "undefined": [
@@ -479,14 +504,6 @@
       "title": "Staff Software Engineer, Policies Platform - Identity"
     },
     {
-      "url": "https://jobs.lever.co/anchorage",
-      "status": 0,
-      "ok": false,
-      "error": "This operation was aborted",
-      "company": "Anchorage Digital",
-      "title": "Senior Manager, Growth Marketing"
-    },
-    {
       "status": 0,
       "ok": false,
       "error": "Failed to parse URL from undefined"
@@ -532,6 +549,41 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Technical Program Manager, Compliance"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Base Protocol"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Product Manager, Base"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Compliance Program Manager"
+    },
+    {
+      "url": "https://www.kraken.com/careers",
+      "status": 403,
+      "ok": false,
+      "company": "Kraken",
+      "title": "Senior Backend Engineer, Core Exchange"
+    },
+    {
+      "url": "https://www.kraken.com/careers",
+      "status": 403,
+      "ok": false,
+      "company": "Kraken",
+      "title": "Director of Compliance, EMEA"
     }
   ]
 }

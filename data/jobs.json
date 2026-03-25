@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-24T22:00:00Z",
+  "scraped_date": "2026-03-25T02:00:00Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -8969,6 +8969,151 @@
         "engineering"
       ],
       "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Marketing Analyst",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Ghana",
+      "type": "Full-time",
+      "department": "Marketing",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7743591",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Marketing",
+        "Analytics",
+        "Growth",
+        "Africa"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-25T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-25",
+      "tags": [
+        "marketing",
+        "africa",
+        "growth"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "IT Infrastructure Engineer",
+      "company": "Copper.co",
+      "company_type": "Custody",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "£70,000 - £100,000",
+      "url": "https://job-boards.eu.greenhouse.io/copperco/jobs/4815515101",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "IT Infrastructure",
+        "Networking",
+        "Cloud",
+        "Security"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-25T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-25",
+      "tags": [
+        "infrastructure",
+        "it",
+        "london"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Client Operations Associate",
+      "company": "Copper.co",
+      "company_type": "Custody",
+      "location": "Singapore",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": null,
+      "url": "https://job-boards.eu.greenhouse.io/copperco/jobs/4816594101",
+      "seniority": "Junior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Client Operations",
+        "Digital Assets",
+        "Customer Success",
+        "APAC"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-25T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-25",
+      "tags": [
+        "operations",
+        "singapore",
+        "apac"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Client Operations Associate",
+      "company": "Copper.co",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "$80,000 - $110,000",
+      "url": "https://job-boards.eu.greenhouse.io/copperco/jobs/4799055101",
+      "seniority": "Junior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Client Operations",
+        "Digital Assets",
+        "Customer Success",
+        "Americas"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-25T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-25",
+      "tags": [
+        "operations",
+        "new-york",
+        "americas"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Head of Technology Operations - UAE",
+      "company": "Copper.co",
+      "company_type": "Custody",
+      "location": "UAE",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.eu.greenhouse.io/copperco/jobs/4791332101",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Technology Operations",
+        "Leadership",
+        "Infrastructure",
+        "MENA"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-25T02:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-25",
+      "tags": [
+        "leadership",
+        "uae",
+        "technology"
+      ],
+      "featured": true,
       "isRemote": false
     }
   ],
