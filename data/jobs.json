@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-26T02:00:00Z",
+  "scraped_date": "2026-03-26T22:00:00Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -9775,6 +9775,753 @@
       ],
       "featured": false,
       "isRemote": false
+    },
+    {
+      "title": "Enterprise Financial Services Account Executive",
+      "company": "Chainalysis",
+      "company_type": "Analytics",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$140,000 - $200,000 + Commission",
+      "url": "https://www.chainalysis.com/careers/job-openings/",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Enterprise Sales",
+        "Financial Services",
+        "B2B SaaS",
+        "Blockchain",
+        "Account Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "chainalysis",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "sales",
+        "financial-services",
+        "enterprise"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "GTM Engineer - Revenue Automation Specialist",
+      "company": "Chainalysis",
+      "company_type": "Analytics",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "$130,000 - $180,000",
+      "url": "https://www.chainalysis.com/careers/job-openings/",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Revenue Operations",
+        "Salesforce",
+        "Automation",
+        "GTM",
+        "Data Analysis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "chainalysis",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "revops",
+        "gtm",
+        "automation"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Blockchain Security Software Engineer, Hexagate",
+      "company": "Chainalysis",
+      "company_type": "Analytics",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$160,000 - $230,000",
+      "url": "https://www.chainalysis.com/careers/job-openings/",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Blockchain Security",
+        "Smart Contracts",
+        "Solidity",
+        "Security Auditing",
+        "DeFi"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "chainalysis",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "security",
+        "blockchain",
+        "hexagate"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Frontend Software Engineer II, Graphs",
+      "company": "Chainalysis",
+      "company_type": "Analytics",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$140,000 - $190,000",
+      "url": "https://www.chainalysis.com/careers/job-openings/",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Data Visualization",
+        "D3.js",
+        "Frontend"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "chainalysis",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "frontend",
+        "visualization",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Staff Full Stack Engineer",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Full Stack",
+        "Node.js",
+        "React",
+        "TypeScript",
+        "Cloud"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "fullstack",
+        "engineering",
+        "staff"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Backend Engineer, Key Management",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Backend",
+        "Key Management",
+        "Security",
+        "Cryptography",
+        "Node.js"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "backend",
+        "security",
+        "cryptography"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior C++ Engineer, Key Management",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "C++",
+        "Key Management",
+        "HSM",
+        "Security",
+        "Cryptography"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "cpp",
+        "security",
+        "hsm"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Business Development Representative - May 2026 Grads",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$60,000 - $80,000 + Commission",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Junior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Sales",
+        "Business Development",
+        "Lead Generation",
+        "Communication"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "entry-level",
+        "bdr",
+        "new-grad"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Incident Response Engineer (Pacific Time)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Remote - Pacific",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$130,000 - $180,000",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Incident Response",
+        "Security",
+        "On-Call",
+        "Monitoring",
+        "DevOps"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "incident-response",
+        "security",
+        "remote"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Senior Director, AI",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$250,000 - $350,000",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "AI/ML",
+        "Leadership",
+        "Strategy",
+        "Machine Learning",
+        "Engineering Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "ai",
+        "leadership",
+        "director"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Website Operations Manager",
+      "company": "Circle",
+      "company_type": "Stablecoin",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Marketing",
+      "salary_display": "$130,000 - $175,000",
+      "url": "https://careers.circle.com/us/en/c/marketing-jobs",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Website Operations",
+        "CMS",
+        "Analytics",
+        "SEO",
+        "Marketing"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "circle",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "marketing",
+        "web-ops",
+        "digital"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Staff Software Engineer, Data Platform",
+      "company": "Circle",
+      "company_type": "Stablecoin",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://careers.circle.com/us/en/c/engineering-jobs",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Data Platform",
+        "Python",
+        "Spark",
+        "Kafka",
+        "Data Engineering"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "circle",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "data",
+        "platform",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Principal Software Engineer, AI Automation",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$218,500 - $257,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "AI/ML",
+        "Automation",
+        "Python",
+        "LLMs",
+        "Engineering"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "ai",
+        "automation",
+        "principal"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Staff Applied Scientist - Causal Inference",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Data",
+      "salary_display": "$201,450 - $237,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Causal Inference",
+        "Machine Learning",
+        "Statistics",
+        "Python",
+        "Data Science"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "data-science",
+        "ml",
+        "causal-inference"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Senior Engineering Manager - Data Platform",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$211,650 - $249,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Engineering Management",
+        "Data Platform",
+        "Leadership",
+        "Big Data",
+        "Architecture"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "management",
+        "data",
+        "leadership"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Chief of Staff to the COO",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "$185,000 - $250,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Strategy",
+        "Operations",
+        "Leadership",
+        "Communication",
+        "Project Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "chief-of-staff",
+        "operations",
+        "executive"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Staff Site Reliability Engineer, Platform Engineering",
+      "company": "Paxos",
+      "company_type": "Stablecoin",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$190,000 - $260,000",
+      "url": "https://www.paxos.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "SRE",
+        "Platform Engineering",
+        "Kubernetes",
+        "AWS",
+        "Terraform"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "paxos",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "sre",
+        "platform",
+        "infrastructure"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "BSA / AML Officer",
+      "company": "Paxos",
+      "company_type": "Stablecoin",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": "$150,000 - $220,000",
+      "url": "https://www.paxos.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "BSA",
+        "AML",
+        "Compliance",
+        "Regulatory",
+        "Risk Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "paxos",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "compliance",
+        "aml",
+        "bsa"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Treasurer",
+      "company": "Paxos",
+      "company_type": "Stablecoin",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Finance",
+      "salary_display": "$200,000 - $300,000",
+      "url": "https://www.paxos.com/careers",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Treasury",
+        "Liquidity Management",
+        "Finance",
+        "Banking",
+        "Risk"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "paxos",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "treasury",
+        "finance",
+        "leadership"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Events Marketing Lead",
+      "company": "Paxos",
+      "company_type": "Stablecoin",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Marketing",
+      "salary_display": "$120,000 - $160,000",
+      "url": "https://www.paxos.com/careers",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Events",
+        "Marketing",
+        "Event Planning",
+        "B2B",
+        "Conferences"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "paxos",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "marketing",
+        "events",
+        "b2b"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Digital Asset Product Manager",
+      "company": "Fidelity Digital Assets",
+      "company_type": "TradFi",
+      "location": "Boston, MA",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": "$130,000 - $200,000",
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Product Management",
+        "Digital Assets",
+        "Crypto",
+        "Strategy",
+        "Fintech"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "fidelity",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "product",
+        "digital-assets",
+        "tradfi"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Director, Asset Management Risk (Blockchain & Digital Assets)",
+      "company": "Fidelity Digital Assets",
+      "company_type": "TradFi",
+      "location": "Boston, MA",
+      "type": "Full-time",
+      "department": "Risk",
+      "salary_display": "$150,000 - $250,000",
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Risk Management",
+        "Asset Management",
+        "Blockchain",
+        "Digital Assets",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "fidelity",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "risk",
+        "leadership",
+        "tradfi"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Product Lead, Financial Infrastructure",
+      "company": "Anchorage Digital",
+      "company_type": "Custody",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": "$170,000 - $240,000",
+      "url": "https://www.anchorage.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Product Management",
+        "Financial Infrastructure",
+        "Banking",
+        "Strategy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "anchorage",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "product",
+        "infrastructure",
+        "banking"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Data & Reporting Architect",
+      "company": "Anchorage Digital",
+      "company_type": "Custody",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://www.anchorage.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Data Architecture",
+        "Reporting",
+        "SQL",
+        "Data Warehousing",
+        "Analytics"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "anchorage",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "data",
+        "architecture",
+        "analytics"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Institutional Sales Representative - Stablecoin",
+      "company": "Anchorage Digital",
+      "company_type": "Custody",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$130,000 - $180,000 + Commission",
+      "url": "https://www.anchorage.com/careers",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Institutional Sales",
+        "Stablecoins",
+        "B2B",
+        "Financial Services"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-26T22:00:00Z",
+      "source": "anchorage",
+      "postedDate": "2026-03-26",
+      "tags": [
+        "sales",
+        "stablecoins",
+        "institutional"
+      ],
+      "featured": true,
+      "isRemote": true
     }
   ],
   "summary": {
