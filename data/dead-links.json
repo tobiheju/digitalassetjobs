@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-25T00:01:18.019Z",
-  "total_checked": 272,
-  "dead_count": 41,
+  "checked_at": "2026-03-26T00:01:19.726Z",
+  "total_checked": 281,
+  "dead_count": 38,
   "by_company": {
     "Coinbase": [
       {
@@ -166,43 +166,6 @@
         "title": "Senior Compliance Program Manager"
       }
     ],
-    "Kraken": [
-      {
-        "url": "https://www.kraken.com/careers",
-        "status": 403,
-        "ok": false,
-        "company": "Kraken",
-        "title": "Managing Director Europe"
-      },
-      {
-        "url": "https://www.kraken.com/careers",
-        "status": 403,
-        "ok": false,
-        "company": "Kraken",
-        "title": "Product Manager, Trading"
-      },
-      {
-        "url": "https://www.kraken.com/careers",
-        "status": 403,
-        "ok": false,
-        "company": "Kraken",
-        "title": "Institutional Sales Representative - Staked"
-      },
-      {
-        "url": "https://www.kraken.com/careers",
-        "status": 403,
-        "ok": false,
-        "company": "Kraken",
-        "title": "Senior Backend Engineer, Core Exchange"
-      },
-      {
-        "url": "https://www.kraken.com/careers",
-        "status": 403,
-        "ok": false,
-        "company": "Kraken",
-        "title": "Director of Compliance, EMEA"
-      }
-    ],
     "BlackRock": [
       {
         "url": "https://careers.blackrock.com/job/wilmington/director-digital-asset-operations-delaware/45831/92938525744",
@@ -217,6 +180,16 @@
         "ok": false,
         "company": "BlackRock",
         "title": "Financial Crime Associate - Digital Assets & Tokenization"
+      }
+    ],
+    "Anchorage Digital": [
+      {
+        "url": "https://jobs.lever.co/anchorage",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "Anchorage Digital",
+        "title": "Engineering Manager, Data Platform"
       }
     ],
     "Fidelity Digital Assets": [
@@ -291,6 +264,16 @@
         "title": "Digital Asset Product Manager"
       }
     ],
+    "BitGo": [
+      {
+        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8347803002",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "BitGo",
+        "title": "Senior Software Engineer - Wallet Core"
+      }
+    ],
     "undefined": [
       {
         "status": 0,
@@ -327,27 +310,6 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Data Analytics Engineer"
-    },
-    {
-      "url": "https://www.kraken.com/careers",
-      "status": 403,
-      "ok": false,
-      "company": "Kraken",
-      "title": "Managing Director Europe"
-    },
-    {
-      "url": "https://www.kraken.com/careers",
-      "status": 403,
-      "ok": false,
-      "company": "Kraken",
-      "title": "Product Manager, Trading"
-    },
-    {
-      "url": "https://www.kraken.com/careers",
-      "status": 403,
-      "ok": false,
-      "company": "Kraken",
-      "title": "Institutional Sales Representative - Staked"
     },
     {
       "url": "https://www.coinbase.com/careers/positions",
@@ -418,6 +380,14 @@
       "ok": false,
       "company": "BlackRock",
       "title": "Director, Digital Asset Operations"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage",
+      "status": 0,
+      "ok": false,
+      "error": "This operation was aborted",
+      "company": "Anchorage Digital",
+      "title": "Engineering Manager, Data Platform"
     },
     {
       "url": "https://jobs.fidelity.com/en/crypto-careers/",
@@ -504,6 +474,14 @@
       "title": "Staff Software Engineer, Policies Platform - Identity"
     },
     {
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8347803002",
+      "status": 0,
+      "ok": false,
+      "error": "This operation was aborted",
+      "company": "BitGo",
+      "title": "Senior Software Engineer - Wallet Core"
+    },
+    {
       "status": 0,
       "ok": false,
       "error": "Failed to parse URL from undefined"
@@ -570,20 +548,6 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Senior Compliance Program Manager"
-    },
-    {
-      "url": "https://www.kraken.com/careers",
-      "status": 403,
-      "ok": false,
-      "company": "Kraken",
-      "title": "Senior Backend Engineer, Core Exchange"
-    },
-    {
-      "url": "https://www.kraken.com/careers",
-      "status": 403,
-      "ok": false,
-      "company": "Kraken",
-      "title": "Director of Compliance, EMEA"
     }
   ]
 }
