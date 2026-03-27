@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-26T00:01:19.726Z",
-  "total_checked": 281,
-  "dead_count": 38,
+  "checked_at": "2026-03-27T00:01:38.335Z",
+  "total_checked": 324,
+  "dead_count": 42,
   "by_company": {
     "Coinbase": [
       {
@@ -164,6 +164,34 @@
         "ok": false,
         "company": "Coinbase",
         "title": "Senior Compliance Program Manager"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Principal Software Engineer, AI Automation"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Staff Applied Scientist - Causal Inference"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Engineering Manager - Data Platform"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Chief of Staff to the COO"
       }
     ],
     "BlackRock": [
@@ -173,23 +201,6 @@
         "ok": false,
         "company": "BlackRock",
         "title": "Director, Digital Asset Operations"
-      },
-      {
-        "url": "https://careers.blackrock.com/job/dublin/financial-crime-associate-cash-funds-digital-assets-and-tokenisation/45831/89579749136",
-        "status": 404,
-        "ok": false,
-        "company": "BlackRock",
-        "title": "Financial Crime Associate - Digital Assets & Tokenization"
-      }
-    ],
-    "Anchorage Digital": [
-      {
-        "url": "https://jobs.lever.co/anchorage",
-        "status": 0,
-        "ok": false,
-        "error": "This operation was aborted",
-        "company": "Anchorage Digital",
-        "title": "Engineering Manager, Data Platform"
       }
     ],
     "Fidelity Digital Assets": [
@@ -262,16 +273,30 @@
         "ok": false,
         "company": "Fidelity Digital Assets",
         "title": "Digital Asset Product Manager"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Digital Asset Product Manager"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
       }
     ],
-    "BitGo": [
+    "Anchorage Digital": [
       {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8347803002",
+        "url": "https://jobs.lever.co/anchorage",
         "status": 0,
         "ok": false,
         "error": "This operation was aborted",
-        "company": "BitGo",
-        "title": "Senior Software Engineer - Wallet Core"
+        "company": "Anchorage Digital",
+        "title": "Member of Technical Staff, Banking Solutions"
       }
     ],
     "undefined": [
@@ -382,14 +407,6 @@
       "title": "Director, Digital Asset Operations"
     },
     {
-      "url": "https://jobs.lever.co/anchorage",
-      "status": 0,
-      "ok": false,
-      "error": "This operation was aborted",
-      "company": "Anchorage Digital",
-      "title": "Engineering Manager, Data Platform"
-    },
-    {
       "url": "https://jobs.fidelity.com/en/crypto-careers/",
       "status": 403,
       "ok": false,
@@ -409,13 +426,6 @@
       "ok": false,
       "company": "Fidelity Digital Assets",
       "title": "Head of US Sales"
-    },
-    {
-      "url": "https://careers.blackrock.com/job/dublin/financial-crime-associate-cash-funds-digital-assets-and-tokenisation/45831/89579749136",
-      "status": 404,
-      "ok": false,
-      "company": "BlackRock",
-      "title": "Financial Crime Associate - Digital Assets & Tokenization"
     },
     {
       "url": "https://jobs.fidelity.com/en/jobs/2120661/digital-assets-risk-manager-crypto-blockchain/",
@@ -474,12 +484,12 @@
       "title": "Staff Software Engineer, Policies Platform - Identity"
     },
     {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8347803002",
+      "url": "https://jobs.lever.co/anchorage",
       "status": 0,
       "ok": false,
       "error": "This operation was aborted",
-      "company": "BitGo",
-      "title": "Senior Software Engineer - Wallet Core"
+      "company": "Anchorage Digital",
+      "title": "Member of Technical Staff, Banking Solutions"
     },
     {
       "status": 0,
@@ -548,6 +558,48 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Senior Compliance Program Manager"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Principal Software Engineer, AI Automation"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Staff Applied Scientist - Causal Inference"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Engineering Manager - Data Platform"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Chief of Staff to the COO"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Digital Asset Product Manager"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
     }
   ]
 }
