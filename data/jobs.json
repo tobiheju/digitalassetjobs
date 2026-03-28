@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-27T22:03:01.273Z",
+  "scraped_date": "2026-03-28T02:02:06.393Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -11329,6 +11329,677 @@
       ],
       "featured": false,
       "isRemote": true
+    },
+    {
+      "title": "Technical Program Manager II",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$150,000 - $200,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Program Management",
+        "Technical",
+        "Agile",
+        "Engineering"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "program-management",
+        "technical",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Software Engineer, Backend - Stablecoin",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$165,000 - $230,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Backend",
+        "Stablecoin",
+        "Go",
+        "Python",
+        "Blockchain"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "engineering",
+        "stablecoin",
+        "backend"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "TMS Compliance Analyst II",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": "$100,000 - $140,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Compliance",
+        "AML",
+        "TMS",
+        "Risk Analysis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "compliance",
+        "tms",
+        "aml"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Senior Software Engineer, Frontend - Advanced Trade",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$160,000 - $225,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Frontend",
+        "React",
+        "TypeScript",
+        "Trading"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "frontend",
+        "trading",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Regulatory Policy, Senior Associate",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Legal",
+      "salary_display": "$130,000 - $180,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Policy",
+        "Regulatory",
+        "Legal",
+        "Government Relations"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "policy",
+        "regulatory",
+        "legal"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Senior UX Writer",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Design",
+      "salary_display": "$130,000 - $175,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "UX Writing",
+        "Content",
+        "Design",
+        "Communication"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "ux",
+        "writing",
+        "design"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Trade Surveillance Associate",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": "$90,000 - $130,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Trade Surveillance",
+        "Compliance",
+        "Market Abuse",
+        "Analysis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "surveillance",
+        "compliance",
+        "trading"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Manager, Institutional Sales",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$150,000 - $210,000 + Commission",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Institutional Sales",
+        "B2B",
+        "Account Management",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "sales",
+        "institutional",
+        "management"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Customer Success Manager",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Customer Success",
+      "salary_display": "$110,000 - $150,000",
+      "url": "https://www.coinbase.com/careers/positions",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Customer Success",
+        "Account Management",
+        "Crypto",
+        "B2B"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "coinbase",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "customer-success",
+        "account-management",
+        "b2b"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Senior Counsel - Corporate",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Legal",
+      "salary_display": "$200,000 - $280,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Corporate Law",
+        "Legal",
+        "M&A",
+        "Securities"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "legal",
+        "corporate",
+        "counsel"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Lead Product Marketing Manager - Onchain",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Marketing",
+      "salary_display": "$150,000 - $210,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Product Marketing",
+        "Onchain",
+        "Web3",
+        "Go-to-Market"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "marketing",
+        "onchain",
+        "web3"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Senior Sales Trader, APAC",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Singapore",
+      "type": "Full-time",
+      "department": "Trading",
+      "salary_display": null,
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Sales Trading",
+        "OTC",
+        "APAC",
+        "Crypto Trading"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "trading",
+        "apac",
+        "sales"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Data Analyst - People Analytics Partner",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "People",
+      "salary_display": "$120,000 - $170,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Data Analysis",
+        "People Analytics",
+        "HR",
+        "SQL",
+        "Python"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "data",
+        "people-analytics",
+        "hr"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Treasury Operations Manager, Product Enablement",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "$130,000 - $180,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Treasury",
+        "Operations",
+        "Product Enablement",
+        "Digital Assets"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "treasury",
+        "operations",
+        "product"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Senior Ledger Operations Engineer",
+      "company": "Gemini",
+      "company_type": "Exchange",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "$160,000 - $220,000",
+      "url": "https://www.gemini.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Ledger Operations",
+        "Blockchain",
+        "Engineering",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "gemini",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "operations",
+        "ledger",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Manager, Enterprise Risk",
+      "company": "Gemini",
+      "company_type": "Exchange",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Risk",
+      "salary_display": "$150,000 - $200,000",
+      "url": "https://www.gemini.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Enterprise Risk",
+        "Risk Management",
+        "Compliance",
+        "Financial Services"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "gemini",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "risk",
+        "enterprise",
+        "management"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Staff Security Engineer, Threat Detection & Response",
+      "company": "Gemini",
+      "company_type": "Exchange",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Security",
+      "salary_display": "$190,000 - $260,000",
+      "url": "https://www.gemini.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Security Engineering",
+        "Threat Detection",
+        "Incident Response",
+        "SOC"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "gemini",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "security",
+        "threat-detection",
+        "staff"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior IAM Security Engineer",
+      "company": "Gemini",
+      "company_type": "Exchange",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Security",
+      "salary_display": "$170,000 - $230,000",
+      "url": "https://www.gemini.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "IAM",
+        "Security Engineering",
+        "Identity",
+        "Access Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "gemini",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "security",
+        "iam",
+        "identity"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Software Engineer, Trading Systems - Full Stack",
+      "company": "Gemini",
+      "company_type": "Exchange",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://www.gemini.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Full Stack",
+        "Trading Systems",
+        "Python",
+        "React",
+        "Fintech"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "gemini",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "engineering",
+        "trading",
+        "fullstack"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Program Manager, Strategic Initiatives",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "$140,000 - $190,000",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Program Management",
+        "Strategy",
+        "Operations",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "program-management",
+        "strategy",
+        "operations"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Product Manager, Fireblocks Trust Company",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": "$180,000 - $240,000",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Product Management",
+        "Trust Company",
+        "Custody",
+        "Digital Assets"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "product",
+        "trust",
+        "custody"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Frontline Support Engineer (US East/APAC)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Support",
+      "salary_display": "$100,000 - $140,000",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Technical Support",
+        "APIs",
+        "Troubleshooting",
+        "Customer Service"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "support",
+        "technical",
+        "customer"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Cloud Infrastructure and AI Security",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Cloud Security",
+        "AI Security",
+        "Infrastructure",
+        "AWS",
+        "GCP"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-28T02:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-03-28",
+      "tags": [
+        "security",
+        "cloud",
+        "ai"
+      ],
+      "featured": false,
+      "isRemote": false
     }
   ],
   "summary": {

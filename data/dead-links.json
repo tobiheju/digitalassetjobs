@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-27T00:01:38.335Z",
-  "total_checked": 324,
-  "dead_count": 42,
+  "checked_at": "2026-03-28T00:01:55.749Z",
+  "total_checked": 351,
+  "dead_count": 51,
   "by_company": {
     "Coinbase": [
       {
@@ -203,6 +203,60 @@
         "title": "Director, Digital Asset Operations"
       }
     ],
+    "Anchorage Digital": [
+      {
+        "url": "https://jobs.lever.co/anchorage",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "Anchorage Digital",
+        "title": "Engineering Manager, Data Platform"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "Anchorage Digital",
+        "title": "Engineering Manager, Financial Infrastructure"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/stablecoin-sales-institutional",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Institutional Sales Representative - Stablecoin"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/client-ops-stablecoins",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Member of Client Operations - Stablecoins"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/regional-manager-mena",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "Anchorage Digital",
+        "title": "Regional Institutional Manager - Middle East & Africa"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/product-design-digital-assets",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Member of Product Design - Digital Assets"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/marketing-analyst",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Marketing Analyst"
+      }
+    ],
     "Fidelity Digital Assets": [
       {
         "url": "https://jobs.fidelity.com/en/crypto-careers/",
@@ -287,16 +341,27 @@
         "ok": false,
         "company": "Fidelity Digital Assets",
         "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
-      }
-    ],
-    "Anchorage Digital": [
+      },
       {
-        "url": "https://jobs.lever.co/anchorage",
-        "status": 0,
+        "url": "https://jobs.fidelity.com/en/jobs/2119393/squad-leader-blockchain-trading-fidelity-digital-assets/",
+        "status": 403,
         "ok": false,
-        "error": "This operation was aborted",
-        "company": "Anchorage Digital",
-        "title": "Member of Technical Staff, Banking Solutions"
+        "company": "Fidelity Digital Assets",
+        "title": "Squad Leader - Blockchain & Trading"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/jobs/2122028/principal-blockchain-platform-engineer-digital-assets/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Principal Blockchain Platform Engineer"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/jobs/2123744/head-of-digital-asset-operating-platform-blockchain-enabled-operations/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Head of Digital Asset Operating Platform - Blockchain-Enabled Operations"
       }
     ],
     "undefined": [
@@ -407,6 +472,22 @@
       "title": "Director, Digital Asset Operations"
     },
     {
+      "url": "https://jobs.lever.co/anchorage",
+      "status": 0,
+      "ok": false,
+      "error": "This operation was aborted",
+      "company": "Anchorage Digital",
+      "title": "Engineering Manager, Data Platform"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage",
+      "status": 0,
+      "ok": false,
+      "error": "This operation was aborted",
+      "company": "Anchorage Digital",
+      "title": "Engineering Manager, Financial Infrastructure"
+    },
+    {
       "url": "https://jobs.fidelity.com/en/crypto-careers/",
       "status": 403,
       "ok": false,
@@ -482,14 +563,6 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Staff Software Engineer, Policies Platform - Identity"
-    },
-    {
-      "url": "https://jobs.lever.co/anchorage",
-      "status": 0,
-      "ok": false,
-      "error": "This operation was aborted",
-      "company": "Anchorage Digital",
-      "title": "Member of Technical Staff, Banking Solutions"
     },
     {
       "status": 0,
@@ -600,6 +673,63 @@
       "ok": false,
       "company": "Fidelity Digital Assets",
       "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/jobs/2119393/squad-leader-blockchain-trading-fidelity-digital-assets/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Squad Leader - Blockchain & Trading"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/jobs/2122028/principal-blockchain-platform-engineer-digital-assets/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Principal Blockchain Platform Engineer"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/jobs/2123744/head-of-digital-asset-operating-platform-blockchain-enabled-operations/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Head of Digital Asset Operating Platform - Blockchain-Enabled Operations"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage/stablecoin-sales-institutional",
+      "status": 404,
+      "ok": false,
+      "company": "Anchorage Digital",
+      "title": "Institutional Sales Representative - Stablecoin"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage/client-ops-stablecoins",
+      "status": 404,
+      "ok": false,
+      "company": "Anchorage Digital",
+      "title": "Member of Client Operations - Stablecoins"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage/regional-manager-mena",
+      "status": 0,
+      "ok": false,
+      "error": "This operation was aborted",
+      "company": "Anchorage Digital",
+      "title": "Regional Institutional Manager - Middle East & Africa"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage/product-design-digital-assets",
+      "status": 404,
+      "ok": false,
+      "company": "Anchorage Digital",
+      "title": "Member of Product Design - Digital Assets"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage/marketing-analyst",
+      "status": 404,
+      "ok": false,
+      "company": "Anchorage Digital",
+      "title": "Marketing Analyst"
     }
   ]
 }
