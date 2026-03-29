@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-28T00:01:55.749Z",
-  "total_checked": 351,
-  "dead_count": 51,
+  "checked_at": "2026-03-29T00:02:00.591Z",
+  "total_checked": 430,
+  "dead_count": 64,
   "by_company": {
     "Coinbase": [
       {
@@ -192,6 +192,83 @@
         "ok": false,
         "company": "Coinbase",
         "title": "Chief of Staff to the COO"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Technical Program Manager II"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Software Engineer, Backend - Stablecoin"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "TMS Compliance Analyst II"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Software Engineer, Frontend - Advanced Trade"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Regulatory Policy, Senior Associate"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior UX Writer"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Trade Surveillance Associate"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Manager, Institutional Sales"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Customer Success Manager"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/network-eng",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Network Engineer"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/data-science-trading",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Data Scientist - Trading"
       }
     ],
     "BlackRock": [
@@ -201,60 +278,6 @@
         "ok": false,
         "company": "BlackRock",
         "title": "Director, Digital Asset Operations"
-      }
-    ],
-    "Anchorage Digital": [
-      {
-        "url": "https://jobs.lever.co/anchorage",
-        "status": 0,
-        "ok": false,
-        "error": "This operation was aborted",
-        "company": "Anchorage Digital",
-        "title": "Engineering Manager, Data Platform"
-      },
-      {
-        "url": "https://jobs.lever.co/anchorage",
-        "status": 0,
-        "ok": false,
-        "error": "This operation was aborted",
-        "company": "Anchorage Digital",
-        "title": "Engineering Manager, Financial Infrastructure"
-      },
-      {
-        "url": "https://jobs.lever.co/anchorage/stablecoin-sales-institutional",
-        "status": 404,
-        "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Institutional Sales Representative - Stablecoin"
-      },
-      {
-        "url": "https://jobs.lever.co/anchorage/client-ops-stablecoins",
-        "status": 404,
-        "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Member of Client Operations - Stablecoins"
-      },
-      {
-        "url": "https://jobs.lever.co/anchorage/regional-manager-mena",
-        "status": 0,
-        "ok": false,
-        "error": "This operation was aborted",
-        "company": "Anchorage Digital",
-        "title": "Regional Institutional Manager - Middle East & Africa"
-      },
-      {
-        "url": "https://jobs.lever.co/anchorage/product-design-digital-assets",
-        "status": 404,
-        "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Member of Product Design - Digital Assets"
-      },
-      {
-        "url": "https://jobs.lever.co/anchorage/marketing-analyst",
-        "status": 404,
-        "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Marketing Analyst"
       }
     ],
     "Fidelity Digital Assets": [
@@ -329,6 +352,34 @@
         "title": "Digital Asset Product Manager"
       },
       {
+        "url": "https://jobs.fidelity.com/en/jobs/2124881/digital-asset-manager-financial-crimes-analytics/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Digital Asset Manager, Financial Crimes Analytics"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Director, Site Reliability Engineer"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
+      },
+      {
+        "url": "https://jobs.fidelity.com/en/crypto-careers/",
+        "status": 403,
+        "ok": false,
+        "company": "Fidelity Digital Assets",
+        "title": "Digital Asset Product Manager"
+      },
+      {
         "url": "https://jobs.fidelity.com/en/crypto-careers/",
         "status": 403,
         "ok": false,
@@ -364,11 +415,48 @@
         "title": "Head of Digital Asset Operating Platform - Blockchain-Enabled Operations"
       }
     ],
-    "undefined": [
+    "Anchorage Digital": [
       {
-        "status": 0,
+        "url": "https://jobs.lever.co/anchorage/stablecoin-sales-institutional",
+        "status": 404,
         "ok": false,
-        "error": "Failed to parse URL from undefined"
+        "company": "Anchorage Digital",
+        "title": "Institutional Sales Representative - Stablecoin"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/client-ops-stablecoins",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Member of Client Operations - Stablecoins"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/regional-manager-mena",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Regional Institutional Manager - Middle East & Africa"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/product-design-digital-assets",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Member of Product Design - Digital Assets"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/marketing-analyst",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Marketing Analyst"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/stablecoin-pm",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Member of Stablecoin Solutions, Product Manager"
       }
     ]
   },
@@ -472,22 +560,6 @@
       "title": "Director, Digital Asset Operations"
     },
     {
-      "url": "https://jobs.lever.co/anchorage",
-      "status": 0,
-      "ok": false,
-      "error": "This operation was aborted",
-      "company": "Anchorage Digital",
-      "title": "Engineering Manager, Data Platform"
-    },
-    {
-      "url": "https://jobs.lever.co/anchorage",
-      "status": 0,
-      "ok": false,
-      "error": "This operation was aborted",
-      "company": "Anchorage Digital",
-      "title": "Engineering Manager, Financial Infrastructure"
-    },
-    {
       "url": "https://jobs.fidelity.com/en/crypto-careers/",
       "status": 403,
       "ok": false,
@@ -565,9 +637,32 @@
       "title": "Staff Software Engineer, Policies Platform - Identity"
     },
     {
-      "status": 0,
+      "url": "https://jobs.fidelity.com/en/jobs/2124881/digital-asset-manager-financial-crimes-analytics/",
+      "status": 403,
       "ok": false,
-      "error": "Failed to parse URL from undefined"
+      "company": "Fidelity Digital Assets",
+      "title": "Digital Asset Manager, Financial Crimes Analytics"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Director, Site Reliability Engineer"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
+    },
+    {
+      "url": "https://jobs.fidelity.com/en/crypto-careers/",
+      "status": 403,
+      "ok": false,
+      "company": "Fidelity Digital Assets",
+      "title": "Digital Asset Product Manager"
     },
     {
       "url": "https://jobs.fidelity.com/en/jobs/2124881/digital-asset-manager-financial-crimes-analytics/",
@@ -711,9 +806,8 @@
     },
     {
       "url": "https://jobs.lever.co/anchorage/regional-manager-mena",
-      "status": 0,
+      "status": 404,
       "ok": false,
-      "error": "This operation was aborted",
       "company": "Anchorage Digital",
       "title": "Regional Institutional Manager - Middle East & Africa"
     },
@@ -730,6 +824,90 @@
       "ok": false,
       "company": "Anchorage Digital",
       "title": "Marketing Analyst"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Technical Program Manager II"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Software Engineer, Backend - Stablecoin"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "TMS Compliance Analyst II"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Frontend - Advanced Trade"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Regulatory Policy, Senior Associate"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior UX Writer"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Trade Surveillance Associate"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Manager, Institutional Sales"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Customer Success Manager"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage/stablecoin-pm",
+      "status": 404,
+      "ok": false,
+      "company": "Anchorage Digital",
+      "title": "Member of Stablecoin Solutions, Product Manager"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/network-eng",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Network Engineer"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/data-science-trading",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Data Scientist - Trading"
     }
   ]
 }
