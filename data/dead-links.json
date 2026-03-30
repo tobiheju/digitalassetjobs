@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-29T00:02:00.591Z",
-  "total_checked": 430,
-  "dead_count": 64,
+  "checked_at": "2026-03-29T23:01:51.060Z",
+  "total_checked": 478,
+  "dead_count": 80,
   "by_company": {
     "Coinbase": [
       {
@@ -269,6 +269,41 @@
         "ok": false,
         "company": "Coinbase",
         "title": "Senior Data Scientist - Trading"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "CX Analytics Engineer"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Internal Audit Analyst"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Solutions Architect"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Machine Learning Platform Engineer"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Base Senior Product Manager, Privacy"
       }
     ],
     "BlackRock": [
@@ -278,6 +313,67 @@
         "ok": false,
         "company": "BlackRock",
         "title": "Director, Digital Asset Operations"
+      }
+    ],
+    "Anchorage Digital": [
+      {
+        "url": "https://jobs.lever.co/anchorage",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "Anchorage Digital",
+        "title": "Engineering Manager, Data Platform"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "Anchorage Digital",
+        "title": "Engineering Lead, Enterprise Technology"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/stablecoin-sales-institutional",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Institutional Sales Representative - Stablecoin"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/client-ops-stablecoins",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "Anchorage Digital",
+        "title": "Member of Client Operations - Stablecoins"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/regional-manager-mena",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Regional Institutional Manager - Middle East & Africa"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/product-design-digital-assets",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Member of Product Design - Digital Assets"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/marketing-analyst",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Marketing Analyst"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage/stablecoin-pm",
+        "status": 404,
+        "ok": false,
+        "company": "Anchorage Digital",
+        "title": "Member of Stablecoin Solutions, Product Manager"
       }
     ],
     "Fidelity Digital Assets": [
@@ -415,48 +511,71 @@
         "title": "Head of Digital Asset Operating Platform - Blockchain-Enabled Operations"
       }
     ],
-    "Anchorage Digital": [
+    "BitGo": [
       {
-        "url": "https://jobs.lever.co/anchorage/stablecoin-sales-institutional",
-        "status": 404,
+        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8466340002",
+        "status": 403,
         "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Institutional Sales Representative - Stablecoin"
+        "company": "BitGo",
+        "title": "Senior Director Risk Management"
       },
       {
-        "url": "https://jobs.lever.co/anchorage/client-ops-stablecoins",
-        "status": 404,
+        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8369973002",
+        "status": 403,
         "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Member of Client Operations - Stablecoins"
+        "company": "BitGo",
+        "title": "Engineering Manager M3 - Staking"
       },
       {
-        "url": "https://jobs.lever.co/anchorage/regional-manager-mena",
-        "status": 404,
+        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8482302002",
+        "status": 403,
         "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Regional Institutional Manager - Middle East & Africa"
+        "company": "BitGo",
+        "title": "Digital Technology Admin"
       },
       {
-        "url": "https://jobs.lever.co/anchorage/product-design-digital-assets",
-        "status": 404,
+        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8482326002",
+        "status": 403,
         "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Member of Product Design - Digital Assets"
+        "company": "BitGo",
+        "title": "Senior Software Engineer - Post Trade"
       },
       {
-        "url": "https://jobs.lever.co/anchorage/marketing-analyst",
-        "status": 404,
+        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8483277002",
+        "status": 403,
         "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Marketing Analyst"
+        "company": "BitGo",
+        "title": "Operations Associate"
       },
       {
-        "url": "https://jobs.lever.co/anchorage/stablecoin-pm",
+        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8461025002",
+        "status": 403,
+        "ok": false,
+        "company": "BitGo",
+        "title": "Business Development Representative - Ecosystem"
+      },
+      {
+        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8158666002",
+        "status": 403,
+        "ok": false,
+        "company": "BitGo",
+        "title": "Director - Listings & Ecosystem Development"
+      },
+      {
+        "url": "https://job-boards.greenhouse.io/bitgo/jobs/7907250002",
+        "status": 403,
+        "ok": false,
+        "company": "BitGo",
+        "title": "Associate - Listings & Ecosystem Development"
+      }
+    ],
+    "Circle": [
+      {
+        "url": "https://careers.circle.com/us/en/c/data-jobs",
         "status": 404,
         "ok": false,
-        "company": "Anchorage Digital",
-        "title": "Member of Stablecoin Solutions, Product Manager"
+        "company": "Circle",
+        "title": "Senior Data Scientist, Blockchain"
       }
     ]
   },
@@ -558,6 +677,14 @@
       "ok": false,
       "company": "BlackRock",
       "title": "Director, Digital Asset Operations"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage",
+      "status": 0,
+      "ok": false,
+      "error": "This operation was aborted",
+      "company": "Anchorage Digital",
+      "title": "Engineering Manager, Data Platform"
     },
     {
       "url": "https://jobs.fidelity.com/en/crypto-careers/",
@@ -707,6 +834,14 @@
       "title": "Technical Program Manager, Compliance"
     },
     {
+      "url": "https://jobs.lever.co/anchorage",
+      "status": 0,
+      "ok": false,
+      "error": "This operation was aborted",
+      "company": "Anchorage Digital",
+      "title": "Engineering Lead, Enterprise Technology"
+    },
+    {
       "url": "https://www.coinbase.com/careers/positions",
       "status": 403,
       "ok": false,
@@ -726,6 +861,20 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Senior Compliance Program Manager"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8466340002",
+      "status": 403,
+      "ok": false,
+      "company": "BitGo",
+      "title": "Senior Director Risk Management"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8369973002",
+      "status": 403,
+      "ok": false,
+      "company": "BitGo",
+      "title": "Engineering Manager M3 - Staking"
     },
     {
       "url": "https://www.coinbase.com/careers/positions",
@@ -770,6 +919,48 @@
       "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
     },
     {
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8482302002",
+      "status": 403,
+      "ok": false,
+      "company": "BitGo",
+      "title": "Digital Technology Admin"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8482326002",
+      "status": 403,
+      "ok": false,
+      "company": "BitGo",
+      "title": "Senior Software Engineer - Post Trade"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8483277002",
+      "status": 403,
+      "ok": false,
+      "company": "BitGo",
+      "title": "Operations Associate"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8461025002",
+      "status": 403,
+      "ok": false,
+      "company": "BitGo",
+      "title": "Business Development Representative - Ecosystem"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8158666002",
+      "status": 403,
+      "ok": false,
+      "company": "BitGo",
+      "title": "Director - Listings & Ecosystem Development"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/7907250002",
+      "status": 403,
+      "ok": false,
+      "company": "BitGo",
+      "title": "Associate - Listings & Ecosystem Development"
+    },
+    {
       "url": "https://jobs.fidelity.com/en/jobs/2119393/squad-leader-blockchain-trading-fidelity-digital-assets/",
       "status": 403,
       "ok": false,
@@ -799,8 +990,9 @@
     },
     {
       "url": "https://jobs.lever.co/anchorage/client-ops-stablecoins",
-      "status": 404,
+      "status": 0,
       "ok": false,
+      "error": "This operation was aborted",
       "company": "Anchorage Digital",
       "title": "Member of Client Operations - Stablecoins"
     },
@@ -908,6 +1100,48 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Senior Data Scientist - Trading"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "CX Analytics Engineer"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Internal Audit Analyst"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Solutions Architect"
+    },
+    {
+      "url": "https://careers.circle.com/us/en/c/data-jobs",
+      "status": 404,
+      "ok": false,
+      "company": "Circle",
+      "title": "Senior Data Scientist, Blockchain"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Machine Learning Platform Engineer"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Base Senior Product Manager, Privacy"
     }
   ]
 }
