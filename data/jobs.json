@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-30T01:00:00.000Z",
+  "scraped_date": "2026-03-30T23:00:00.000Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -14991,6 +14991,419 @@
       ],
       "featured": false,
       "isRemote": false
+    },
+    {
+      "title": "Strategy Manager - Consumer (Ledger Wallet)",
+      "company": "Ledger",
+      "company_type": "Hardware",
+      "location": "Paris, France",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "€80,000 - €120,000",
+      "url": "https://careers.ledger.com/jobs/strategy-manager-consumer-ledger-wallet-paris-ile-de-france-france",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Strategy",
+        "Consumer Products",
+        "Product Management",
+        "Web3"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "ledger",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "strategy",
+        "consumer",
+        "wallet"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Front-end Engineer - Platform",
+      "company": "Ledger",
+      "company_type": "Hardware",
+      "location": "Paris, France",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "€70,000 - €100,000",
+      "url": "https://careers.ledger.com/jobs/senior-front-end-engineer-platform-paris-ile-de-france-france",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Frontend",
+        "Platform Engineering"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "ledger",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "frontend",
+        "platform",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Channel Marketing APAC & US",
+      "company": "Ledger",
+      "company_type": "Hardware",
+      "location": "Paris, France / London, UK",
+      "type": "Full-time",
+      "department": "Marketing",
+      "salary_display": null,
+      "url": "https://careers.ledger.com/jobs/channel-marketing-apac-us-f-m-paris-ile-de-france-france-london-england-united-kingdom",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Channel Marketing",
+        "B2B",
+        "APAC",
+        "Partner Marketing"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "ledger",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "marketing",
+        "channel",
+        "apac"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Sales Administrator APAC",
+      "company": "Ledger",
+      "company_type": "Hardware",
+      "location": "Paris, France",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "€45,000 - €60,000",
+      "url": "https://careers.ledger.com/jobs/sales-administrator-apac-paris-ile-de-france-france",
+      "seniority": "Junior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Sales Administration",
+        "APAC",
+        "Operations",
+        "CRM"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "ledger",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "sales",
+        "admin",
+        "apac"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Delivery Manager",
+      "company": "Ledger",
+      "company_type": "Hardware",
+      "location": "Paris, France",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "€80,000 - €110,000",
+      "url": "https://careers.ledger.com/jobs/senior-delivery-manager-paris-ile-de-france-france",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Delivery Management",
+        "Project Management",
+        "Agile",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "ledger",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "delivery",
+        "management",
+        "agile"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Managed Services Operations Manager",
+      "company": "Ledger",
+      "company_type": "Hardware",
+      "location": "Paris, France",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "€70,000 - €95,000",
+      "url": "https://careers.ledger.com/jobs/managed-services-operations-manager-paris-ile-de-france-france",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Operations Management",
+        "Managed Services",
+        "Infrastructure",
+        "Client Services"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "ledger",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "operations",
+        "managed-services",
+        "infrastructure"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Global Logistics & Customs Manager",
+      "company": "Ledger",
+      "company_type": "Hardware",
+      "location": "Vierzon, France",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "€65,000 - €90,000",
+      "url": "https://careers.ledger.com/jobs/global-logistics-customs-manager-vierzon-centre-val-de-loire-france",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Logistics",
+        "Customs",
+        "Supply Chain",
+        "International Trade"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "ledger",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "logistics",
+        "customs",
+        "supply-chain"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Mobile Engineer (Americas)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Remote - Americas",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$150,000 - $220,000",
+      "url": "https://job-boards.greenhouse.io/fireblocks/jobs/4652122006",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "iOS",
+        "Android",
+        "Mobile Development",
+        "Security",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "mobile",
+        "engineering",
+        "remote"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Managing Director, Digital Assets - Singapore",
+      "company": "BlackRock",
+      "company_type": "TradFi",
+      "location": "Singapore",
+      "type": "Full-time",
+      "department": "Digital Assets",
+      "salary_display": null,
+      "url": "https://careers.blackrock.com/job/singapore/managing-director-digital-assets-apac/45831/91829483712",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Leadership",
+        "Digital Assets",
+        "APAC",
+        "Strategy",
+        "Business Development"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "blackrock",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "leadership",
+        "apac",
+        "executive"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "VP/Director, Digital Assets Product Strategist",
+      "company": "BlackRock",
+      "company_type": "TradFi",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": "$200,000 - $280,000",
+      "url": "https://careers.blackrock.com/job/san-francisco/digital-assets-product-strategist/45831/90987234561",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Product Strategy",
+        "Digital Assets",
+        "ETF",
+        "Crypto",
+        "Product Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "blackrock",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "product",
+        "strategy",
+        "etf"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Associate, Blockchain Engineer",
+      "company": "BlackRock",
+      "company_type": "TradFi",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$120,000 - $160,000",
+      "url": "https://careers.blackrock.com/job/new-york/associate-blockchain-engineer/45831/90123456789",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Blockchain",
+        "Smart Contracts",
+        "Solidity",
+        "Python",
+        "TypeScript"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "blackrock",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "blockchain",
+        "engineering",
+        "tradfi"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Manager, Market Risk - Trading & Derivatives",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Risk",
+      "salary_display": "$160,000 - $230,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com/senior-manager-market-risk",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Market Risk",
+        "Derivatives",
+        "Trading",
+        "Risk Management",
+        "Quantitative Analysis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "risk",
+        "trading",
+        "derivatives"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Senior Manager, Financial Risk - Crypto & Treasury",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Risk",
+      "salary_display": "$155,000 - $220,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com/senior-manager-financial-risk",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Financial Risk",
+        "Crypto",
+        "Treasury",
+        "Risk Management",
+        "Finance"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "risk",
+        "treasury",
+        "crypto"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Head of Voice",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Trading",
+      "salary_display": "$200,000 - $300,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com/head-of-voice",
+      "seniority": "Director",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Voice Trading",
+        "OTC",
+        "Institutional Sales",
+        "Leadership",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-30T21:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-03-30",
+      "tags": [
+        "trading",
+        "voice",
+        "otc"
+      ],
+      "featured": true,
+      "isRemote": true
     }
   ]
 }
