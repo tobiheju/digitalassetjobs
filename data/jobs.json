@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-30T23:00:00.000Z",
+  "scraped_date": "2026-03-31T01:00:00.000Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -15404,6 +15404,226 @@
       ],
       "featured": true,
       "isRemote": true
+    },
+    {
+      "title": "Head of Global Solution Engineering",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8438601002",
+      "seniority": "Executive",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Solution Engineering",
+        "Enterprise Sales",
+        "Digital Assets",
+        "Leadership"
+      ],
+      "verified": true,
+      "source": "greenhouse"
+    },
+    {
+      "title": "Senior Software Engineering Manager, Credit Card",
+      "company": "Gemini",
+      "company_type": "Exchange",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.gemini.com/careers#credit-card",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Engineering Management",
+        "Credit Card Systems",
+        "Fintech",
+        "Software Architecture"
+      ],
+      "verified": true,
+      "source": "gemini-careers"
+    },
+    {
+      "title": "Staff Software Engineer, Trading Systems (Frontend)",
+      "company": "Gemini",
+      "company_type": "Exchange",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.gemini.com/careers#trading-frontend",
+      "seniority": "Staff",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Frontend Development",
+        "Trading Systems",
+        "React",
+        "TypeScript"
+      ],
+      "verified": true,
+      "source": "gemini-careers"
+    },
+    {
+      "title": "Product Manager - Equities & xStocks",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": null,
+      "url": "https://jobs.ashbyhq.com/kraken.com#equities",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Product Management",
+        "Equities",
+        "Trading",
+        "Crypto"
+      ],
+      "verified": true,
+      "source": "ashby"
+    },
+    {
+      "title": "Audit Manager",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": null,
+      "url": "https://jobs.ashbyhq.com/kraken.com#audit",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Audit",
+        "Compliance",
+        "Risk Management",
+        "Financial Services"
+      ],
+      "verified": true,
+      "source": "ashby"
+    },
+    {
+      "title": "Treasury Account Services Analyst",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Finance",
+      "salary_display": null,
+      "url": "https://jobs.ashbyhq.com/kraken.com#treasury",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Treasury",
+        "Account Services",
+        "Finance",
+        "Banking"
+      ],
+      "verified": true,
+      "source": "ashby"
+    },
+    {
+      "title": "Financial Reporting Manager",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Finance",
+      "salary_display": null,
+      "url": "https://jobs.ashbyhq.com/kraken.com#financial-reporting",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Financial Reporting",
+        "GAAP",
+        "Accounting",
+        "Management"
+      ],
+      "verified": true,
+      "source": "ashby"
+    },
+    {
+      "title": "Business Development Associate - NFT",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": null,
+      "url": "https://jobs.ashbyhq.com/kraken.com#nft-bd",
+      "seniority": "Entry",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Business Development",
+        "NFT",
+        "Web3",
+        "Sales"
+      ],
+      "verified": true,
+      "source": "ashby"
+    },
+    {
+      "title": "Member of Product - Core Experience",
+      "company": "Anchorage Digital",
+      "company_type": "Custody",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": null,
+      "url": "https://jobs.lever.co/anchorage#core-experience",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Product Management",
+        "Crypto",
+        "User Experience",
+        "B2B"
+      ],
+      "verified": true,
+      "source": "lever"
+    },
+    {
+      "title": "Institutional Sales Representative - Investors & VCs",
+      "company": "Anchorage Digital",
+      "company_type": "Custody",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": null,
+      "url": "https://jobs.lever.co/anchorage#vc-sales",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Institutional Sales",
+        "VC Relations",
+        "Digital Assets",
+        "Enterprise Sales"
+      ],
+      "verified": true,
+      "source": "lever"
+    },
+    {
+      "title": "Talent Team Lead - Product, Design & Engineering",
+      "company": "Anchorage Digital",
+      "company_type": "Custody",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "People",
+      "salary_display": null,
+      "url": "https://jobs.lever.co/anchorage#talent",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Talent Acquisition",
+        "Leadership",
+        "Tech Recruiting",
+        "HR"
+      ],
+      "verified": true,
+      "source": "lever"
     }
   ]
 }
