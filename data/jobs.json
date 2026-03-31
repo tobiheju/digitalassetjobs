@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-03-31T01:00:00.000Z",
+  "scraped_date": "2026-03-31T22:00:00.000Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -15624,6 +15624,240 @@
       ],
       "verified": true,
       "source": "lever"
+    },
+    {
+      "title": "Mobile Software Engineer E3 - React Native",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8113483002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "React Native",
+        "Mobile Development",
+        "iOS",
+        "Android",
+        "TypeScript"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-31T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-31",
+      "tags": [
+        "mobile",
+        "react-native",
+        "india"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "DevOps Engineer E2 - InfraOps",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "India",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8416103002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "DevOps",
+        "Infrastructure",
+        "Kubernetes",
+        "AWS"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-31T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-31",
+      "tags": [
+        "devops",
+        "infrastructure",
+        "india"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Business Development Representative - Institutional",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$80,000 - $120,000 + Commission",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/7328551002",
+      "seniority": "Junior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Business Development",
+        "Sales",
+        "Institutional",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-31T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-31",
+      "tags": [
+        "sales",
+        "bdr",
+        "institutional"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Business Development Representative - Ecosystem",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$80,000 - $120,000 + Commission",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8461025002",
+      "seniority": "Junior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Business Development",
+        "Sales",
+        "Ecosystem",
+        "Partnerships"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-31T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-31",
+      "tags": [
+        "sales",
+        "bdr",
+        "ecosystem"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Director Risk Management",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Risk",
+      "salary_display": "$220,000 - $300,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8466338002",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Risk Management",
+        "Financial Risk",
+        "Compliance",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-31T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-31",
+      "tags": [
+        "risk",
+        "director",
+        "leadership"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Director - Listings & Ecosystem Development",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Business Development",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8158666002",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Listings",
+        "Ecosystem",
+        "Business Development",
+        "Partnerships"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-31T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-31",
+      "tags": [
+        "listings",
+        "ecosystem",
+        "director"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Associate - Listings & Ecosystem Development",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Business Development",
+      "salary_display": "$90,000 - $130,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/7907250002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Listings",
+        "Ecosystem",
+        "Business Development",
+        "Research"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-31T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-31",
+      "tags": [
+        "listings",
+        "ecosystem",
+        "associate"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Software Engineer - InfraOps",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Palo Alto, CA",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8460007002",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Infrastructure",
+        "DevOps",
+        "Kubernetes",
+        "AWS",
+        "Security"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-03-31T22:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-03-31",
+      "tags": [
+        "infrastructure",
+        "devops",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": false
     }
   ]
 }
