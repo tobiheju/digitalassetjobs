@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-04-01T01:00:00.000Z",
+  "scraped_date": "2026-04-01T21:00:00.000Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -17643,6 +17643,270 @@
       ],
       "featured": true,
       "isRemote": true
+    },
+    {
+      "title": "Associate Manager, Compliance",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": "£90,000 - £130,000",
+      "url": "https://www.coinbase.com/careers/positions/6994022?gh_jid=6994022",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Compliance",
+        "AML/KYC",
+        "Regulatory",
+        "Financial Services"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-01T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "compliance",
+        "emea",
+        "regulatory"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Associate Manager, CX AML Compliance",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Charlotte, NC",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": "$95,000 - $140,000",
+      "url": "https://www.coinbase.com/careers/positions/7570230?gh_jid=7570230",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "AML",
+        "Compliance",
+        "Customer Experience",
+        "Risk Analysis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-01T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "compliance",
+        "aml",
+        "cx"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Customer Success Specialist II",
+      "company": "Coinbase",
+      "company_type": "Exchange",
+      "location": "Remote - Cyprus",
+      "type": "Full-time",
+      "department": "Customer Success",
+      "salary_display": null,
+      "url": "https://www.coinbase.com/careers/positions/7759747?gh_jid=7759747",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Customer Success",
+        "Support",
+        "Crypto",
+        "Communication"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-01T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "customer-success",
+        "emea",
+        "support"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Associate, Strategy & Corporate Development",
+      "company": "Galaxy Digital",
+      "company_type": "Asset Management",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Corporate",
+      "salary_display": "$120,000 - $180,000",
+      "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5597435004",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Strategy",
+        "Corporate Development",
+        "M&A",
+        "Financial Analysis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-01T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "strategy",
+        "corporate",
+        "finance"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Insurance Manager (Data Centers)",
+      "company": "Galaxy Digital",
+      "company_type": "Asset Management",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": "$140,000 - $200,000",
+      "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5834629004",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Insurance",
+        "Risk Management",
+        "Data Centers",
+        "Operations"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-01T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "insurance",
+        "data-centers",
+        "operations"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Data Center Security Manager",
+      "company": "Galaxy Digital",
+      "company_type": "Asset Management",
+      "location": "Afton, TX",
+      "type": "Full-time",
+      "department": "Security",
+      "salary_display": "$120,000 - $170,000",
+      "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5834742004",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Physical Security",
+        "Data Centers",
+        "Security Operations",
+        "Risk Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-01T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "security",
+        "data-centers",
+        "physical-security"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Software Engineer, Custody & Staking",
+      "company": "Galaxy Digital",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$175,000 - $250,000",
+      "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5825595004",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Custody",
+        "Staking",
+        "Blockchain",
+        "Backend",
+        "Security"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-01T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "engineering",
+        "custody",
+        "staking"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "FP&A Data Engineer",
+      "company": "Galaxy Digital",
+      "company_type": "Asset Management",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Finance",
+      "salary_display": "$140,000 - $200,000",
+      "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5801947004",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "FP&A",
+        "Data Engineering",
+        "SQL",
+        "Python",
+        "Financial Systems"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-01T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "finance",
+        "data",
+        "fpa"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Product Manager, Portfolio Margin and Risk",
+      "company": "Galaxy Digital",
+      "company_type": "Asset Management",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": "$170,000 - $240,000",
+      "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5838231004",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Product Management",
+        "Portfolio Margin",
+        "Risk",
+        "Trading",
+        "Derivatives"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-01T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "product",
+        "risk",
+        "margin"
+      ],
+      "featured": true,
+      "isRemote": false
     }
   ]
 }
