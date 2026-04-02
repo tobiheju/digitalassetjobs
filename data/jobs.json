@@ -1,7 +1,244 @@
 {
-  "scraped_date": "2026-04-02T01:12:33.954Z",
+  "scraped_date": "2026-04-02T21:00:00.000Z",
   "source": "nightly_scrape",
   "jobs": [
+    {
+      "title": "Head of Global Solution Engineering",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Frankfurt, Germany",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "€140,000 - €190,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8438612002",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Solutions Engineering",
+        "Leadership",
+        "Technical Sales",
+        "Pre-Sales",
+        "EMEA"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-02",
+      "tags": [
+        "solutions",
+        "leadership",
+        "germany"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Institutional Sales Specialist - LATAM",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Remote - LATAM",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8031907002",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Institutional Sales",
+        "LATAM",
+        "Digital Assets",
+        "Business Development"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-02",
+      "tags": [
+        "sales",
+        "latam",
+        "institutional"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Sales Associate - Fintech",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$80,000 - $120,000 + Commission",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8341050002",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Sales",
+        "Fintech",
+        "B2B",
+        "Account Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-02",
+      "tags": [
+        "sales",
+        "fintech",
+        "associate"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Sales Director",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "£140,000 - $200,000 + Commission",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/7615928002",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Enterprise Sales",
+        "Digital Assets",
+        "B2B",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-02",
+      "tags": [
+        "sales",
+        "director",
+        "emea"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Head of Global Solution Engineering",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "£150,000 - £200,000",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8438611002",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Solutions Engineering",
+        "Leadership",
+        "Technical Sales",
+        "Pre-Sales",
+        "EMEA"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-02",
+      "tags": [
+        "solutions",
+        "leadership",
+        "emea"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Head of Global Solution Engineering",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "Singapore",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8438613002",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Solutions Engineering",
+        "Leadership",
+        "Technical Sales",
+        "Pre-Sales",
+        "APAC"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-02",
+      "tags": [
+        "solutions",
+        "leadership",
+        "apac"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Managing Director, Head of EU Sales",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "£180,000 - £250,000 + Commission",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8464699002",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Enterprise Sales",
+        "Leadership",
+        "EU Market",
+        "Institutional Sales",
+        "Strategy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-02",
+      "tags": [
+        "sales",
+        "leadership",
+        "emea"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Sales Director - Pensions, Endowments & Family Offices",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$180,000 - $250,000 + Commission",
+      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8340883002",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Institutional Sales",
+        "Family Offices",
+        "Pensions",
+        "Endowments",
+        "Digital Assets"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T21:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-02",
+      "tags": [
+        "sales",
+        "institutional",
+        "family-office"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
     {
       "title": "Executive Assistant, Asset Management",
       "company": "Galaxy Digital",
