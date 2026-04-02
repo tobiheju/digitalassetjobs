@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-03-31T23:01:59.261Z",
-  "total_checked": 550,
-  "dead_count": 95,
+  "checked_at": "2026-04-01T23:05:53.336Z",
+  "total_checked": 621,
+  "dead_count": 88,
   "by_company": {
     "Coinbase": [
       {
@@ -339,6 +339,71 @@
         "ok": false,
         "company": "Coinbase",
         "title": "Supervisor, Customer Success Team"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Staff Site Reliability Engineer - Platform"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Trade Surveillance Associate"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Regulatory Reporting Analyst"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Staff Technical Program Manager"
+      },
+      {
+        "url": "https://www.coinbase.com/internships",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Software Engineer Intern - Summer 2026"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/6994022?gh_jid=6994022",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Associate Manager, Compliance"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/7570230?gh_jid=7570230",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Associate Manager, CX AML Compliance"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/7759747?gh_jid=7759747",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Customer Success Specialist II"
+      }
+    ],
+    "Ledger": [
+      {
+        "url": "https://careers.ledger.com/jobs/engineering-manager-e-commerce-london-england-united-kingdom",
+        "status": 404,
+        "ok": false,
+        "company": "Ledger",
+        "title": "Engineering Manager - E-commerce"
       }
     ],
     "BlackRock": [
@@ -515,14 +580,6 @@
     ],
     "Anchorage Digital": [
       {
-        "url": "https://jobs.lever.co/anchorage",
-        "status": 0,
-        "ok": false,
-        "error": "This operation was aborted",
-        "company": "Anchorage Digital",
-        "title": "Engineering Lead, Enterprise Technology"
-      },
-      {
         "url": "https://jobs.lever.co/anchorage/stablecoin-sales-institutional",
         "status": 404,
         "ok": false,
@@ -565,117 +622,6 @@
         "title": "Member of Stablecoin Solutions, Product Manager"
       }
     ],
-    "Galaxy Digital": [
-      {
-        "url": "https://job-boards.greenhouse.io/galaxydigitalservices",
-        "status": 403,
-        "ok": false,
-        "company": "Galaxy Digital",
-        "title": "Insurance Manager, Data Centers"
-      }
-    ],
-    "Blockchain.com": [
-      {
-        "url": "https://job-boards.greenhouse.io/blockchain",
-        "status": 403,
-        "ok": false,
-        "company": "Blockchain.com",
-        "title": "Senior Backend Engineer, Trading"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/blockchain",
-        "status": 403,
-        "ok": false,
-        "company": "Blockchain.com",
-        "title": "Senior Product Manager, Exchange"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/blockchain",
-        "status": 403,
-        "ok": false,
-        "company": "Blockchain.com",
-        "title": "Compliance Manager"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/blockchain/jobs/7743591",
-        "status": 403,
-        "ok": false,
-        "company": "Blockchain.com",
-        "title": "Marketing Analyst"
-      }
-    ],
-    "BitGo": [
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8466338002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Senior Director Risk Management"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8466339002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Senior Director Risk Management"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8466340002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Senior Director Risk Management"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8369973002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Engineering Manager M3 - Staking"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8482302002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Digital Technology Admin"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8482326002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Senior Software Engineer - Post Trade"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8483277002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Operations Associate"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8461025002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Business Development Representative - Ecosystem"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/8158666002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Director - Listings & Ecosystem Development"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/bitgo/jobs/7907250002",
-        "status": 403,
-        "ok": false,
-        "company": "BitGo",
-        "title": "Associate - Listings & Ecosystem Development"
-      }
-    ],
     "Circle": [
       {
         "url": "https://careers.circle.com/us/en/c/data-jobs",
@@ -714,6 +660,13 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Data Analytics Engineer"
+    },
+    {
+      "url": "https://careers.ledger.com/jobs/engineering-manager-e-commerce-london-england-united-kingdom",
+      "status": 404,
+      "ok": false,
+      "company": "Ledger",
+      "title": "Engineering Manager - E-commerce"
     },
     {
       "url": "https://www.coinbase.com/careers/positions",
@@ -940,42 +893,6 @@
       "title": "Technical Program Manager, Compliance"
     },
     {
-      "url": "https://jobs.lever.co/anchorage",
-      "status": 0,
-      "ok": false,
-      "error": "This operation was aborted",
-      "company": "Anchorage Digital",
-      "title": "Engineering Lead, Enterprise Technology"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/galaxydigitalservices",
-      "status": 403,
-      "ok": false,
-      "company": "Galaxy Digital",
-      "title": "Insurance Manager, Data Centers"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/blockchain",
-      "status": 403,
-      "ok": false,
-      "company": "Blockchain.com",
-      "title": "Senior Backend Engineer, Trading"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/blockchain",
-      "status": 403,
-      "ok": false,
-      "company": "Blockchain.com",
-      "title": "Senior Product Manager, Exchange"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/blockchain",
-      "status": 403,
-      "ok": false,
-      "company": "Blockchain.com",
-      "title": "Compliance Manager"
-    },
-    {
       "url": "https://www.coinbase.com/careers/positions",
       "status": 403,
       "ok": false,
@@ -995,41 +912,6 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Senior Compliance Program Manager"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7743591",
-      "status": 403,
-      "ok": false,
-      "company": "Blockchain.com",
-      "title": "Marketing Analyst"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8466338002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Senior Director Risk Management"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8466339002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Senior Director Risk Management"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8466340002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Senior Director Risk Management"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8369973002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Engineering Manager M3 - Staking"
     },
     {
       "url": "https://www.coinbase.com/careers/positions",
@@ -1072,48 +954,6 @@
       "ok": false,
       "company": "Fidelity Digital Assets",
       "title": "Director, Asset Management Risk (Blockchain & Digital Assets)"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8482302002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Digital Technology Admin"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8482326002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Senior Software Engineer - Post Trade"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8483277002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Operations Associate"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8461025002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Business Development Representative - Ecosystem"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8158666002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Director - Listings & Ecosystem Development"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/7907250002",
-      "status": 403,
-      "ok": false,
-      "company": "BitGo",
-      "title": "Associate - Listings & Ecosystem Development"
     },
     {
       "url": "https://jobs.fidelity.com/en/jobs/2119393/squad-leader-blockchain-trading-fidelity-digital-assets/",
@@ -1352,6 +1192,62 @@
       "ok": false,
       "company": "BlackRock",
       "title": "Associate, Blockchain Engineer"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Staff Site Reliability Engineer - Platform"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Trade Surveillance Associate"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Regulatory Reporting Analyst"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Staff Technical Program Manager"
+    },
+    {
+      "url": "https://www.coinbase.com/internships",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Software Engineer Intern - Summer 2026"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/6994022?gh_jid=6994022",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Associate Manager, Compliance"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/7570230?gh_jid=7570230",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Associate Manager, CX AML Compliance"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/7759747?gh_jid=7759747",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Customer Success Specialist II"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-04-01T21:00:00.000Z",
+  "scraped_date": "2026-04-02T01:12:33.954Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -17906,6 +17906,471 @@
         "margin"
       ],
       "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Backend Engineer (Key Management)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Backend",
+        "Key Management",
+        "Security",
+        "Cryptography",
+        "Go"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "engineering",
+        "security",
+        "key-management"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Senior C++ Engineer (Key Management)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "C++",
+        "Security",
+        "Cryptography",
+        "Key Management"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "engineering",
+        "cpp",
+        "security"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Sales Director (TRes)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$180,000 - $250,000 + Commission",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Enterprise Sales",
+        "Treasury",
+        "B2B",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "sales",
+        "director",
+        "treasury"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Director of Sales (Payments)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$200,000 - $280,000 + Commission",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Payments",
+        "Enterprise Sales",
+        "B2B",
+        "Fintech"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "sales",
+        "payments",
+        "director"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "BDR Manager (Americas)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$130,000 - $170,000 + Bonus",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Sales Management",
+        "BDR",
+        "Pipeline",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "sales",
+        "management",
+        "bdr"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Business Development Representative (May 2026 Grads)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$70,000 - $90,000 + Commission",
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Junior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Sales",
+        "BDR",
+        "Cold Outreach",
+        "Lead Generation"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "entry-level",
+        "bdr",
+        "new-grad"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Product Manager (Wallet)",
+      "company": "Fireblocks",
+      "company_type": "Infrastructure",
+      "location": "Tel Aviv, Israel",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": null,
+      "url": "https://www.fireblocks.com/careers",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Product Management",
+        "Wallet",
+        "Crypto",
+        "B2B"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "fireblocks",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "product",
+        "wallet",
+        "infrastructure"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Staff Software Engineer (Rust - Platform)",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$200,000 - $277,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Rust",
+        "Platform Engineering",
+        "Backend",
+        "Distributed Systems"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "rust",
+        "platform",
+        "engineering"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Staff Product Designer (Consumer)",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Design",
+      "salary_display": "$180,000 - $240,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Product Design",
+        "UX/UI",
+        "Consumer",
+        "Mobile"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "design",
+        "consumer",
+        "ux"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Client Engagement Data Analyst (AI)",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Data",
+      "salary_display": "$120,000 - $170,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Data Analysis",
+        "AI",
+        "Client Engagement",
+        "SQL",
+        "Python"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "data",
+        "ai",
+        "analytics"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Senior Counsel (Corporate)",
+      "company": "Kraken",
+      "company_type": "Exchange",
+      "location": "Remote",
+      "type": "Full-time",
+      "department": "Legal",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://jobs.ashbyhq.com/kraken.com",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Corporate Law",
+        "M&A",
+        "Securities",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "kraken",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "legal",
+        "corporate",
+        "m&a"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Staff Security Engineer",
+      "company": "Paxos",
+      "company_type": "Stablecoin",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Security",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://jobs.ashbyhq.com/paxoslabs",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Security Engineering",
+        "Infrastructure Security",
+        "Cloud Security"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "paxos",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "security",
+        "staff",
+        "engineering"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Staff Software Engineer (Asset Movement)",
+      "company": "Paxos",
+      "company_type": "Stablecoin",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$175,000 - $245,000",
+      "url": "https://jobs.ashbyhq.com/paxoslabs",
+      "seniority": "Senior",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Backend",
+        "Asset Movement",
+        "Blockchain",
+        "Go"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "paxos",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "engineering",
+        "asset-movement",
+        "blockchain"
+      ],
+      "featured": true,
+      "isRemote": true
+    },
+    {
+      "title": "Head of Public Policy",
+      "company": "Paxos",
+      "company_type": "Stablecoin",
+      "location": "Washington, DC",
+      "type": "Full-time",
+      "department": "Legal",
+      "salary_display": "$250,000 - $350,000",
+      "url": "https://jobs.ashbyhq.com/paxoslabs",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Public Policy",
+        "Government Relations",
+        "Regulatory",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "paxos",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "policy",
+        "government",
+        "executive"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Content & Social Manager",
+      "company": "Paxos",
+      "company_type": "Stablecoin",
+      "location": "Remote - USA",
+      "type": "Full-time",
+      "department": "Marketing",
+      "salary_display": "$90,000 - $130,000",
+      "url": "https://jobs.ashbyhq.com/paxoslabs",
+      "seniority": "Mid",
+      "work_arrangement": "Remote",
+      "skills": [
+        "Content Marketing",
+        "Social Media",
+        "Copywriting",
+        "B2B"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "paxos",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "marketing",
+        "content",
+        "social"
+      ],
+      "featured": false,
+      "isRemote": true
+    },
+    {
+      "title": "Software Engineer - Settlement Systems (Go Network)",
+      "company": "BitGo",
+      "company_type": "Custody",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "$150,000 - $210,000",
+      "url": "https://job-boards.greenhouse.io/bitgo",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Go",
+        "Settlement Systems",
+        "Backend",
+        "Financial Systems"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-02T01:00:00Z",
+      "source": "bitgo",
+      "postedDate": "2026-04-01",
+      "tags": [
+        "engineering",
+        "settlement",
+        "go"
+      ],
+      "featured": false,
       "isRemote": false
     }
   ]
