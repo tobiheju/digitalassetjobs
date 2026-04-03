@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-04-01T23:05:53.336Z",
-  "total_checked": 621,
-  "dead_count": 88,
+  "checked_at": "2026-04-02T23:03:41.272Z",
+  "total_checked": 645,
+  "dead_count": 89,
   "by_company": {
     "Coinbase": [
       {
@@ -620,6 +620,14 @@
         "ok": false,
         "company": "Anchorage Digital",
         "title": "Member of Stablecoin Solutions, Product Manager"
+      },
+      {
+        "url": "https://jobs.lever.co/anchorage#talent",
+        "status": 0,
+        "ok": false,
+        "error": "This operation was aborted",
+        "company": "Anchorage Digital",
+        "title": "Talent Team Lead - Product, Design & Engineering"
       }
     ],
     "Circle": [
@@ -1192,6 +1200,14 @@
       "ok": false,
       "company": "BlackRock",
       "title": "Associate, Blockchain Engineer"
+    },
+    {
+      "url": "https://jobs.lever.co/anchorage#talent",
+      "status": 0,
+      "ok": false,
+      "error": "This operation was aborted",
+      "company": "Anchorage Digital",
+      "title": "Talent Team Lead - Product, Design & Engineering"
     },
     {
       "url": "https://www.coinbase.com/careers/positions",
