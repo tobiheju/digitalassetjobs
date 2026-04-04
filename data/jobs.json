@@ -1,5 +1,5 @@
 {
-  "scraped_date": "2026-04-03T21:00:00.000Z",
+  "scraped_date": "2026-04-04T01:08:12.754Z",
   "source": "nightly_scrape",
   "jobs": [
     {
@@ -19735,6 +19735,558 @@
       ],
       "featured": true,
       "isRemote": true
+    },
+    {
+      "title": "Business and Customer Operations Lead",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Ghana",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7310500",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Operations",
+        "Customer Success",
+        "Leadership",
+        "Africa"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "operations",
+        "africa",
+        "leadership"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Operational Risk Manager",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Malta",
+      "type": "Full-time",
+      "department": "Risk",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7642017",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Operational Risk",
+        "Risk Management",
+        "Compliance",
+        "Fintech"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "risk",
+        "operations",
+        "malta"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "UK Market Lead",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Business Development",
+      "salary_display": "£120,000 - £160,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/6951150",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Business Development",
+        "UK Market",
+        "Leadership",
+        "Strategy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "market-lead",
+        "uk",
+        "leadership"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "US Market Lead",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Dallas, TX",
+      "type": "Full-time",
+      "department": "Business Development",
+      "salary_display": "$150,000 - $200,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/6968415",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Business Development",
+        "US Market",
+        "Leadership",
+        "Strategy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "market-lead",
+        "us",
+        "leadership"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Quantitative Engineer",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Singapore",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7572077",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Quantitative",
+        "Python",
+        "Trading Systems",
+        "Mathematics"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "quant",
+        "engineering",
+        "singapore"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Data Engineer",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Engineering",
+      "salary_display": "£80,000 - £120,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7338763",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Data Engineering",
+        "Python",
+        "SQL",
+        "ETL",
+        "Cloud"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "data",
+        "engineering",
+        "london"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Institutional Sales Associate",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Singapore",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7585055",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Institutional Sales",
+        "Crypto",
+        "B2B",
+        "APAC"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "sales",
+        "institutional",
+        "singapore"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Institutional Sales Manager",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Nigeria",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7560043",
+      "seniority": "Senior",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Institutional Sales",
+        "Africa",
+        "Leadership",
+        "Business Development"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "sales",
+        "institutional",
+        "africa"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Sales Trader",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Trading",
+      "salary_display": "$120,000 - $180,000 + Commission",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7683287",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Sales Trading",
+        "OTC",
+        "Crypto Trading",
+        "Institutional"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "trading",
+        "sales",
+        "otc"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "US Regulatory Compliance Manager",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Dallas, TX",
+      "type": "Full-time",
+      "department": "Compliance",
+      "salary_display": "$130,000 - $180,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7457770",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Regulatory Compliance",
+        "US Regulations",
+        "AML",
+        "KYC"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "compliance",
+        "regulatory",
+        "us"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "User Acquisition Specialist, Mobile",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Buenos Aires, Argentina",
+      "type": "Full-time",
+      "department": "Marketing",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7772809",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "User Acquisition",
+        "Mobile Marketing",
+        "Growth",
+        "Analytics"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "marketing",
+        "user-acquisition",
+        "latam"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Director of Internal Audit & SOX Compliance",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Dallas, TX",
+      "type": "Full-time",
+      "department": "Finance",
+      "salary_display": "$180,000 - $250,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7484895",
+      "seniority": "Director",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Internal Audit",
+        "SOX",
+        "Compliance",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "audit",
+        "sox",
+        "compliance"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "Head of Custody",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Malta",
+      "type": "Full-time",
+      "department": "Operations",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7180652",
+      "seniority": "Director",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Custody",
+        "Digital Assets",
+        "Operations",
+        "Leadership"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "custody",
+        "leadership",
+        "malta"
+      ],
+      "featured": true,
+      "isRemote": false
+    },
+    {
+      "title": "VIP Relationship Manager",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "department": "Sales",
+      "salary_display": "$100,000 - $150,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7699375",
+      "seniority": "Mid",
+      "work_arrangement": "On-site",
+      "skills": [
+        "Account Management",
+        "VIP",
+        "Customer Success",
+        "Crypto"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "vip",
+        "account-management",
+        "sales"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Product Analyst, Consumer",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Product",
+      "salary_display": "£60,000 - £90,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7642200",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Product Analytics",
+        "Data Analysis",
+        "SQL",
+        "Consumer Products"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "product",
+        "analytics",
+        "consumer"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Product Designer, Consumer",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Paris, France",
+      "type": "Full-time",
+      "department": "Design",
+      "salary_display": "€70,000 - €100,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7645992",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Product Design",
+        "UX/UI",
+        "Consumer Products",
+        "Figma"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "design",
+        "product",
+        "consumer"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Product Designer, Consumer",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "London, UK",
+      "type": "Full-time",
+      "department": "Design",
+      "salary_display": "£80,000 - £110,000",
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7762354",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Product Design",
+        "UX/UI",
+        "Consumer Products",
+        "Figma"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "design",
+        "product",
+        "consumer"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Consolidations Accountant",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Buenos Aires, Argentina",
+      "type": "Full-time",
+      "department": "Finance",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7696382",
+      "seniority": "Mid",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Accounting",
+        "Consolidations",
+        "Financial Reporting",
+        "GAAP"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "finance",
+        "accounting",
+        "latam"
+      ],
+      "featured": false,
+      "isRemote": false
+    },
+    {
+      "title": "Senior Accountant",
+      "company": "Blockchain.com",
+      "company_type": "Exchange",
+      "location": "Buenos Aires, Argentina",
+      "type": "Full-time",
+      "department": "Finance",
+      "salary_display": null,
+      "url": "https://job-boards.greenhouse.io/blockchain/jobs/7683320",
+      "seniority": "Senior",
+      "work_arrangement": "Hybrid",
+      "skills": [
+        "Accounting",
+        "Financial Reporting",
+        "GAAP",
+        "Month End Close"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-04-04T01:00:00Z",
+      "source": "greenhouse",
+      "postedDate": "2026-04-04",
+      "tags": [
+        "finance",
+        "accounting",
+        "latam"
+      ],
+      "featured": false,
+      "isRemote": false
     }
   ]
 }

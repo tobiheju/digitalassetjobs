@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-04-02T23:03:41.272Z",
-  "total_checked": 645,
-  "dead_count": 89,
+  "checked_at": "2026-04-03T23:06:51.782Z",
+  "total_checked": 683,
+  "dead_count": 95,
   "by_company": {
     "Coinbase": [
       {
@@ -395,6 +395,55 @@
         "ok": false,
         "company": "Coinbase",
         "title": "Customer Success Specialist II"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/sre-platform",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Staff Site Reliability Engineer (Platform)"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/backend-identity",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Staff Software Engineer, Backend - Identity"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/em-identity-frontend",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Engineering Manager, Identity Frontend"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/trade-surveillance",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Trade Surveillance Associate"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/manager-institutional-sales",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Manager, Institutional Sales"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/frontend-advanced-trading",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Senior Software Engineer, Frontend (Consumer - Advanced Trading)"
+      },
+      {
+        "url": "https://www.coinbase.com/careers/positions/chief-of-staff-coo",
+        "status": 403,
+        "ok": false,
+        "company": "Coinbase",
+        "title": "Chief of Staff to the COO"
       }
     ],
     "Ledger": [
@@ -620,14 +669,6 @@
         "ok": false,
         "company": "Anchorage Digital",
         "title": "Member of Stablecoin Solutions, Product Manager"
-      },
-      {
-        "url": "https://jobs.lever.co/anchorage#talent",
-        "status": 0,
-        "ok": false,
-        "error": "This operation was aborted",
-        "company": "Anchorage Digital",
-        "title": "Talent Team Lead - Product, Design & Engineering"
       }
     ],
     "Circle": [
@@ -1202,14 +1243,6 @@
       "title": "Associate, Blockchain Engineer"
     },
     {
-      "url": "https://jobs.lever.co/anchorage#talent",
-      "status": 0,
-      "ok": false,
-      "error": "This operation was aborted",
-      "company": "Anchorage Digital",
-      "title": "Talent Team Lead - Product, Design & Engineering"
-    },
-    {
       "url": "https://www.coinbase.com/careers/positions",
       "status": 403,
       "ok": false,
@@ -1264,6 +1297,55 @@
       "ok": false,
       "company": "Coinbase",
       "title": "Customer Success Specialist II"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/sre-platform",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Staff Site Reliability Engineer (Platform)"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/backend-identity",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Staff Software Engineer, Backend - Identity"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/em-identity-frontend",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Engineering Manager, Identity Frontend"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/trade-surveillance",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Trade Surveillance Associate"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/manager-institutional-sales",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Manager, Institutional Sales"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/frontend-advanced-trading",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Senior Software Engineer, Frontend (Consumer - Advanced Trading)"
+    },
+    {
+      "url": "https://www.coinbase.com/careers/positions/chief-of-staff-coo",
+      "status": 403,
+      "ok": false,
+      "company": "Coinbase",
+      "title": "Chief of Staff to the COO"
     }
   ]
 }
